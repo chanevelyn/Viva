@@ -21,7 +21,7 @@ ms.date: 12/12/2024
 
 # Set up a successful Works Council program
 
-Works Councils or Unions are an essential partner when implementing an employee survey program. In some countries, gaining Works Council agreement before deploying new technology is a legal requirement, so plan ahead. While every organization has a unique proposition to present to their Works Council, there are some themes that you can start focusing on now. 
+Works Councils or Unions are an essential partner when implementing an employee survey program. In some countries/regions, gaining Works Council agreement before deploying new technology is a legal requirement, so plan ahead. While every organization has a unique proposition to present to their Works Council, there are some themes that you can start focusing on now. 
 
 > [!IMPORTANT]
 > [Get Microsoft's tips for partnering with your Works Councils](https://www.microsoft.com/insidetrack/blog/get-microsofts-tips-for-partnering-with-your-works-councils/)
