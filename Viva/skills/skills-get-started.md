@@ -88,7 +88,7 @@ Before you get started, review the following information:
 - **JobTitle** should match user profile job titles in Microsoft Entra ID or [Organizational Data in Microsoft 365](../organizational-data.md). If you don't have fresh and complete data in this field, update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365. The more accurately a title reflects a person's job, the more accurate skill suggestions are. 
 - Save your template files as .csv (comma separated) files, with no spaces in the file name.
 
-   Make sure you use commas as the delimiter. Your system might default to a different separator. In European countries, for example, it's often set to a semicolon `;`.
+   Make sure you use commas as the delimiter. Your system might default to a different separator. In European countries/regions, for example, it's often set to a semicolon `;`.
 
 To create your custom skills files:
 

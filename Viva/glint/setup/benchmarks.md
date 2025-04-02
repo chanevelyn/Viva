@@ -21,7 +21,7 @@ ms.date: 03/26/2025
 
 Microsoft Viva Glint believes that global benchmarks provide level-setting comparisons during an initial survey. These benchmarks may not be as useful to the organization as internal and trend comparisons in future surveys.  
 
-Viva Glint develops benchmarks from data gathered from over 1,300 customers, employing over 10 million people. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
+Viva Glint develops benchmarks from data gathered from over 1,300 customers, employing over 10 million people. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country/region benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
 
 ## Viva Glint standards are robust and aspirational 
 
@@ -51,7 +51,7 @@ The latest Viva Glint benchmarks are based on:
 |:--------|:--------|
 |**Global**| <ul><li>Global Overall</li> <li>Top 25%</li> <li>Top 10%</li> <li>Employee Lifecycle (Onboarding and Exit)</li></ul>|
 |**Industry***|<ul><li>Finance</li> <li>Healthcare</li> <li>Manufacturing</li> <li>Professional Service</li> <li>Retail</li> <li>Technology</li> <li>Utilities</li></ul>|
-|**Country***|<ul><li>Australia</li> <li>Brazil</li> <li>Canada</li> <li>China</li> <li>France</li> <li>Germany</li> <li>Hong Kong</li> <li>India</li> <li>Italy</li> <li>Japan</li> <li>Mexico</li> <li>Netherlands</li> <li>Russian Federation</li> <li>Singapore</li> <li>Spain</li> <li>Sweden</li> <li>Switzerland</li> <li>UAE</li> <li>UK</li> <li>US</li></ul>|
+|**Country***|<ul><li>Australia</li> <li>Brazil</li> <li>Canada</li> <li>China</li> <li>France</li> <li>Germany</li> <li>Hong Kong SAR</li> <li>India</li> <li>Italy</li> <li>Japan</li> <li>Mexico</li> <li>Netherlands</li> <li>Russian Federation</li> <li>Singapore</li> <li>Spain</li> <li>Sweden</li> <li>Switzerland</li> <li>UAE</li> <li>UK</li> <li>US</li></ul>|
 |**Nursing Excellence (Magnet)**|<ul><li>Registered Nurses</li> <li>Combined Ambulatory</li> <li>Combined Labor and Delivery</li> <li>Combined Pediatrics</li> <li>Combined Surgical</li> <li>Critical Care</li> <li>Emergency</li> <li>Home Care</li> <li>Long-term Care</li> <li>Med-Surg</li> <li>Medical</li> <li>Oncology</li> <li>Operating Room</li> <li>Psychiatric</li> <li>Specialty Practice</li> <li>Step Down</li></ul>|
 
 \* This list is based on client usage and other industry/country benchmarks available.

@@ -184,7 +184,7 @@ Viva Goals doesn't permit customers to perform on‐site audits as they pose a r
 
 Penetration tests of the Viva Goals infrastructure are conducted yearly as part of Office 365 practices.
 
-#### Do you comply with the data protection act in my country?
+#### Do you comply with the data protection act in my country/region?
 
 As the data controller, it is your responsibility to ensure you comply with the data protection regulation that applies to you. However, Viva Goals has controls in place to help you meet your regulatory obligations. You must independently assess your regulatory obligations and ensure your use and configuration of Viva Goals meets them.
 
@@ -210,7 +210,7 @@ There is over forty-five different 1P and 3P integrations, most of which focus o
 
 #### What kind of personal data do you process?
 
-Viva Goals abides by the Microsoft Trust policies and procedures to minimize the use of personal data for any processing activity. Viva Goals only consumes personal data from Microsoft Entra ID. Additionally, customer content related to 3P integrations will be captured and processed (all such data is encrypted and stored in our database). The following are examples of personal information required by Viva Goals for application-specific purposes: Name, Addresses, Job Title, Department, City Country, User Type, Preferred Language, Profile Photo, Manager. In addition to this, some third-party integrations may push fields (e.g., Employee cost center, Department/Team/Organization) with the consent of customers.
+Viva Goals abides by the Microsoft Trust policies and procedures to minimize the use of personal data for any processing activity. Viva Goals only consumes personal data from Microsoft Entra ID. Additionally, customer content related to 3P integrations will be captured and processed (all such data is encrypted and stored in our database). The following are examples of personal information required by Viva Goals for application-specific purposes: Name, Addresses, Job Title, Department, City Country/Region, User Type, Preferred Language, Profile Photo, Manager. In addition to this, some third-party integrations may push fields (e.g., Employee cost center, Department/Team/Organization) with the consent of customers.
 
 #### Who has access to personal data?
 
@@ -232,7 +232,7 @@ See the [Subprocessors and Data Privacy Whitepaper](https://www.microsoft.com/do
 
 #### Where is the data hosted?
 
-Viva Goals data is hosted in Microsoft-managed datacenters. See [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations) to find the datacenters for the country in which your company is located. Viva Goals operates out of Microsoft's global network of datacenters. These centers have 24/7/365 video surveillance, biometric and pin-based locks, strict personnel access controls and detailed visitor-entry logs.
+Viva Goals data is hosted in Microsoft-managed datacenters. See [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations) to find the datacenters for the country/region in which your company is located. Viva Goals operates out of Microsoft's global network of datacenters. These centers have 24/7/365 video surveillance, biometric and pin-based locks, strict personnel access controls and detailed visitor-entry logs.
 
 #### Can we control where data gets stored?
 
@@ -240,7 +240,7 @@ No. This capability isn't provided currently. See [Where your Microsoft 365 cust
 
 #### Does Viva Goals offer local data residency?
 
-No. Local data residency within a country isn't available currently.
+No. Local data residency within a country/region isn't available currently.
 
 ### Viva Goals Data Retention
 

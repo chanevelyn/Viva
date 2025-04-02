@@ -47,7 +47,7 @@ For information about data deletion requests as handled under the GDPR, see [Sup
 
 ## Data retention and access after all subscriptions expire
 
-If all of your subscriptions expire, you have until the end of your grace period to download data in the form of results. See [To download query results](#to-download-query-results) for details. The duration of the grace period varies between countries and plans. Typically, it is either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
+If all of your subscriptions expire, you have until the end of your grace period to download data in the form of results. See [To download query results](#to-download-query-results) for details. The duration of the grace period varies between countries/regions and plans. Typically, it is either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview).
 
 After this period has passed, you will no longer have access to Viva Insights in the Microsoft Teams app or in the cloud-based service.
 

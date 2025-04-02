@@ -90,7 +90,7 @@ For complete Microsoft 365 URL and IP address ranges info, see [Microsoft 365 en
 
 ### Q: Where is the data hosted?
 
-A: Viva Engage data is hosted in Microsoft managed datacenters. See [Where is your data located](/microsoft-365/enterprise/o365-data-locations) to find the data centers for the country in which your company is located. Viva Engage operates out of Microsoft's global network of data centers. These centers have 24/7/365 video surveillance, biometric and pin-based locks, strict personnel access controls and detailed visitor-entry logs.
+A: Viva Engage data is hosted in Microsoft managed datacenters. See [Where is your data located](/microsoft-365/enterprise/o365-data-locations) to find the data centers for the country/region in which your company is located. Viva Engage operates out of Microsoft's global network of data centers. These centers have 24/7/365 video surveillance, biometric and pin-based locks, strict personnel access controls and detailed visitor-entry logs.
 
 For more information, see [Viva Engage data residency](data-residency.md).
 
@@ -124,7 +124,7 @@ Viva Engage is a set of loose components, coupled with APIs. These are developed
 
 A: Data posted into a Viva Engage Basic network is owned by the individuals posting that data. Those users are the data controllers for their content. Under Viva Engage Enterprise, the company is the data controller, and ownership of all data transfers to the company. Viva Engage is a data processor and has no rights to any content or responsibilities for the data posted within a Viva Engage network.
 
-### Q: Do you comply with the data protection act in my country?
+### Q: Do you comply with the data protection act in my country/region?
 
 A: It's the data controller's responsibility to comply with the data protection legislation that affects them. Viva Engage has controls in place to facilitate data controllers' (individuals and companies) compliance with their data protection legislation.
 

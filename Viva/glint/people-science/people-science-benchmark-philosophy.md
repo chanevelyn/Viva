@@ -21,7 +21,7 @@ ms.date: 12/17/2024
 
 At Viva Glint, we believe benchmarks provide useful, level-setting comparisons during an initial survey, but they're not nearly as useful to the organization as internal and trend (historical) comparisons in subsequent surveys. 
 
-- With more than 10 years of benchmarking experience, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, enabling us to offer global, high-performing, industry, or country benchmark suites using cross-customer data* exclusively.
+- With more than 10 years of benchmarking experience, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, enabling us to offer global, high-performing, industry, or country/region benchmark suites using cross-customer data* exclusively.
   
 - If our customers wish to use benchmarks, we strongly urge the use of our standards: The overall global and high-performance (top 10th & top 25th percentile) benchmarks, which are more robust and aspirational than a custom (for example, an industry-specific) norm.
 
@@ -42,7 +42,7 @@ Additionally, we review item usage across our entire taxonomy twice a year to en
 
 :::image type="content" source="../../media/glint/reports/benchmark-arrows.png" alt-text="Graph of the Viva Glint benchmark generation process.":::
 
-For industry and country benchmarks, Glint takes extra steps to ensure suites have all core Engagement items, including:
+For industry and country/region benchmarks, Glint takes extra steps to ensure suites have all core Engagement items, including:
 -	Review of number of core items used by at least 15 clients:
     If fewer than 15 of the 21 core items meet the threshold, the suite is tagged as “Developing,” as we expect greater volatility of scores.
 -	Using a blended score for individual items slightly below the threshold:
