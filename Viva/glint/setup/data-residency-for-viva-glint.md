@@ -26,7 +26,7 @@ Microsoft Viva Glint helps organizations measure employee engagement and experie
 
 ## Data residency for Viva Glint
 
-Viva Glint data residency is limited to three regions, West US, EU and Australia, for data stored at rest which constitutes metadata for the Glint surveys authored and responded to, as well as reports generated for those surveys. 
+Viva Glint data residency is limited to three regions: West US, EU, and Australia. This applies to data stored at rest which constitutes metadata for the Glint surveys authored and responded to, as well as reports generated for those surveys. 
 
 **West US data residency**
 
@@ -48,8 +48,8 @@ Required conditions:
 3. _Tenant_ has opted into migration into Australian data center.
 
 > [!IMPORTANT]
-> We may temporarily move the data outside AU into US/EU for processing data using M365 core services.Data moved outside AU will not reside for more than 24 hours and will be deleted at the end of processing operations.
-> For using any integrations with other products with Viva Pulse & Insights, you are agreeing to Viva Pulse & Insights data storage location
+> We may temporarily move the data outside AU into US/EU for processing data using Microsoft 365 core services. Data moved outside AU won't reside for more than 24 hours and will be deleted at the end of processing operations.
+> For using any integrations with other products with Viva Pulse & Insights, you're agreeing to Viva Pulse & Insights data storage location
 
 ## User experience
 
@@ -57,6 +57,5 @@ Viva Glint data residency is seamless to the end user. The application will appr
 
 
 ## How long is my Viva Glint data stored for?
-
-Viva Glint data is stored in Azure Cosmos DB in West US or EU depending on the tenant’s hosting location, for up to 3 (three) years or when an admin explicitly deletes it. Some Customer Content, like insights or inferences based on individual responses, must be deleted at the source to cascade through computed outputs. Admins can delete files on behalf of users.
+Viva Glint data is stored for up to 3 (three) years or when an admin explicitly deletes it. Some Customer Content, like insights or inferences based on individual responses, must be deleted at the source to cascade through computed outputs. Admins can delete files on behalf of users.
 
