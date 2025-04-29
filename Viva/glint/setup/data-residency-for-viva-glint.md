@@ -24,9 +24,9 @@ search.appverid: MET150
 
 Microsoft Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Grounded in our approach to employee [engagement](https://aka.ms/VivaGlintAModernApproach), Glint offers a flexible surveying approach so organizations can gain a greater understanding of key experiences that shape an employee's journey and the resulting impact on individual and business outcomes.
 
-## Data residency for Viva Glint
+## Customer Data residency for Viva Glint
 
-Viva Glint data residency is limited to three regions: West US, EU, and Australia. This applies to data stored at rest which constitutes metadata for the Glint surveys authored and responded to, and reports generated for those surveys. 
+Viva Glint customer data residency is limited to three regions: West US, EU, and Australia. This applies to data stored at rest which constitutes metadata for the Glint surveys authored and responded to, and reports generated for those surveys. 
 
 **West US data residency**
 
