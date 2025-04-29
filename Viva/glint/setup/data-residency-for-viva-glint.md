@@ -48,8 +48,8 @@ Required conditions:
 3. _Tenant_ opts into migration to Australian data center.
 
 > [!IMPORTANT]
-> We may temporarily move the data outside Australia into US/EU for processing data using Microsoft 365 core services. Any data that moves outside AUustralia won't reside for more than 24 hours and will be deleted at the end of processing operations.
-> For using any integrations with other products with Viva Pulse & Insights, you're agreeing to Viva Pulse & Insights data storage location
+> We may temporarily move the data outside Australia into US/EU for processing data using Microsoft 365 core services. Any data that moves outside Australia won't reside for more than 24 hours and will be deleted at the end of processing operations.
+> When using integrations with other products, such as Viva Pulse, Insights, etc., you're agreeing to the data residency locations for those products. Please refer to their Learn documentation for further information.
 
 ## User experience
 
