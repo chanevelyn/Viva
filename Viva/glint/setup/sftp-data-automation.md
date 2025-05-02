@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/14/2025
+ms.date: 04/29/2025
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -27,14 +27,14 @@ Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regul
 
 ## Prepare data for import
 
-Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint attribute fundamentals and complete your attribute setup. [Learn more](upload-employee-data.md).
+Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint [attribute fundamentals](attribute-fundamentals.md) and complete your [attribute setup](send-employee-attributes.md).
 
 > [!CAUTION]
 > Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users are deactivated and lose access to the platform.
 
 ## Manage SFTP settings
 
-In Viva Glint general settings, manage Public SSH keys, add public IP addresses, specify notification users, manage encryption settings, and view SFTP credentials. [Learn more](set-up-sftp.md).
+In Viva Glint general settings, manage Public SSH keys, add public IP addresses, specify notification users, manage encryption settings, and view SFTP credentials. [Set up Viva Glint SFTP](set-up-sftp.md).
 
 ## Understand automated data import
 
@@ -54,6 +54,7 @@ In your SFTP account, there are two (2) directories that Viva Glint monitors for
 
 > [!NOTE]
 > - Files are automatically deleted from SFTP after 48 hours.
+> - Files uploaded to Viva Glint SFTP have no size limits.
 > - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
 
 > [!TIP]
@@ -66,9 +67,18 @@ Depending on how frequently your organization imports data to Viva Glint, consid
 - **Automated HRIS data feed:** Work with your employee data team to establish an automated export that is transmitted from your HRIS to SFTP directly.
 - **Manual SFTP file transfer:** Connect with an FTP application to manually place a full or incremental file on SFTP.
 
+## Multiple file transfers
+
+If there are multiple sources of employee data for your organization, you can set up multiple file transfers to your Viva Glint SFTP account. Keep in mind that:
+
+- Viva Glint supports a maximum of three SSH public keys for connections to your SFTP account.
+- The timing of file transfers should be spaced out so that multiple files aren't importing at the same time.
+- All files should transfer to the /files/user_delta directory. Partial files sent /files/user_full deactivate all users not included in files.
+- Users need to be included with a status of "INACTIVE" to deactivate their accounts in Viva Glint.
+
 ## Derived attributes
 
-While your employee data uploads to Viva Glint, derived attributes and values are calculated for Manager Hierarchy, Tenure, and Age Groups based on selections made during your attribute setup. [Learn more](send-employee-attributes.md).
+While your employee data uploads to Viva Glint, [derived attributes and values](send-employee-attributes.md#derived-attributes) are calculated for Manager Hierarchy, Tenure, and Age Groups based on selections made during your attribute setup.
 
 > [!NOTE]
 > - Don’t include derived attributes in your employee data file. Viva Glint creates these fields.

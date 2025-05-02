@@ -14,13 +14,15 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/14/2025
+ms.date: 4/21/2025
 ---
 
 # Use Viva Glint’s Comments report 
 
 The Comments report is your window into Microsoft Viva Glint's Narrative Intelligence technology, which helps managers interpret comment data by highlighting important topic areas, sentiment analysis, and keywords. 
 Reviewing comments allows managers to gain further insights into their results. Comments provide helpful context around scores you're exploring. When a comment count is present, select it to view it and interact with Viva Glint’s full Narrative Intelligence experience. Comments are available by demographic group or survey item. 
+
+Read [*Narrative Intelligence:  Enable true understanding of employee feedback*](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) to learn how individual comments are surfaced and calculated.
 
 ## Access the Comments dashboard
 
@@ -31,7 +33,7 @@ The Comments report is divided into sections. **Overview** displays by default.
 :::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections."
 
 - **Comments:** Total number of comments, defined by number of commenters and percentage of respondents
-- **Continent Sentiment:** A bar graph indicating overall positive, negative, and neutral sentiments
+- **Comment Sentiment:** A bar graph indicating overall positive, negative, and neutral sentiments
 - **Topics:** Topics mentioned most often, including the number of mentions
 
 ### View the Questions section
@@ -64,8 +66,6 @@ Hover over a topic bubble for more information about sentiment or favorability. 
 ## Incorporate Copilot into your Comments report
 
 Copilot in Viva Glint allows users to explore employee comments with natural language queries or suggested prompts. Copilot in Viva Glint brings the AI revolution into your employee engagement programs. [Read about using Copilot in the Comments report](/../../viva/glint/reports/incorporate-copilot).
-
-
 
 ## Add sections to the Comments report
 In the **Comments** section, you can view all comments or see them by category. 

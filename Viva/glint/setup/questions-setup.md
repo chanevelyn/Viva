@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/21/2025
+ms.date: 04/21/2025
 ---
 
 # Viva Glint Questions setup
@@ -22,7 +22,7 @@ ms.date: 03/21/2025
 As a Microsoft Viva Glint Administrator, use the Questions section to manage survey items, modify introduction and thank you messages, and add optional features like targeting, display logic, and sections. To set up survey items, use information from your [Holistic Vision and Strategy Discovery Workbook](customize-program.md#use-the-holistic-listening-vision-and-strategy-discovery-workbook) and your [Deployment guide survey tab](/viva/glint/introduction-viva-glint#deploy-viva-glint-and-launch-a-survey) as a guide.
 
 > [!NOTE]
-> The term **item** refers to any *question or statement* posed to a survey taker.
+> Not all items in the Viva Glint Question Library are posed in question format. Library items also include statements to rate on a given scale. For this reason, the term "item" on the Viva Glint platform and in Learn and training guidance refers to any content in the Question Library. The term "item" includes questions and statements.
 
 ## Edit the survey introduction message
 
@@ -59,10 +59,17 @@ To add a link to an employee resource or other information in your survey introd
 1. In **Type**, select **Image**.
 1. Optionally, add a **Description**.
 1. In **File**, select **Choose File**. Choose the image file from your device. If the image is as you'd like, select **Save**.
+   
+   :::image type="content" source="../../media/glint/setup/logo-content-resource.png" alt-text="Screenshot of fields completed to add a logo as a Viva Glint Content Resource.":::
+   
 1. Select **Publish** and then select **Publish** again in the **Publish Resource** dialog box.
 1. On the **Resources** page, filter to **Image** and copy the text of the recently added image from the **Name** column.
 1. Replace "logo-name" in this text with the name of your uploaded logo: `![logo-name](logo-name "logo-name")`
-1. Copy the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste it into the end of the Text field.
+1. Go to **Configuration,** choose **Survey Programs,** and select a survey whose introduction should have a logo.
+2. Go to the **Questions** section, select the introduction, and copy the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste it into the end of the Text field.
+
+   :::image type="content" source="../../media/glint/setup/logo-text-intro.png" alt-text="Screenshot of logo text copied into a Viva Glint survey introduction text field.":::
+   
 1. If your survey uses multiple languages, select each language from the **Language** dropdown menu to add the logo to the **Text** field in all languages. Changes autosave when a new language is selected from the dropdown menu.
 1. Select **Save Changes**.
 1. Preview your survey to confirm that the logo appears as expected.
@@ -245,4 +252,6 @@ Customize the **Thank You** message by hovering over and selecting the message a
 > [!div class="nextstepaction"]
 > [Reporting setup in Program Summary](/../../viva/glint/setup/reporting-setup).
 
+## More resources
 
+Many items are prohibited from being edited once a survey is live. [Read what items can't be edited during a live survey](/viva/glint/setup/change-live-survey)
