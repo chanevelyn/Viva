@@ -33,7 +33,7 @@ Start setting up Skills by building your skills library with skills from the def
    The more skills you include from the default library, the more specific suggestions users see in their skills profiles. Choose one of the following, and then select **Next**.
 
    - **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
-   - **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note: A minimum of 500 skills is recommended.)  
+   - **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note that a minimum of 500 skills is recommended.)  
 
 5. If you want to use a custom skills library, download the template files. Select **Download library template** and **Download mapping template**.  
 
@@ -63,7 +63,7 @@ Start setting up Skills by building your skills library with skills from the def
    :::image type="content" source="../media/skills-manage-skills.png" alt-text="A screenshot that shows the screen where you manage the availability of skills information." lightbox="../media/skills-manage-skills.png":::
 
    > [!NOTE]
-   > This is a [premium Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights) scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing).
+   > This is a [premium Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights) scenario. Review the [licensing requirements](https://www.microsoft.com/microsoft-viva/pricing).
 
 9. Users receive **skill suggestions** relevant to their role by default. Users can control whether they see these suggestions in their skill settings. When skill suggestions are turned *off*, the user won't see any suggested skills and can only manually confirm skills from a list. 
 
