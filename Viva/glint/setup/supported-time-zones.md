@@ -49,7 +49,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Africa/Dar_es_Salaam |   +03:00 |    +03:00 |    Tanzania, the United Republic of |  TZ | 
  | Africa/Djibouti |    +03:00 |    +03:00 |    Djibouti |  DJ | 
  | Africa/Douala |  +01:00 |    +01:00 |    Cameroon |  CM | 
- | Africa/El_Aaiun |    +01:00 |    +00:00 |    Western Sahara* |   EH | 
+ | Africa/El_Aaiun |    +01:00 |    +00:00 |     |   EH | 
  | Africa/Freetown |    +00:00 |    +00:00 |    Sierra Leone |  SL | 
  | Africa/Gaborone |    +02:00 |    +02:00 |    Botswana |  BW | 
  | Africa/Harare |  +02:00 |    +02:00 |    Zimbabwe |  ZW | 
@@ -337,9 +337,9 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Asia/Dubai |     +04:00 |    +04:00 |    United Arab Emirates (the), Oman, Réunion, Seychelles, French Southern Territories (the) |  AE, OM, RE, SC, TF | 
  | Asia/Dushanbe |  +05:00 |    +05:00 |    Tajikistan |    TJ | 
  | Asia/Famagusta |     +02:00 |    +03:00 |    Cyprus |    CY | 
- | Asia/Gaza |  +02:00 |    +03:00 |    Palestine, State of |   PS | 
+ | Asia/Gaza |  +02:00 |    +03:00 |    Palestinian Authority |   PS | 
  | Asia/Harbin |    +08:00 |    +08:00 |    China |     CN | 
- | Asia/Hebron |    +02:00 |    +03:00 |    Palestine, State of |   PS | 
+ | Asia/Hebron |    +02:00 |    +03:00 |    Palestinian Authority |   PS | 
  | Asia/Ho_Chi_Minh |   +07:00 |    +07:00 |    Viet Nam |  VN | 
  | Asia/Hong_Kong |     +08:00 |    +08:00 |    Hong Kong |     HK | 
  | Asia/Hovd |  +07:00 |    +07:00 |    Mongolia |  MN | 
