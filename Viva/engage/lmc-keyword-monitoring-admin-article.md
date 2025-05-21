@@ -46,7 +46,7 @@ When enabled, this permission allows Corporate Communicators to perform the foll
 >[!NOTE]
 >The advanced moderation granular permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins are the only roles that can assign the Advanced moderation permission to corporate communicators.
 
-# How to assign admin roles
+## How to assign admin roles
 
 Take the following steps to assign or manage admin roles in Viva Engage:
 
