@@ -34,7 +34,7 @@ Theme moderation is built upon the [Viva Engage **AI Summarization** service](ht
 
 Check your Viva Engage Admin Center settings to ensure that the **AI Summarization** setting reflects your network preferences. You can find the controls for this setting through Viva Feature Access Management. It controls all AI data processing for your network. By default, AI summarization is enabled and processes data across all users in your network unless you specify otherwise.
 
-:::image type="content" source="../media/engage/admin/ladmin-center-ai-summarization-settings.png" alt-text="AI summarization in Admin Center":::
+:::image type="content" source="../media/engage/admin/admin-center-ai-summarization-settings.png" alt-text="AI summarization in Admin Center":::
 
 Network admins and corporate communicators can use theme moderation to track conversations related to their themes. Viva Engage supports concurrent use of up to 30 themes at a time. The feature is available in the Advanced Moderation page of the Communications dashboard.
 
