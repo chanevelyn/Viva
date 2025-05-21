@@ -28,13 +28,13 @@ Theme moderation is built upon the [Viva Engage **AI Summarization** service](ht
 >[!NOTE]
 >Theme moderation requires at least 50% of users in your organization to have the Viva Suite license, or the Viva Employee Communications and Communities license. The Microsoft 365 enterprise plan includes keyword monitoring, detected conversations, and the advanced moderation feature set.
 
-:::image type="content" source="../../media/engage/admin/lmc-adv-moderation-themes-design.png" alt-text="Define themes under the Advanced moderation tab":::
+:::image type="content" source="../media/engage/admin/lmc-adv-moderation-themes-design.png" alt-text="Define themes under the Advanced moderation tab":::
 
 ## Set up theme moderation
 
 Check your Viva Engage Admin Center settings to ensure that the **AI Summarization** setting reflects your network preferences. You can find the controls for this setting through Viva Feature Access Management. It controls all AI data processing for your network. By default, AI summarization is enabled and processes data across all users in your network unless you specify otherwise.
 
-:::image type="content" source="../../media/engage/admin/ladmin-center-ai-summarization-settings.png" alt-text="AI summarization in Admin Center":::
+:::image type="content" source="../media/engage/admin/ladmin-center-ai-summarization-settings.png" alt-text="AI summarization in Admin Center":::
 
 Network admins and corporate communicators can use theme moderation to track conversations related to their themes. Viva Engage supports concurrent use of up to 30 themes at a time. The feature is available in the Advanced Moderation page of the Communications dashboard.
 
