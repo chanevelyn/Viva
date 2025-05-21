@@ -30,7 +30,7 @@ You can assign the following roles in the Engage Admin Center for use with Advan
 - Corporate Communicator
   - Supports advanced moderation granular permissions
 
-For a detailed breakdown of admin role capabilities and their hierarchy, see [Manage administrator roles in Viva Engage](https://learn.microsoft.com/viva/engage/eac-key-admin-roles-permissions).
+For a detailed breakdown of admin role capabilities and their hierarchy, see [Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions).
 
 ## Advanced Moderation Access for Corporate Communicators
 
@@ -64,4 +64,4 @@ Take the following steps to assign or manage admin roles in Viva Engage:
 
 ## See also
 
-[Manage administrator roles in Viva Engage](https://learn.microsoft.com/viva/engage/eac-key-admin-roles-permissions)
+[Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
