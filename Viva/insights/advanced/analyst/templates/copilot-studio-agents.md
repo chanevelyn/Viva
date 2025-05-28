@@ -182,3 +182,27 @@ To edit the value of the multiplier, select the calculator, where you'll see a b
 This is an estimate of the value of an agent's impact over the given time period, calculated by multiplying Agent assisted hours by an average hourly rate. By default, this hourly rate is set to $72, based on data compiled by the U.S. Bureau of Labor Statistics. To update the average hourly rate, select the Calculator, where you'll see a breakdown of how the total value is calculated with your updated setting.
 
 To toggle between Agent assisted hours and Agent assisted value, select the appropriate symbol at the top right of the card.
+
+### Glossary  
+
+View this report's metric definitions.
+
+## Delete Copilot Studio agents data
+
+The admin can delete the existing agents data for the tenant using PowerShell. Learn how.
+
+After the data is deleted, the query won't auto-refresh, and you can't run any new queries for one month.
+
+## Where to find Power Platform admin center settings
+
+1. [Microsoft 365 Service setting](https://go.microsoft.com/fwlink/?linkid=2302907)
+2. [Setting for Data flow from Microsoft Copilot Studio to Viva Insights](https://go.microsoft.com/fwlink/?linkid=2301464)
+3. [Cross Geo setting](https://go.microsoft.com/fwlink/?linkid=2301464)
+
+## Power BI tips, FAQs, and troubleshooting
+
+[Learn more about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ](./power-bi-faq-troubleshoot.md).
+
+### Related topics
+
+[Filters](..//..//analyst/filters.md)
