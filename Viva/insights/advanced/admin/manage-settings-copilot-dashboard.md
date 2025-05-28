@@ -76,11 +76,11 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../advanced/setup-maint/setup-overview.md) (it is on by default).
 
-## Remove access to the dashboard for the entire tenant with Powershell
+## Remove access to the dashboard for the entire tenant with PowerShell
 
 *Applies to: AI Administrator*
 
-You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
+You can set a policy to disable the dashboard for the tenant using PowerShell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 1. After you've signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
@@ -94,7 +94,7 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
     IsFeatureEnabled : false
     Everyone
    ```
-## Turn off dashboard auto-enablement with Powershell 
+## Turn off dashboard auto-enablement with PowerShell 
 
 *Applies to: AI Administrator*
 
