@@ -156,3 +156,29 @@ This page lets you focus on top agents sorted in descending order based on the n
 You can filter the agents on this page using the as Category, Agent name, Type, and Internal or External values.
 
 ### Understand Deep Dive Agent Impact page
+
+This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left highlights Agent session outcomes based on Resolution, Abandons, and Escalatations.
+
+The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the distribution "topic" themes for the agent in the selected time frame. [Learn more about topics in Copilot Studio](/microsoft-copilot-studio/guidance/topics-overview).
+
+The chart on the right shows the potential additional agent assisted hours and value that can be gained when deploying the agent across the organization. For each **task** in a conversational agent session, it compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions.
+
+### Agent assisted hours  
+
+Agent assisted hours estimates the amount of time employees saved by using an agent to perform tasks. It uses the number of engaged agent sessions, number of knowledge source references, session outcomes, and a time savings multiplier to calculate the total agent assisted hours. This metric helps businesses understand efficiency gains and time savings by deploying agents.
+
+Here's the formula for the metric:
+
+**Agent assisted hours = (Number of knowledge source references + Weighted number of sessions without knowledge sources) x Time savings multiplier**
+
+A given agent might have multiple sessions, some with references to knowledge sources and others without these references. For each knowledge source reference,  the amount of time saved for the employee is estimated to be equal to the value of the time savings multiplier. For the sessions without knowledge source references, there might also be time savings, which are estimated based on the outcome of the session. Resolved sessions count as a full session, while escalated and abandoned sessions are weighted at 0.7. These weights are determined by estimating the extent of task completion based on a Microsoft analysis of session duration for each outcome type. 
+
+The time savings multiplier is customizable, with a default value based on research on AI usage, including studies by Microsoft's Office of the Chief Economist (see ["The strain of searching"](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work)) showing an average of six minutes of time saved for tasks involving information retrieval (see study #4 in section 2 of the [blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work)), as well as studies highlighting six-minute time savings for writing tasks (see study #1 in section 2 of the [blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work)). For additional guidance on how to maximize these productivity gains, see [Agents of Change](https://www.microsoft.com/en-us/worklab/agents-of-change). The default multiplier is an estimate and might be refined over time as new data become available. 
+
+To edit the value of the multiplier, select the calculator, where you'll see a breakdown of how this metric is calculated for a specific agent. If you change the value, it updates for all agents in the report.
+
+### Agent assisted value
+
+This is an estimate of the value of an agent's impact over the given time period, calculated by multiplying Agent assisted hours by an average hourly rate. By default, this hourly rate is set to $72, based on data compiled by the U.S. Bureau of Labor Statistics. To update the average hourly rate, select the Calculator, where you'll see a breakdown of how the total value is calculated with your updated setting.
+
+To toggle between Agent assisted hours and Agent assisted value, select the appropriate symbol at the top right of the card.
