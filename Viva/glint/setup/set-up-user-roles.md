@@ -93,7 +93,7 @@ Admins can specify the employee population and attributes their leaders can view
 
 1. Select the **Configuration** symbol.
 1. In the **Employees** section, select **User Roles**.
-1. Select **+New Role**. The **Role Settings** page displays.
+1. Select **+ New Role**. The **Role Settings** page displays.
 1. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
 
    :::image type="content" source="../../media/glint/setup/user-roles-title.png"alt-text="Screenshot of the Role Settings page.":::
