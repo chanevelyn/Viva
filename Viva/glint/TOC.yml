@@ -367,7 +367,7 @@ items:
       - name: Provide support during a survey
         href: communicate/support-survey-participants.md
       - name: Create an FAQ document
-        href: communicate/survey-taker-faq.md 
+        href: start/faqs-survey-takers.md 
       - name: Reopen or extend a survey cycle
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
