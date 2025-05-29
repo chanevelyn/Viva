@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/13/2025
+ms.date: 05/28/2025
 ---
 
 # Set up Viva Glint User Roles
@@ -31,7 +31,8 @@ Use our template as a planning tool to define role permissions. There are three 
 - **Report sections**: Attributes the role can use to see more sections in reports
 - **Comment filters**: Attributes the role can use as filters to review comments
 
-The [**User Roles and Access template**](https://www.microsoft.com/download/details.aspx?id=105793) includes prepopulated example roles and instructions for defining permissions. 
+> [!div class="nextstepaction"]
+> [Download the User Role template](https://www.microsoft.com/download/details.aspx?id=105793) 
 
 **Not all User Roles and prepopulated attributes and permissions in the Viva Glint template may apply to your organization.** To customize your template, use your Employee Attribute File labels (column headers) for attributes specific to your organization.
 
@@ -92,7 +93,7 @@ Admins can specify the employee population and attributes their leaders can view
 
 1. Select the **Configuration** symbol.
 1. In the **Employees** section, select **User Roles**.
-1. Select **+New Role**. The **Role Settings** page displays.
+1. Select **+ New Role**. The **Role Settings** page displays.
 1. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
 
    :::image type="content" source="../../media/glint/setup/user-roles-title.png"alt-text="Screenshot of the Role Settings page.":::
