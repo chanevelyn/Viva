@@ -21,9 +21,9 @@ search.appverid:
 
 # Admin roles for Advanced moderation and Keyword monitoring
 
-Engage supports admin roles to help organizations efficiently manage network settings, content, and communications. You can assign and manage these roles directly through the Engage admin center.
+Engage supports admin roles to efficiently manage network settings, content, and communications. You can assign and manage these roles directly through the Engage admin center.
 
-You can assign the following roles in the Engage Admin Center for use with Advanced moderation and Keyword monitoring:
+You can assign the following roles in the Engage Admin Center for use with the advanced moderation and keyword monitoring features:
 
 - Verified Admin
 - Network Admin
@@ -44,7 +44,7 @@ When enabled, this permission allows Corporate Communicators to perform the foll
 - View and take action on detected conversations (including **mute**, **close**, and **dismiss**)
 
 >[!NOTE]
->The advanced moderation granular permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins are the only roles that can assign the Advanced moderation permission to corporate communicators.
+>The advanced moderation granular permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins can assign the Advanced moderation permission to corporate communicators.
 
 ## How to assign admin roles
 
