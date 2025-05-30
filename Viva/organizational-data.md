@@ -79,11 +79,8 @@ You can also include the following optional attributes. (The value in parenthese
 See [Attribute reference](orgdata-attributes.md) for more details about the specific attributes, and [Attribute to property mapping](orgdata-attributes.md#attribute-to-property-mapping) for information on how the Organizational Data in Microsoft 365 attributes map to Microsoft 365 User Profile data.
 
 > [!IMPORTANT]
->
-> - If you upload organizational data through the Microsoft 365 admin center, that data is also accessible to and used by Viva Insights (except for those excluded attributes listed in [How Organizational Data in Microsoft 365 works with Viva Insights](orgdata-data-usage.md#how-organizational-data-works-with-viva-insights)). 
->
-> - If you upload data from Viva Insights *first*, and then upload data using Organizational Data in Microsoft 365, the data is merged *and* Viva Insights will also use your organizational data. In this instance, whichever data value was uploaded most recently takes precedence.
->
+- If you upload organizational data through the Microsoft 365 admin center, that data is also accessible to and used by Viva Insights (except for those excluded attributes listed in [How Organizational Data in Microsoft 365 works with Viva Insights](orgdata-data-usage.md#how-organizational-data-works-with-viva-insights)). 
+
 > - Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
 Now that you understand what organizational data is and where it comes from, you're ready to [import your organizational data into Microsoft 365](import-orgdata.md).
