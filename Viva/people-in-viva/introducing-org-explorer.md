@@ -15,11 +15,19 @@ Org Explorer helps you visualize and explore your company’s internal structure
 
 ## Availability
 
-Org Explorer is available in Outlook, Microsoft 365 Copilot, and Microsoft Teams. Its appearance varies slightly depending on which app you're in. 
+Org Explorer is available in Microsoft Teams, Microsoft 365 Copilot, and Outlook. Its appearance varies slightly depending on which app you're in. 
 
-![Org Explorer](media/introducing-org-explorer/org-explorer.jpg)
+Microsoft Teams:
 
+![Teams](media/introducing-org-explorer/teams.png)
 
+Outlook:
+
+![OrgExplorerOutlookMay2025](media/introducing-org-explorer/orgexploreroutlookmay2025.jpg)
+
+Microsoft 365 Copilot:
+
+![OrgX_M365_May2025](media/introducing-org-explorer/orgx-m365-may2025.jpg)
 
 |#  |Element  |Function|
 |----------|-----------|------------|
