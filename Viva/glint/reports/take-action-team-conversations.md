@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: team conversations, take action
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/07/2025
+ms.date: 5/30/2025
 ---
 
 # Take Actions with Microsoft Viva Glint Team Conversations
@@ -28,11 +28,11 @@ Team Conversations brings the Microsoft Viva Glint ACT Conversation methodology 
 
 Team Conversations results sharing is available at the program level for customers and can be enabled and disabled on a per program basis. 
 
-## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
+## Manager Quick Guide to Results and Conversations
 
-Share this guide with your managers to help them navigate the Glint platform and interpret and use survey results. ACT conversations build quality managers who lead engaged teams.
+Share the [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009) with your managers to help them navigate the Viva Glint platform and interpret and use survey results. ACT conversations build quality managers who lead engaged teams.
 
-Read thought leadership from Microsoft Viva People Science: [Propelling action-taking through team conversations.](https://go.microsoft.com/fwlink/?linkid=2262832)
+Read thought leadership from Microsoft Viva People Science: [Propelling action-taking through team conversations.](https://adoption.microsoft.com/files/viva/glint/Propel-action-taking-through-conversations-with-Microsoft-Viva-Glint.pdf)
 
 ## Why should our organization use the Viva Glint ACT framework?  
 
