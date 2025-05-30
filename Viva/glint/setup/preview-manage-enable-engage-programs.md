@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2025
+ms.date: 05/30/2025
 ---
 
 # Preview, enable, and prepare to launch Viva Glint surveys
@@ -98,6 +98,11 @@ Once enabled, surveys go live at midnight on the day they're scheduled to go out
 1. Select the **ellipsis** next to the cycle to be enabled.  
 2. Select **Enable Survey**.  
 3. The **Status indicator** changes to blue. If the survey is Live, the Status indicator shows green. 
+
+> [!NOTE]
+> When an upcoming survey **isn't enabled**, users in a survey's **Admin notifications to** field receive an email reminder seven days and one day before the survey's start date.
+>
+> When an upcoming survey **is enabled**, users in a survey's **Admin notifications to** field receive an email reminder five days and three days before the survey's start date. 
 
 Once the program is enabled and live, the following changes can't be made: 
 
