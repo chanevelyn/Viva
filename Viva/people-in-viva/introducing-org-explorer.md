@@ -19,15 +19,15 @@ Org Explorer is available in Microsoft Teams, Outlook, and Microsoft 365 Copilot
 
 Microsoft Teams:
 
-![Teams](media/introducing-org-explorer/teams.png)
+![Org Explorer in Teams](media/introducing-org-explorer/teams.png)
 
 Outlook:
 
-![OrgExplorerOutlookMay2025](media/introducing-org-explorer/orgexploreroutlookmay2025.jpg)
+![Org Explorer in Outlook](media/introducing-org-explorer/orgexploreroutlookmay2025.jpg)
 
 Microsoft 365 Copilot:
 
-![OrgX_M365_May2025](media/introducing-org-explorer/orgx-m365-may2025.jpg)
+![Org Explorer in Microsoft 365 Copilot](media/introducing-org-explorer/orgx-m365-may2025.jpg)
 
 |#  |Element  |Function|
 |----------|-----------|------------|
