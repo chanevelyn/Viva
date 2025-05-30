@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/24/2025
+ms.date: 05/30/2025
 ---
 
 # Custom data access in Viva Glint
@@ -91,7 +91,7 @@ To prepare your exported custom access file for import to Advanced Configuration
 
    |Access  |Attributes to include in file  | Attribute values to include in file  |
    |:----------|:-----------|:------------|
-   |Another active manager's team    | Manager Level 1       | Employee ID of the manager that another user should have access to |
+   |Another active manager's team    | Manager Level 1 <br><br> or <br><br> Manager Hierarchy Level 1 <br><br> Most tenants have "Manager Level 1." To confirm, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) and verify the manager level column header label.     | Employee ID of the manager that another user should have access to |
    |Another inactive manager's team     | Fields for all manager levels in the inactive manager hierarchy <br><br>[Export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) to get all levels  | Employee IDs of the managers in all levels <br><br>[Export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) to get all IDs  |
    |A manager's direct reports only  | Manager ID field, with the label from your attribute setup <br> <br>Go to **People** and select **Manage User Attributes** in the **Actions** menu to view attribute labels.    | Manager IDs of each direct report, in separate rows |
    |A level in a nonmanager hierarchy    | Fields for all levels above and including the level the user should access    | Values for each level in each field |
