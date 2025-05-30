@@ -39,7 +39,7 @@ Before you can run the query and populate the report in Power BI, you’ll need 
 
 * Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/getting-started-with-power-bi) to download and install the latest version. 
 
-* Make sure the employees you would like to include as part of the measured population have the Copilot for Sales app installed.
+* Make sure the employees you would like to include as part of the measured population have the Copilot for Sales app installed and a [Microsoft 365 Copilot for Sales](https://www.microsoft.com/microsoft-365/copilot/copilot-for-sales#Pricing) license.
 
 ## Report setup
 
