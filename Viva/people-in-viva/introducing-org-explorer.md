@@ -56,7 +56,7 @@ The data in the "Works With" section is based on public relationships, like in-c
 
 ## Setting up Org Explorer
 
-There's no specific set-up process for Org Explorer. Once it's deployed to your org, the user can access Org Explorer app via Microsoft Teams, Outlook and Microsoft 365. 
+There's no specific set-up process for Org Explorer. Once it's deployed to your org, the user can access Org Explorer app via Microsoft Teams, Outlook, and Microsoft 365. 
 
 ## Removing Org Explorer
 
