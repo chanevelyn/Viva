@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/14/2025
+ms.date: 05/30/2025
 ---
 
 # Set up Viva Glint for a multitenant organization
@@ -57,7 +57,7 @@ Microsoft 365 global admins can set up MTO in the Microsoft 365 admin center or 
 > MTO setup in the Microsoft 365 admin center is recommended and is the most commonly used setup method.
 
 > [!IMPORTANT]
-> If your organization already uses B2B collaboration or cross-tenant synchronization to sync users, an MTO setup is still required. MTO and (an included MTO policy) identifies trusted domains and tenants.
+> If your organization already uses B2B collaboration or cross-tenant synchronization but doesn't set up an MTO policy, [guests need to access Viva Glint with these sign-in steps](access-glint.md#sign-in-as-a-guest-or-support-user).
 
 | :::image type="icon" source="/office/media/icons/administrator.png" ::: |Step <br> <br> _roles involved_ | More information |
 |:---|:---|:---|
