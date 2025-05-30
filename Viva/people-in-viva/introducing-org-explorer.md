@@ -60,7 +60,7 @@ The data in the "Works With" section is based on public relationships, like in-c
 
 ## Removing Org Explorer
 
-Admins can manage Org Explorer for their entire organization or a subset of users in the Microsoft Admin Center. [Learn more about admin controls](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide).   
+Admins can manage Org Explorer for their entire organization or a subset of users in the Microsoft Admin Center. [Learn more about admin controls](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide&preserve-view=true).   
 
 ## Additional resources
 
