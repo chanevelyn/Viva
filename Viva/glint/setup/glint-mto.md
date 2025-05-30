@@ -57,7 +57,7 @@ Microsoft 365 global admins can set up MTO in the Microsoft 365 admin center or 
 > MTO setup in the Microsoft 365 admin center is recommended and is the most commonly used setup method.
 
 > [!IMPORTANT]
-> If your organization already uses B2B collaboration or cross-tenant synchronization but doesn't set up an MTO policy, [guests need to sign in with different steps](access-glint.md#sign-in-as-a-guest-or-support-user).
+> If your organization already uses B2B collaboration or cross-tenant synchronization but doesn't set up an MTO policy, [guests need to access Viva Glint with these sign-in steps](access-glint.md#sign-in-as-a-guest-or-support-user).
 
 | :::image type="icon" source="/office/media/icons/administrator.png" ::: |Step <br> <br> _roles involved_ | More information |
 |:---|:---|:---|
