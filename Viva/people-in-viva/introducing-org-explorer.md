@@ -15,7 +15,7 @@ Org Explorer helps you visualize and explore your company’s internal structure
 
 ## Availability
 
-Org Explorer is available in Microsoft Teams, Outlook, and Microsoft 365 Copilot. Its appearance varies slightly depending on which app you're in.
+Org Explorer is available in Microsoft Teams, Outlook, and Microsoft 365. Its appearance varies slightly depending on which app you're in.
 
 Microsoft Teams:
 
@@ -25,9 +25,9 @@ Outlook:
 
 ![Org Explorer in Outlook](media/introducing-org-explorer/orgexploreroutlookmay2025.jpg)
 
-Microsoft 365 Copilot:
+Microsoft 365:
 
-![Org Explorer in Microsoft 365 Copilot](media/introducing-org-explorer/orgx-m365-may2025.jpg)
+![Org Explorer in Microsoft 365](media/introducing-org-explorer/orgx-m365-may2025.jpg)
 
 |#  |Element  |Function|
 |----------|-----------|------------|
@@ -56,11 +56,11 @@ The data in the "Works With" section is based on public relationships, like in-c
 
 ## Setting up Org Explorer
 
- There's no specific set-up process for Org Explorer. Once it's deployed to your organization, the user can access Org Explorer app via Microsoft Teams, Outlook and Microsoft 365. 
+There's no specific set-up process for Org Explorer. Once it's deployed to your organization, the user can access Org Explorer app via Microsoft Teams, Outlook and Microsoft 365. 
 
 ## Removing Org Explorer
 
-Admins can manage Org Explorer for their entire organization or a subset of users in the Microsoft Admin Center. [Learn more about admin controls](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide&preserve-view=true).   
+Admins can manage Org Explorer for their entire organization or a subset of users in the Microsoft Admin Center. [Learn more about admin controls](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?).   
 
 ## Additional resources
 
