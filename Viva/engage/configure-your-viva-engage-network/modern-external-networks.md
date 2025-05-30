@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ---
 
-# Set up modern external Viva Engage networks (Preview)
+# Set up modern external Viva Engage networks
 
 >[!IMPORTANT]
->External network is currently in Preview. It's a redesigned external Viva Engage network type that requires and fully supports Microsoft Entra authentication and identity.
+>An External network is a redesigned _external_ Viva Engage network type that requires and fully supports Microsoft Entra authentication and identity.
 
-Microsoft designs modern external Viva Engage networks to promote collaboration between organizations. Modern networks allow users and teams from different companies, known as *external participants*, to communicate and share information in an industry-standard secure environment. Enterprise admins allocate these special external networks to partners, consultants, and other outside companies to conduct team discussions, share files, and collaborate on projects.
+Microsoft designs modern external Viva Engage networks to promote collaboration between organizations. Modern networks allow users and teams from different companies, known as _external participants_, to communicate and share information in an industry-standard secure environment. Enterprise admins allocate these special external networks to partners, consultants, and other outside companies to conduct team discussions, share files, and collaborate on projects.
 
 All Viva Engage networks support a format called M365 Native Mode, which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map directly to their accounts in Microsoft Entra and in Microsoft 365. All parent Engage networks and external Engage networks observe this standard. Native Mode also supports eDiscovery through the [Microsoft Purview portal](https://ms.web.purview.azure.com/) to promote safe and secure collaboration in your Engage networks.
 
@@ -69,7 +69,7 @@ The new tenant automatically embeds the creating user as a B2B Guest user and as
 You also use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so allows the Global Administrator to sign into Viva Engage as the Engage Network Admin.
 
 > [!NOTE]
-> Enable the *Engage Core Service plan* for the user in the assigned Microsoft 365 E5 license. The admin should then confirm that the B2B Guest user account owns the global admin role and the correct Microsoft 365 E5 license.
+> Enable the _Engage Core Service plan_ for the user in the assigned Microsoft 365 E5 license. The admin should then confirm that the B2B Guest user account owns the global admin role and the correct Microsoft 365 E5 license.
 
 ### Connect the new Entra tenant to the parent network
 
@@ -86,14 +86,14 @@ This process requires two steps:
 
 Do the following to create the association token:
 
-1. As the Viva Engage Global Administrator, go to engage.cloud.microsoft and sign into Viva Engage *on the new Microsoft Entra tenant*.
+1. As the Viva Engage Global Administrator, go to engage.cloud.microsoft and sign into Viva Engage _on the new Microsoft Entra tenant_.
 2. In Viva Engage, select the settings icon, and go to Admin center.
 3. In the Admin center, on the **Setup and Configuration** tab, select **External Networks**.
 4. Select **Setup External Network**.
 
     :::image type="content" source="../../media/engage/admin/admin-center-ext-networks-1.png" alt-text="Obtain the code to associate the new network":::
 
-5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the *parent Engage network*.
+5. Select the **Generate Code** tab to generate a one-time tenant association code, and select **Generate**. You use the code to associate the new Entra tenant with the _parent Engage network_.
 
     :::image type="content" source="../../media/engage/admin/admin-center-ext-networks-2.png" alt-text="Generate the code":::
 
@@ -118,7 +118,7 @@ The parent network now connects to the new tenant.
 
 #### Connect the legacy external network to the new external network
 
-After the new Microsoft Entra tenant associates to the parent network, you set the *legacy external network* to connect to the *new external network*. To do so, you use the same association token and Tenant ID that you used in the previous sections.
+After the new Microsoft Entra tenant associates to the parent network, you set the _legacy external network_ to connect to the _new external network_. To do so, you use the same association token and Tenant ID that you used in the previous sections.
 
 1. From the parent Engage network, network switch to the legacy external network.
 2. To open the external network settings, select the **Settings Icon** on the external network and choose **Network Admin**.
@@ -141,7 +141,7 @@ The next phase establishes the legacy network's user database in the new externa
 1. Sign in (or network switch) to the legacy external network.
 2. In Viva Engage, select the Settings icon, and go to Admin center.
 3. In the Admin center, select the **Governance and Compliance** tab, and select **Data export**.
-4. Under **Export user list**, enter the **Start date* and select the **End date**, then select *Download CSV file**.
+4. Under **Export user list**, enter the **Start date** and select the **End date**, then select **Download CSV file**.
 
 :::image type="content" source="../../media/engage/admin/external-network-export-from-legacy.png" alt-text="Admin menu for the external network":::
 
