@@ -68,7 +68,7 @@ The new tenant automatically embeds the creating user as a B2B Guest user and as
 
 1. Use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so enables the Global Administrator to sign into Viva Engage as the Network Admin.
 
-2. In the Microsoft Entra admin center, make sure to add the creating user's email address to their user account. This email address must be the same email that is associated with the user's account for the Viva Engage network.
+2. In the Microsoft Entra admin center, make sure to add the creating user's email address to their Entra user account. This email address must be the same email that is associated with the user's account for the Viva Engage network.
 
 > [!NOTE]
 > Enable the _Engage Core Service plan_ for the user in the assigned Microsoft 365 E5 license. Then, the admin needs to confirm that the B2B Guest user account owns the global admin role and the correct Microsoft 365 E5 license.
