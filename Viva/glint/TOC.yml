@@ -381,8 +381,9 @@ items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
           - name: Benchmarks
-            href: people-science/people-science-benchmark-philosophy.md
             items: 
+            - name: Use Viva Glint benchmarks
+              href: reports/benchmark-comparisons.md
             - name: Benchmark collateral
               href: setup/benchmarks.md
             - name: Choose comparison data
