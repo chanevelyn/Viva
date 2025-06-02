@@ -27,8 +27,8 @@ You can assign the following roles in the Engage Admin Center for use with the a
 
 - Verified Admin
 - Network Admin
-- Corporate Communicator
-  - Supports advanced moderation granular permissions
+- Viva Engage Admin
+- Corporate Communicator (requires advanced moderation granular permissions)
 
 For a detailed breakdown of admin role capabilities and their hierarchy, see [Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions).
 
@@ -36,7 +36,7 @@ For a detailed breakdown of admin role capabilities and their hierarchy, see [Ma
 
 Admins can grant an optional granular permission to Corporate Communicators for advanced moderation capabilities.
 
-When enabled, this permission allows Corporate Communicators to perform the following tasks:
+When it's enabled, the advanced moderation permission allows Corporate Communicators to perform the following tasks:
 
 - Create and manage AI-based moderation themes
 - Set up and monitor keywords across the network
@@ -44,7 +44,7 @@ When enabled, this permission allows Corporate Communicators to perform the foll
 - View and take action on detected conversations (including **mute**, **close**, and **dismiss**)
 
 >[!NOTE]
->The advanced moderation granular permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins can assign the Advanced moderation permission to corporate communicators.
+>The advanced moderation permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins can assign the advanced moderation permission to corporate communicators.
 
 ## How to assign admin roles
 
