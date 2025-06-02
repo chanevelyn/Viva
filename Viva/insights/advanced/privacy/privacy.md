@@ -248,7 +248,7 @@ For information about data deletion requests as handled under the GDPR, refer to
 
 ### Data retention and access after all subscriptions expire 
 
-If all of your subscriptions expire, you have until the end of your grace period to download data in the form of results. Refer to [To access query results](../analyst/query-results.md#to-access-query-results) for details. The duration of the grace period varies between countries and plans. Typically, it's either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). 
+If all of your subscriptions expire, you have until the end of your grace period to download data in the form of results. Refer to [To access query results](../analyst/query-results.md#to-access-query-results) for details. The duration of the grace period varies between countries/regions and plans. Typically, it's either 90 days for volume-licensing purchases or 30 days for other purchase types. All backend data will be deleted in accordance with the [Microsoft 365 Data Handling Standard](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). 
 
 After this period has passed, you no longer will have access to Viva Insights. 
 
@@ -299,10 +299,10 @@ For example, many companies see the benefit of understanding aggregate collabora
 
 Privacy and legal subject matter experts can help you stay ahead of potential data protection pitfalls. 
 
-Consult with your organization’s HR, privacy, and legal subject matter experts in the countries where you'd  like to use Viva Insights. Analyses that might be acceptable in one country might be subject to more requirements (for example, notice and consent obligations) or even illegal in other countries. Due diligence is particularly important in highly regulated jurisdictions like the European Union. 
+Consult with your organization’s HR, privacy, and legal subject matter experts in the countries/regions where you'd  like to use Viva Insights. Analyses that might be acceptable in one country/region might be subject to more requirements (for example, notice and consent obligations) or even illegal in other countries/regions. Due diligence is particularly important in highly regulated jurisdictions like the European Union. 
 
 >[!Note]
->Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology in the workplace, while others restrict when and how employers can process certain employee data. For example, if your company has employees in Germany or Netherlands, then you should consider if works council engagement or approval is required. Moreover, Viva Insights processes data from employee communications, which could be considered “communications data” (including “traffic data”) in Finland. So, if your company has employees in Finland, then you should understand how Finnish laws apply to the processing of employee personal data and communications or traffic data to determine if use of Viva Insights is permissible.
+>Some countries/regions require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology in the workplace, while others restrict when and how employers can process certain employee data. For example, if your company has employees in Germany or Netherlands, then you should consider if works council engagement or approval is required. Moreover, Viva Insights processes data from employee communications, which could be considered “communications data” (including “traffic data”) in Finland. So, if your company has employees in Finland, then you should understand how Finnish laws apply to the processing of employee personal data and communications or traffic data to determine if use of Viva Insights is permissible.
 
 ### Remove employees from the measured population
 
