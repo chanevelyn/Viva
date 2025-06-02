@@ -33,14 +33,14 @@ Viva Pulse data residency is limited to two regions, West US and EU, for data st
 **West US data residency**
 
 Required conditions:
-1. _Tenant_ has a tenant hosting location country that is non-EU.
+1. _Tenant_ has a tenant hosting location country/region that is non-EU.
 2. _Tenant_ has a valid Viva Pulse license.  
 3. _Tenant_ has a valid Microsoft Forms license.
 
 **EU data residency**
 
 Required conditions:
-1. _Tenant_ has a tenant hosting country included in European Union Data Boundary (EUDB). 
+1. _Tenant_ has a tenant hosting country/region included in European Union Data Boundary (EUDB). 
 2. _Tenant_ has a valid Viva Pulse license.
 3. _Tenant_ has a valid Microsoft Forms license.
 

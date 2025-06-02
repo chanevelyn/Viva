@@ -43,7 +43,7 @@ Copilot generates a response based on the latest data, such as a count of new hi
 
 #### Employee engagement topics
 
-*"How much time does my team spend in after-hours collaboration across countries?"*
+*"How much time does my team spend in after-hours collaboration across countries/regions?"*
 
 Copilot summarizes data insights using behavioral data capturing signals from collaboration tools like Outlook, Teams calls, and Teams chats, enabling leaders and delegates to make data-informed decisions.
 
