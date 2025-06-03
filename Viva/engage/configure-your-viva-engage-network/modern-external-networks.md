@@ -28,7 +28,7 @@ Microsoft designs modern external Viva Engage networks to promote collaboration 
 
 All Viva Engage networks support a format called M365 Native Mode, which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map directly to their accounts in Microsoft Entra and in Microsoft 365. All parent Viva Engage networks and external Viva Engage networks observe this standard. Native Mode also supports eDiscovery through the [Microsoft Purview portal](https://ms.web.purview.azure.com/) to promote safe and secure collaboration in your Engage networks.
 
-In this procedure, you create a new Microsoft Entra workforce tenant to support the Viva Engage external network. As part of provisioning the new tenant, you also need to provision and enable the same AB2B user account and email address that you use in the main Viva Engage network.
+In this procedure, you create a new Microsoft Entra workforce tenant to support the Viva Engage external network. As part of provisioning the new tenant, you also need to provision and enable the same B2B user account and email address that you use in the main Viva Engage network.
 
 ## Supported features for the modern external network
 
@@ -55,7 +55,7 @@ Viva Engage also has the following requirements:
 
 The last requirement involves correct user provisioning.
 
-- Ensure that the same AB2B user account and email address that you use in the main Viva Engage network gets provisioned in the new workforce tenant network you create in Microsoft Entra.
+- Ensure that the same B2B user account and email address that you use in the main Viva Engage network gets provisioned in the new workforce tenant network you create in Microsoft Entra.
 
 ## Set up a modern external network
 
