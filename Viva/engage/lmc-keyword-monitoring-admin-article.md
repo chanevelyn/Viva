@@ -34,7 +34,10 @@ For a detailed breakdown of admin role capabilities and their hierarchy, see [Ma
 
 ## Advanced Moderation Access for Corporate Communicators
 
-Admins can grant an optional granular permission to Corporate Communicators for advanced moderation capabilities.
+>[!NOTE]
+>The advanced moderation permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins can assign the advanced moderation permission to corporate communicators.
+
+Admins can grant a granular permission to Corporate Communicators for advanced moderation capabilities.
 
 When it's enabled, the advanced moderation permission allows Corporate Communicators to perform the following tasks:
 
@@ -42,9 +45,6 @@ When it's enabled, the advanced moderation permission allows Corporate Communica
 - Set up and monitor keywords across the network
 - Use the centralized Advanced Moderation dashboard
 - View and take action on detected conversations (including **mute**, **close**, and **dismiss**)
-
->[!NOTE]
->The advanced moderation permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins can assign the advanced moderation permission to corporate communicators.
 
 ## How to assign admin roles
 
