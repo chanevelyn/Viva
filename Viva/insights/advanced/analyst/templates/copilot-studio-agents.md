@@ -201,7 +201,7 @@ View this report's metric definitions.
 
 ## Delete Copilot Studio agents data
 
-The admin can delete the existing agents data for the tenant using PowerShell. Learn how.
+The admin can delete the existing agents data for the tenant using PowerShell. [Learn how](..//..//admin/delete-copilot-studio-agents-data.md).
 
 After the data is deleted, the query won't auto-refresh, and you can't run any new queries for one month.
 
