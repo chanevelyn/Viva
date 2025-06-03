@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2025
+ms.date: 06/03/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -42,9 +42,7 @@ For one or multiple survey cycles, export a snapshot of employee data as they we
 1. Select **Save as ZIP** to download.
 
 > [!NOTE]
-> To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
-
-
+> To preserve special characters and formatting, use the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) in Microsoft Excel to import data from .csv files.
 
 ## RETROACTIVE_PULSE_UPDATE
 
@@ -77,7 +75,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    > [!IMPORTANT]
    > Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
 
-   1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
+   1. To preserve special characters and formatting, use the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) in Microsoft Excel to import data from .csv.
    1. Delete all columns except for:
       1. First Name
       3. Last Name
@@ -86,7 +84,9 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       6. Status
       7. Manager ID
       8. All date fields, like Hire and Term Date.
-      9. Columns use to create derived attributes. Go to the **People** page and select **Manage User Attributes** from the **Actions** menu to view **Derived Attributes**. Keep the fields listed in the **Calculated From** section. 
+      9. Columns use to create derived attributes. Go to the **People** page and select **Manage User Attributes** from the **Actions** menu to view **Derived Attributes**. Keep the fields listed in the **Calculated From** section.
+         > [!NOTE]
+         > Organizations migrated from LinkedIn Glint may have custom derivations not listed in the Derived Attribtues section. Consult documentation gathered before migration for other fields that may be used in derivations.
    1. Correct values for users that should have their Manager ID updated.
    1. Save your edited file with corrected values as a .csv (with UTF-8 or UTF-8 with BOM encoding) or .xlsx file.
 1. Go to **Configuration** and select **People** and choose the **Import** option.
