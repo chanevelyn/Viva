@@ -28,6 +28,8 @@ Microsoft designs modern external Viva Engage networks to promote collaboration 
 
 All Viva Engage networks support a format called M365 Native Mode, which uses Microsoft Entra identities and policies. Native mode operation is **required** for all Viva Engage networks in the enterprise. It enables users, groups, and content to map directly to their accounts in Microsoft Entra and in Microsoft 365. All parent Viva Engage networks and external Viva Engage networks observe this standard. Native Mode also supports eDiscovery through the [Microsoft Purview portal](https://ms.web.purview.azure.com/) to promote safe and secure collaboration in your Engage networks.
 
+In this procedure, you create a new Microsoft Entra workforce tenant to support the Viva Engage external network. As part of provisioning the new tenant, you also need to provision and enable the same B2B user account and email address that you use in the main Viva Engage network.
+
 ## Supported features for the modern external network
 
 **External Participants**: Users can add external participants to public and private Viva Engage communities.
@@ -51,6 +53,10 @@ Viva Engage also has the following requirements:
 
 - The active [Global Administrator](/viva/engage/eac-key-admin-roles-permissions#microsoft-365-global-administrator) account
 
+The last requirement involves correct user provisioning.
+
+- Ensure that the same B2B user account and email address that you use in the main Viva Engage network gets provisioned in the new workforce tenant network you create in Microsoft Entra.
+
 ## Set up a modern external network
 
 Take the following steps to perform a modern external network configuration. Complete these tasks in the order shown. Since the role requirements vary by each task, they're called out in each section.
@@ -62,14 +68,16 @@ Take the following steps to perform a modern external network configuration. Com
 
 After you create the tenant, copy the new Microsoft Entra Tenant ID to a safe location for later use.
 
-### Assign the required license to the tenant admin
+### Assign the required license and email address to the tenant admin
 
 The new tenant automatically embeds the creating user as a B2B Guest user and assigns them the Global Administrator role and privileges.
 
-You also use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so allows the Global Administrator to sign into Viva Engage as the Network Admin.
+1. Use the Microsoft Entra admin center to assign the correct license to the B2B Guest user. You assign a Microsoft 365 E5 license to the Global Administrator of the new tenant. Doing so enables the Global Administrator to sign into Viva Engage as the Network Admin.
+
+2. In the Microsoft Entra admin center, make sure to add the creating user's email address to their Entra B2B guest user account in the new tenant. This email address must be the same email that is associated with the user's account for the Viva Engage network.
 
 > [!NOTE]
-> Enable the _Engage Core Service plan_ for the user in the assigned Microsoft 365 E5 license. The admin should then confirm that the B2B Guest user account owns the global admin role and the correct Microsoft 365 E5 license.
+> Enable the _Engage Core Service plan_ for the user in the assigned Microsoft 365 E5 license. Then, the admin needs to confirm that the B2B Guest user account owns the global admin role and the correct Microsoft 365 E5 license.
 
 ### Connect the new Microsoft Entra tenant to the parent network
 
@@ -184,9 +192,23 @@ After the data move completes, the network administrators can take the following
 
 ## FAQ
 
+### What's the best way to set up a tenant for a Viva Engage modern external network?
+
+There are three ways to prepare a tenant for modern external networks:
+
+1. Create a new tenant using the add-on tenant flow. Use the same user account that is automatically projected for you into the new tenant. Users created this way may be missing a required **email** property that needs to be on their Entra user account. During setup, fill in the same email as your home tenant user so Viva Engage can sync that user account.
+
+2. Create a tenant using the add-on tenant flow and _invite a different user_ to the tenant. The process is similar to #1, but has other requirements:
+   - The invited user must be given the Global Admin (GA) role
+   - The invited user must be set to Member.
+
+    The invited user automatically has the **email** property set because of the invitation flow.
+
+3. Use a _pre-existing tenant_. The user has same requirements as #2, but no tenant creation flow is necessary. The same user must be projected into two tenants, and the user account requires the **email** property to be set _to the same value_ on both user instances.
+
 ### What happens to my users from the legacy external network?
 
-You can export the list of existing users in your legacy external network in a CSV file from the Native Mode setup flow. You can use the CSV file to bulk invite the users to your new external network via the Microsoft Entra admin center.
+You can export the list of existing users in your legacy external network in a CSV file from the Native Mode setup flow. You can use the CSV file to bulk invite the users to your new external network through the Microsoft Entra admin center.
 
 ### Can I use external networks for consumer identities in modern external networks?
 
