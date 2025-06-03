@@ -22,7 +22,7 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-The **Copilot Studio agents report** can help you understand the adoption and impact of Microsoft 365 Copilot custom agents across your organization.
+The **Copilot Studio agents report** can help you understand the adoption and impact of agents built in Microsoft Copilot Studio that are deployed across various channels within your organization.
 
 This report can help you answer questions such as: 
 
@@ -35,17 +35,29 @@ This report can help you answer questions such as:
 * Measuring agent engagement. [Learn more](/microsoft-copilot-studio/guidance/measuring-engagement).
 * Measuring agent outcomes. [Learn more](/microsoft-copilot-studio/guidance/measuring-outcomes).
 
-This report is based on Copilot usage and impact metrics for agents built using Microsoft Copilot Studio, which are published outside of Copilot and Copilot Chat. This report **excludes** agents that enhance Microsoft 365 Copilot as well as autonomous agents. [Learn more about Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
+### What's covered in this report:
 
-**What's *not* covered in this report:**
+Agents built in Microsoft Copilot Studio that are deployed in channels such as: 
+
+* Custom and demo websites 
+* Microsoft Teams and Microsoft 365 Copilot, including agents built using Agent builder in Microsoft 365 Copilot 
+* Mobile apps 
+* Facebook 
+* Azure bot service channels such as Skype, Twilio, and Microsoft Cortana 
+
+### What's *not* covered in this report:
 
 1. Agents that enhance Microsoft 365 Copilot:
 
-* Agents built using Microsoft Copilot Studio which are [published to Microsoft 365 Copilot](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) and Copilot Chat using the setting **Make agent available in Microsoft 365 Copilot** in the configuration panel for publishing to Teams and Microsoft 365 channels
+* Agents built using Microsoft Copilot Studio which are [published to Microsoft 365 Copilot](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) and Copilot Chat using the setting **Make agent available in Microsoft 365 Copilot**
 
-* Agents published to [use within Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview) and Copilot Chat (declarative or custom engine agents), regardless of how they're built and published
+* Agents published to [use within Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview) and Copilot Chat (declarative agents), regardless of how they're built and published
 
 2. Autonomous Agents that proactively respond to signals across your business and initiate tasks, which can be configured to react to events or triggers without human intervention. [Learn more](/microsoft-copilot-studio/authoring-triggers-about).
+
+3. Agents that use generative AI instead of classic orchestration. [Learn more about generative versus classic orchestration](/microsoft-copilot-studio/advanced-generative-actions). 
+
+4. Agents built outside of Microsoft Copilot Studio like within Microsoft Sharepoint or third-party apps 
 
 ## Prerequisites
 
@@ -141,13 +153,13 @@ The **Copilot Studio agents report** includes the following report pages to he
 
 ### Custom agent adoption summary  
 
-This page provides an initial overview of adoption of the agents across the organization for the selected filters. The card on the left summarizes the total number of engaged agent sessions. Learn more about measuring [agent engagement](/microsoft-copilot-studio/guidance/measuring-engagement) and [outcomes](/microsoft-copilot-studio/guidance/measuring-outcomes).
+This page provides an initial overview of adoption of the agents across the organization for the selected filters. The card on the left shows the total number of active agents based on engaged sessions. The left also has cards which show the total number of engaged agent sessions and the impact of agents based on agent assisted hours. Learn more about measuring [agent engagement](/microsoft-copilot-studio/guidance/measuring-engagement) and [outcomes](/microsoft-copilot-studio/guidance/measuring-outcomes).
 
-The page also provides the engaged agent session trend for the selected time frame.
+The card in the middle of the page shows how the number of active agents, number of sessions, and agent assisted hours have changed over time. Use the dropdown to toggle between the metrics.
 
-The card in the middle of the page indicates the total number of agents enabled for the tenant as well as the top three custom agents based on the number of monthly engaged sessions.
+The card on the right identifies the top five agents based on the number of monthly engaged sessions.
 
-The card on the right defines the overall Agent Outcome impact in terms of satisfaction score and resolution rate.
+At the top of the page, you can also filter by Category and Usage type. For Usage type, select **Internal** to see metrics for internal employee-facing scenarios. Select **External** to see metrics for agents used externally, such as on public websites. 
 
 ### Identify Top agents used across the organization  
 
@@ -157,11 +169,11 @@ You can filter the agents on this page using the as Category, Agent name, Type, 
 
 ### Understand Deep Dive Agent Impact page
 
-This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left highlights Agent session outcomes based on Resolution, Abandons, and Escalatations.
+This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left shows the number of engaged sessions over time, and it highlights Agent session outcomes based on Resolution, Abandons, and Escalatations.
 
-The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the distribution "topic" themes for the agent in the selected time frame. [Learn more about topics in Copilot Studio](/microsoft-copilot-studio/guidance/topics-overview).
+The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the number of agent assisted hours that could be gained by deploying the agent across the organization. For each **task** in a conversational agent session, the metric compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions. 
 
-The chart on the right shows the potential additional agent assisted hours and value that can be gained when deploying the agent across the organization. For each **task** in a conversational agent session, it compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions.
+The chart on the right shows the number of sessions per topic for the agent in the selected timeframe. [Learn more about topics in Copilot Studio](/microsoft-copilot-studio/guidance/topics-overview).
 
 ### Agent assisted hours  
 
