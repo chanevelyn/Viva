@@ -28,7 +28,7 @@ Viva Learning follows all existing content permissions. Therefore, only content 
 > [!NOTE]
 > Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and security group (both mail enabled and non-mail enabled) types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or Security Groups permissions.
 
-1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups) or [Create security groups](microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups)
 
    > [!NOTE]
    > You need to be a site owner or site contributor to add permissions.
