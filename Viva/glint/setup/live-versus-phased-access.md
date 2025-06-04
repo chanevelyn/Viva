@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2025
+ms.date: 06/03/2025
 ---
 
 # Release Microsoft Viva Glint feedback results to User Roles
@@ -44,7 +44,10 @@ The permissions for the chosen role display. The default **Reporting view** is *
  
 ## Grant user access for a completed cycle
 
-- After a cycle is completed, the admin needs to release the survey results to those users with Phased access. 
+After a cycle closes, the admin needs to release the survey results to those users with Phased access.
+
+> [!IMPORTANT]
+> Granting access to Phased roles after a survey cycle closes **doesn't send any system communications** to users in those roles. Viva Glint Admins need to grant roles access to results at least 48 hours before the [survey end email's](program-summary-communications.md#notifications-when-survey-results-are-available) scheduled send date to include roles in system notifications.
 
    1. Switch to the **Completed** view and hover over the survey cycle. 
    1. In the **Reporting view** column for the desired survey, view reporting access. In this example, the **Reporting view** shows that **7 of 8 Roles** currently see reports. Hover over the hyperlink to reveal the User Roles. 
@@ -68,7 +71,7 @@ The permissions for the chosen role display. The default **Reporting view** is *
 - The hyperlink may indicate **Fully Released** (rather than the "7 of 8 Roles" in the example). This text snippet indicates that all roles already have report permissions available to them.
 
 > [!IMPORTANT]
-> When a new program cycle begins, reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin all roles aren't updated to **Live** status.
+> When a new survey cycle begins, reporting from the previous cycle is automatically released to all users with permissions to see the results. This release occurs even when the admin all roles aren't updated to **Live** status.
 
 
  

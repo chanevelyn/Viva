@@ -25,7 +25,7 @@ Viva Goals Data Residency Coverage: December 5, 2022, Viva Goals Customer Data f
 
 Tenants aren't provided with a choice for the specific deployment region for data storage. To be considered a tenant in the EUDB:
 
-- The tenant must have a default geography in a EUDB country or select a country in EUDB country as their residence during free trial sign-up
+- The tenant must have a default geography in a EUDB country/region or select a country/region in EUDB country/region as their residence during free trial sign-up
 - The tenant must not purchase a Multi-Geo offering 
 
 Visit our [Microsoft 365 Data Residency](/microsoft-365/enterprise/o365-data-locations) page to learn more.

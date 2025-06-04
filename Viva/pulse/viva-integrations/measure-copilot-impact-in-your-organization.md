@@ -40,6 +40,7 @@ If you have access to the Microsoft Copilot Dashboard you can launch a Pulse sur
 ### Capture sentiment about Copilot from Viva Pulse
 
 If you don’t have access to the Microsoft Copilot Dashboard, you can launch a Pulse survey within Viva Pulse.
+
 1. Access the Copilot impact template in Viva Pulse either on the web or from within Teams.
     * To access the template on the web, go to the [Microsoft 365 Copilot Impact survey](https://go.microsoft.com/fwlink/?linkid=2259628).
     * To access the template in the Teams app, do the following:
