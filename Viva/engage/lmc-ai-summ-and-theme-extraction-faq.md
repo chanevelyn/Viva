@@ -23,37 +23,77 @@ search.appverid:
 
 ## What is AI summarization and theme extraction?  
 
-AI summarization and theme extraction are Viva Engage features for admins, communicators, and managers to understand the impact and trends of Viva Engage content across the network. Within analytics use cases, AI summarization uses LLMs (large language models) to analyze the conversations and interactions that happen on all posts. Summarization analysis gives an overview of engagement trends across your network, leaders' audiences, and individual conversations. The technology also directly supports *advanced moderation*, which uses LLM technology to track and react to conversations related to important themes across the Engage network. It does so through use of user-defined *Themes*.
+AI summarization and theme extraction are Viva Engage features for network admins, communicators, and community managers to understand the impact and trends of Viva Engage content across spaces you manage. For advanced analytics, AI summarization uses LLMs (large language models) to analyze the messages and interactions across a network, audience, community or a conversation, and give an overview of engagement trends across those entities. 
+
+Theme extraction is a key feature of *advanced moderation*, which uses LLMs to to monitor and moderate content at scale across the Engage network. It does so through use of user-defined *Themes*.
 
 ## What are the deeper capabilities of AI summarization and theme extraction?
 
 *Summaries and related conversations*: AI summarization generates concise and informative summaries of the conversations that happen around posts in the network, and shows their related threads and comments. You can get a quick overview of the main points and opinions in conversations, and explore the details if you want.
 
-*Themes and Sentiment*: theme moderation can identify the most frequently discussed and trending themes in your network or audience and derive the sentiment associated with them. You can see how your audience feels about different subjects, and what kind of content resonates with them.
+*Themes*: theme extraction identifies the most frequently discussed and trending themes anywhere in your network. You can see how your audience feels about different subjects, and what kind of content resonates with them.
 
 *Monitor conversations*: Theme moderation identifies conversations and posts that match your specified themes. It helps you efficiently monitor the spread and engagement of specific topics across your network.
 
-## How do my users benefit from AI summarization in Viva Engage?
+## How do users benefit from AI summarization in Viva Engage?
 
-We support several important capabilities to enhance and define user interactions with their Engage network and audience.  
+AI summarization supports several important capabilities to enhance and define user interactions with their Engage network and audience.  
 
 *Understand Network Trends and Sentiment*: Allows leaders and managers to understand the network trends and sentiment that emerge from their Engage content. They can identify emerging themes that are most popular, relevant, or interesting to their audience, and the positive or negative feelings associated with them. Knowing trends and sentiment helps leaders and admins gain insights into their audience's interests, needs, and opinions, and adjust their content strategy accordingly.  
 
-*Summarize and Explore Conversations*: Help admins and managers follow the conversations that happen around posts in their network. The goal of AI summarization is to generate concise, informative summaries of the main points and opinions expressed by leaders' audiences, and show the related threads and comments. Summaries save time and effort in reading and analyzing large amounts of text, and allow leaders and managers to focus on the most important and relevant information.  
+*Summarize and Explore Conversations*: Help admins and managers follow the conversations that happen around posts in their network. A key target of AI summarization is to generate concise, informative summaries of the main points and opinions expressed by leaders' audiences, and show the related threads and comments. Summaries save time and effort in reading and analyzing large amounts of text, and allow leaders and managers to focus on the most important and relevant information.  
 
-*Create Engaging and Impactful Posts*: Help leaders create posts based on their goals and preferences. By knowing the major themes and sentiment related to the content posted in their network, leaders can improve how they express themselves through content that resonates best with their intended audience.
+*Create Engaging and Impactful Posts*: Help leaders and communicators create engaging posts based on their goals and preferences. By knowing the major themes related to the content posted in their network, leaders can refine their messages through content that best resonates with their intended audience.
 
 ## What are the metrics for AI summarization performance?
 
-We measure AI summarization performance with several key metrics:  
+AI summarization measures performance with several key metrics:  
 
 | **Metric** | **Description** |
 | ---------  | --------------- |
 | **Accuracy** | Assess how often the AI system's suggestions or summaries match the correct human-authored responses. Accuracy provides a fundamental measure of the system's correctness. |
 | **Precision and Recall** | Evaluate the quality of suggestions and summaries. **Precision** quantifies how many of the AI-generated suggestions and summaries are relevant, while **recall** determines how many of the relevant suggestions and summaries are retrieved. |
 | **F1 Score** | The F1 score combines measurements of precision and recalls for an overall measure of system performance. |
-| **User Satisfaction** | To gauge user satisfaction, we conduct user surveys and collect feedback to assess user satisfaction with AI system assistance. |
-| **Generalizability** | Assess how well the system's results generalize across different use cases. AI summarization tests Analytics + AI - Network on a diverse set of data and tasks. Generalizability evaluates system performance on a range of scenarios and domains that aren't part of initial training data. |
+| **User Satisfaction** | To gauge user satisfaction, the Viva Engage team conducts user surveys and collects feedback to assess user satisfaction with AI system assistance. |
+| **Generalizability** | Assess how well the system's results generalize across different use cases. AI summarization tests upon a diverse set of data and tasks. Generalizability evaluates system performance on a range of scenarios and domains that aren't part of initial training data. |
 | **Red Teaming and Mitigations** | Microsoft conducts red teaming exercises, including invites of external experts and testers to find vulnerabilities or biases in the system. The process helps identify potential issues and improve system robustness.|
 
-Our ongoing evaluation process uses continuous updates and improvements based on real-world usage and feedback. Through a combination of internal evaluation, user feedback, and external testing, we aim to ensure the accuracy, fairness, and generalizability of AI summarization.
+Our ongoing evaluation process uses continuous updates and improvements based on real-world usage and feedback. Through a combination of internal evaluation, user feedback, and external testing, Microsoft aims to ensure the accuracy, fairness, and generalizability of AI summarization.
+
+## What are the limitations and risks of AI summarization and theme extraction?
+
+AI summarization and theme extraction is NOT designed with a filter system in place. The objective is to allow offensive language and potentially sensitive information to surface to network admins and corporate communicators so they can moderate content appropriately. While using AI summarization and theme extraction, users can report offensive suggestions or summaries they find so the product team can use this feedback to inform future development.
+
+The underlying model powering this is trained on pre-2021 data and doesn't provide relevant responses if a question requires knowledge of the post-2021 world.
+
+Some high-risk use cases apply in this effort:
+
+**Privacy Concerns**: If the AI feature is not adequately secured, it might risk exposiure of user data to unauthorized parties, including private themes and personal information. The Viva Engage team views the highest level of privacy and security for our users as the top priority.
+
+**Bias**: The fairness and impartiality of AI systems like AI summarization and theme extraction depend on the quality and bias factor of the data they train on. If the training data contains biases, the AI feature could unintentionally generate content that reflects those biases, potentially causing harm or offense. We are dedicated to addressing bias in AI systems and work towards more equitable and inclusive outputs.
+
+By actively addressing high-risk cases and working collaboratively with the user community, the Viva Engage team commits to deliver a safer, more responsible, and ethically sound AI experience with AI summarization and theme extraction features.
+
+## What are the general security and privacy practices for AI summarization?
+
+AI summarization and theme extraction include the following privacy protections:  
+
+- Only accesses content within communities and groups that each user has permission to view  
+
+- Does not expose content from private communities to unauthorized users  
+
+- Follows all existing Viva Engage privacy and security protocols  
+
+To learn more, see [Microsoft’s privacy policy](https://go.microsoft.com/fwlink/?LinkID=331314).
+
+## What are AI summarization's data usage, data residency and GDPR protections?
+
+## See also
+
+[Enable advanced moderation from the admin center](Viva/engage/comms-dashboard-advanced-moderation.md)
+[Admin roles for Advanced moderation and Keyword monitoring](Viva/engage/lmc-keyword-monitoring-admin-article.md)
+[Advanced moderation: keyword monitoring for Viva Engage admins](lmc-keyword-monitoring-howto-for-admin-audience.md)
+
+For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
+
+For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).

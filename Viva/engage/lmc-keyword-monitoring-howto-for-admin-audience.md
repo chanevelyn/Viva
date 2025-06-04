@@ -29,7 +29,7 @@ Advanced moderation is available to all Microsoft 365 customers. The following a
 
 - Verified Admins
 - Network Admins
-- Viva Engage Admins
+- Viva Engage Admins (defined as "Engage Admins" in Microsoft Entra)
 - Corporate Communicator (requires advanced moderation granular permissions)
 
 After you define custom keywords for the network, all conversations in Storylines and Communities that match your keywords appear on the Communications dashboard.
@@ -41,7 +41,7 @@ Admins with appropriate permissions can go to the Communications dashboard and o
 - Add and manage keyword lists
 - Use regular expressions to craft more sophisticated keyword/phrase monitoring
 - Specify email recipients for keyword alert notifications
-- View a centralized table of all conversations flagged with keyword matches
+- View a centralized table of all conversations detected with keyword matches
 - Act on matching conversations – mute, close, delete, or dismiss from review
 
 Using filter controls, you can review moderated conversations on the **Detected conversations** table. Muted and dismissed conversations appear for 30 days with timestamps and actor information.
@@ -81,3 +81,13 @@ Exclusion of Private Messages employs the following safeguards:
 
 - Keyword detection doesn't apply to private messages between individuals.
 - These messages are confidential and must be accessed through approved compliance tools such as eDiscovery and Microsoft Purview when needed.
+
+## See also
+
+[Enable advanced moderation from the admin center](Viva/engage/comms-dashboard-advanced-moderation.md)
+[AI Summarization and theme extraction FAQ](/Viva/engage/lmc-ai-summ-and-theme-extraction-faq)
+[Admin roles for Advanced moderation and Keyword monitoring](Viva/engage/lmc-keyword-monitoring-admin-article.md)
+
+For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
+
+For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).
