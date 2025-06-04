@@ -1,5 +1,5 @@
 ---
-ms.date: 04/22/2025
+ms.date: 05/28/2025
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -22,6 +22,9 @@ audience: Admin
 >This feature is rolling out gradually to all customers with more than 50 Copilot assigned licenses.
 
 As an admin, you can configure several features of the Microsoft Copilot Dashboard. With these settings, for example, you can control who can access the dashboard, upload organizational data, create an exclusion list, upload aggregated survey data, and set the minimum group size for generating insights. Let's review them.
+
+>[!Note]
+>In addition to the roles described below, all settings can also be managed by Microsoft 365 Global Administrators.
 
 ## Manage access for individual users and groups
 

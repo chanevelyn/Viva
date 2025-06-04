@@ -103,7 +103,7 @@ items:
                 href: setup/attribute-fundamentals.md
               - name: Hierarchy fundamentals
                 href: setup/hierarchy-fundamentals.md
-              - name: Employee Attribute Template
+              - name: Employee attribute template
                 href: setup/create-employee-attribute-template.md
               - name: Employee data file checklist
                 href: setup/data-checklist.md          
@@ -124,7 +124,7 @@ items:
     items:
       - name: Introduction to Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator enablement for Copilot in Viva Glint
+      - name: Enable Copilot in Viva Glint
         href: copilot/admin-enable.md
       - name: Copilot in Viva Glint data, privacy, and security
         href: setup/copilot-privacy.md
@@ -134,8 +134,10 @@ items:
         href: setup/copilot-managers.md
       - name: Manager Guide - Copilot in Viva Glint
         href: setup/copilot-manager-quick-guide.md
-      - name: FAQs-Copilot in Viva Glint 
-        href: setup/copilot-faqs.md 
+      - name: General FAQs for Copilot in Viva Glint 
+        href: setup/copilot-faqs.md
+      - name: Comment summarization FAQs for Copilot in Viva Glint
+        href: setup/copilot-faqs-comments-summarization.md
   - name: Manage settings, features, and data
     items: 
       - name: Manage user data with People
@@ -143,6 +145,8 @@ items:
         items:  
             - name: Manage Support users 
               href: setup/add-external-user.md
+            - name: View and manage user profiles
+              href: setup/viewing-employee-info.md
             - name: Export and import User Role members 
               href: setup/export-user-roles.md
             - name: Delete user data 
@@ -363,7 +367,7 @@ items:
       - name: Provide support during a survey
         href: communicate/support-survey-participants.md
       - name: Create an FAQ document
-        href: communicate/survey-taker-faq.md 
+        href: start/faqs-survey-takers.md 
       - name: Reopen or extend a survey cycle
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
@@ -377,8 +381,9 @@ items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
           - name: Benchmarks
-            href: people-science/people-science-benchmark-philosophy.md
             items: 
+            - name: Use Viva Glint benchmarks
+              href: reports/benchmark-comparisons.md
             - name: Benchmark collateral
               href: setup/benchmarks.md
             - name: Choose comparison data

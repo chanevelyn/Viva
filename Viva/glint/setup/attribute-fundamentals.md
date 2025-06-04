@@ -122,7 +122,7 @@ On April 10 2025, some supported languages for Viva Glint changed. Some language
 | Current language  | Current language code | Potential alternative language | Potential alternative code |
 |:----------|:-----------|:------------|:------------|
 | Austrian (German)   | de_AT                 | German  | de_DE  | 
-| Chinese (Hong Kong) | zh_HK  | Chinese (Traditional) or Chinese (Simplified) | zh_TW or zh_CN  |
+| Chinese (Hong Kong SAR) | zh_HK  | Chinese (Traditional) or Chinese (Simplified) | zh_TW or zh_CN  |
 | Bengali             | bn_BD                | Bangla  | bn_IN  | 
 | Armenian            | hy_AM   | None  | None  | 
 | Haitian Creole      | fr_HT  | None  | None  | 

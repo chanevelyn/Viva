@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2025
+ms.date: 06/03/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -42,9 +42,7 @@ For one or multiple survey cycles, export a snapshot of employee data as they we
 1. Select **Save as ZIP** to download.
 
 > [!NOTE]
-> To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
-
-
+> To preserve special characters and formatting, use the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) in Microsoft Excel to import data from .csv files.
 
 ## RETROACTIVE_PULSE_UPDATE
 
@@ -59,7 +57,7 @@ Ongoing survey types like Lifecycle and Always-On can have the same user respond
 If duplicated users aren't removed, admins see a "Failed to run the data app RETROACTIVE_PULSE_UPDATE" error message.
 
 > [!CAUTION]
-> - Do not perform a retroactive update while a Viva Glint survey is live.
+> - Don't perform a retroactive update while a Viva Glint survey is live.
 > - Deleted user data can't be retroactively updated.
 
 ### To perform a retroactive update to Manager Hierarchy:
@@ -75,9 +73,9 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 2. If the employee data loaded to Viva Glint is already correct, skip to Step 6 to create a Distribution List.
 
    > [!IMPORTANT]
-   > Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
+   > Retain all users from the survey cycle in your update file. Even users who aren't directly impacted by a Manager ID change can have a reporting line impact.
 
-   1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
+   1. To preserve special characters and formatting, use the [Text Import Wizard](https://support.microsoft.com/office/text-import-wizard-c5b02af6-fda1-4440-899f-f78bafe41857) in Microsoft Excel to import data from .csv.
    1. Delete all columns except for:
       1. First Name
       3. Last Name
@@ -86,7 +84,9 @@ Use these steps when manager reporting lines need to be corrected for a closed s
       6. Status
       7. Manager ID
       8. All date fields, like Hire and Term Date.
-      9. Columns use to create derived attributes. Go to the **People** page and select **Manage User Attributes** from the **Actions** menu to view **Derived Attributes**. Keep the fields listed in the **Calculated From** section. 
+      9. Columns use to create derived attributes. Go to the **People** page and select **Manage User Attributes** from the **Actions** menu to view **Derived Attributes**. Keep the fields listed in the **Calculated From** section.
+         > [!NOTE]
+         > Organizations migrated from LinkedIn Glint may have custom derivations not listed in the Derived Attributes section. Consult documentation gathered before migration for other fields that may be used in derivations.
    1. Correct values for users that should have their Manager ID updated.
    1. Save your edited file with corrected values as a .csv (with UTF-8 or UTF-8 with BOM encoding) or .xlsx file.
 1. Go to **Configuration** and select **People** and choose the **Import** option.

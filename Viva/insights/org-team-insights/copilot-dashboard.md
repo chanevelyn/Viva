@@ -1,5 +1,5 @@
 ---
-ms.date: 05/5/2025
+ms.date: 05/30/2025
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -151,7 +151,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 :::image type="content" source="images/copilot-dash-scope-03.png" alt-text="Screenshot that shows the filters tool.":::
 
-At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can select multiple teams for group comparisons. You can also filter by team by selecting **View by** above the various metric reports.
+At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, teams just within your group, or both. You can select multiple teams for group comparisons. You can also filter by team by selecting **View by** above the various metric reports.
 
 By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The Copilot Dashboard can get organizational data in one of three ways:
 
@@ -162,7 +162,7 @@ By default, the **Scope** and **Organization** filters are determined by your [M
 >[!Note]
 >If you upload an organizational data file, upload data for every employee in the company. Or, if your Insights admin has limited access to organizational data, upload data for every employee in your analysis, as well as managers in the hierarchy between those being analyzed, and the top-level leader in the company. This ensures that the **Scope** filter accurately reflects the hierarchy.
 >
->If you upload an organizational data file, this permanently changes the source of the Copilot Dashboard data from Microsoft Entra ID to the data file, *except* for the senior leader list within the "Your company" **Scope** filter. To keep your organizational data current, you must regularly upload .csv files. To revert back to Microsoft Entra ID as the source, [file a support ticket with us](/microsoft-365/admin/get-help-support).
+>If you upload an organizational data file, this permanently changes the source of the Copilot Dashboard data from Microsoft Entra ID to the data file, including data for the **Scope** and **Organization** filters. To keep your organizational data current, you must regularly upload .csv files.
 
 >[!Note]
 >If your Global admin and Viva Insights admin *both* upload organizational data, the dashboard will merge the uploads and prioritize the more recent data.
@@ -211,15 +211,15 @@ Now let’s look at the insights provided by this page.
 
 Under **Adoption by group**, a graph shows the change in Copilot adoption over the previous six months, aggregated weekly. Select **Metric** to see the adoption trends for a specific group. Metrics include active Copilot users, Copilot licensed employees, percentage of active Copilot users, or percentage of Copilot licensed employees. You can select any data point on the graph to see more details for that point in time. Below the graph you’ll find adoption trends for specific groups. 
 
-* **All users**: By default, the trendline displays the past six-month trend for all users in your company. You can update the filters on the top of the page for specific groups. 
+* **All users**: By default, the trendline displays the past six-month trend for all users in your company. You can adjust the filters on the top of the page for specific groups. 
 
-* **View by groups, organization, or job function attributes**: Select **View by** to drill down into different groups. To add more groups to your trend graph, select the eye icon under **Show trend**. To protect individual privacy, we don't show the metrics for groups that are smaller than the minimum group size. 
+* **View by groups, organization, or job function attributes**: Select **View by** to drill down into different groups. To add more groups, select the eye icon under **Show trend**. To protect individual privacy, metrics aren't shown for groups that are smaller than the minimum group size.
+
+* **Data aggregated by**: Select the dropdown to see trends on a **Monthly** or **Weekly** basis.
 
 You can sort the table by the headers. For example, to sort by the metric value, select **Metric**. To sort by the group names alphabetically, select **View by**.
 
 :::image type="content" source="images/trendline-adoption-02.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/trendline-adoption-02.png":::
-
-
 
 ###### Insight #2: Usage intensity 
 
@@ -358,11 +358,33 @@ The **Copilot assisted hours** metric is a general estimate that tries to levera
 | Search and summaries | Copilot Chat (work) prompts submitted <br> <br/> Summarize email thread actions taken using Copilot <br> <br/> Summarize Word document actions taken using Copilot <br> <br/> Summarize presentation actions taken using Copilot <br> <br/> Excel analysis actions taken using Copilot <br> <br/> Summarize chat actions taken using Copilot <br> <br/> Chat (Copilot in Word) prompts submitted <br> <br/> Chat (Copilot in PowerPoint) prompts submitted <br> <br/> Chat (Copilot in Excel) prompts | 6 minutes per search or summary action  | In a study of 163 knowledge workers, users were able to retrieve information across files, emails, and calendars 6 minutes faster with Copilot versus without Copilot. See study #4 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). |
 | Creation | Email coaching actions taken using Copilot <br> <br/> Generate email draft actions taken using Copilot <br> <br/> Draft Word document actions taken using Copilot <br> <br/> Create presentation actions taken using Copilot <br> <br/> Rewrite text actions taken using Copilot <br> <br/> Create Excel formula actions taken using Copilot <br> <br/> Excel formatting actions taken using Copilot <br> <br/> Visualize as table actions taken using Copilot in Word <br> <br/> Add content to presentation actions taken <br> <br/> Organize presentation actions taken | 6 minutes per creation action  | In a study of 147 knowledge workers, people were able to complete a writing task (drafting a blog post) 6 minutes faster with Copilot versus without Copilot. See study #1 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Creation is especially difficult to summarize in a single number, so this number should be in particular understood to be a broad estimate. As research improves, we will adjust our methodology. |
 
+###### High-level overview of Copilot impact across the organization 
+
+Under the totals for **Copilot actions taken**, **Copilot assisted hours**, and **Copilot assisted value**, a graph shows the change in these metrics over the previous six months, aggregated weekly. 
+
+:::image type="content" source="images/cdb-impact-trendline-01.png" alt-text="Screenshot that shows the trendline graph for the high-level overview of impact metrics.":::
+
+At the top left, select **Metric** to see the impact trends for specific groups. Select **Copilot actions taken**, **Copilot assisted hours**, or **Copilot assisted value**. Select any data point on the graph to see more details for that point in time. 
+
+The area below the line graph shows adoption trends for specific groups. 
+
+* **All users**: By default, the trendline shows the previous six-month trend for all users in your company. You can adjust the filters on the top of the page for specific groups. 
+
+* **View by groups, organization, or job function attributes**: Select **View by** to drill down into different groups. To add more groups, select the eye icon under **Show trend**. To protect individual privacy, metrics aren't shown for groups that are smaller than the minimum group size. 
+
+* **Data aggregated by**: Select the dropdown to see trends on a **Monthly** or **Weekly** basis. 
+
 **Key insights for this page:**
 
-On any card, select **Explore more** to dive into these metrics. You’ll find graphs which illustrate the six-month trends for each card. Select **Metric** to toggle between the different insights for the card.
+On any card, select **Explore more** to dive into these metrics. You’ll find graphs which illustrate the six-month trends for each card. At the top left, select **Metric** to toggle between the different insights for the card.
 
-:::image type="content" source="images/trendline-impact-01.png" alt-text="Screenshot that shows the trendline graph for impact metrics.":::
+* **All users**: By default, the trendline shows the previous six-month trend for all users in your company. You can adjust the filters on the top of the page for specific groups.  
+
+* **View by groups, organization, or job function attributes**: At the top right, select **View by** to drill down into different groups. To add more groups, select the eye icon under **Show trend**. To protect individual privacy, metrics aren't shown for groups that are smaller than the minimum group size. 
+
+* **Data aggregated by**: Select the dropdown to see trends on a **Monthly** or **Weekly** basis. 
+
+:::image type="content" source="images/cdb-impact-trendline-02.png" alt-text="Screenshot that shows the trendline graph for impact metrics.":::
 
 >[!Important]
 >Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors, such as seasonality, role shifts, or organizational changes, may influence changes in these metrics.
