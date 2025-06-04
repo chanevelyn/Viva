@@ -23,9 +23,9 @@ search.appverid:
 
 In the Communications Dashboard, the **Advanced moderation** page provides a central experience for configuring and monitoring specific keywords and phrases detected across your Engage network.
 
-## Who Can Use This Feature
+## Who can use this feature
 
-This feature is available to all Microsoft 365 customers. The following admin roles can define filters, monitored conversations, and act on them:  
+Advanced moderation is available to all Microsoft 365 customers. The following admin roles can define filters, monitor conversations, and act on them:  
 
 - Verified Admins
 - Network Admins
@@ -73,7 +73,7 @@ When a post in Viva Engage matches a monitored keyword, the moderation system se
 
 To enhance security and compliance, Viva Engage inherits a set of safeguards from Microsoft Entra. Tenant emails observe the following restrictions:
 
-- Entra ID–backed email addresses from within your Microsoft 365 tenant are supported as keyword alert recipients.
+- Microsoft Entra ID–backed email addresses from within your Microsoft 365 tenant are supported as keyword alert recipients.
 - Consumer email addresses (Gmail, Yahoo, Outlook.com) aren't supported.
 - If an unsupported email is entered, Viva Engage prompts the user to provide a valid tenant-based address.
 
