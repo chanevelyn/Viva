@@ -193,7 +193,7 @@ Use [these steps](/graph/data-connect-templates-overview) to generate a quick st
 8. If there are any errors on the dataset, they will be specified on the bottom right under **Status**. To edit the dataset column names and data types, select the **[Dataset name]** tab at the top. Select the bracket icons on the right. Edit “name” and “type” as needed.
 1. Once the pipeline is complete, data should appear in your Storage account. Select **Containers**, then **datasets** as shown below, where the container name is the Pipeline Execution ID.
 
-   :::image type="content" source="../images/dynamic-metric-load-step0902b.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account":::
+   :::image type="content" source="../images/dynamic-metric-load-step0902b.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account.":::
 
    > [!NOTE]
    > If the pipeline execution fails, please save the Activity run ID from the Data Factory pipeline studio, as shown below. This will help our team debug for you.
@@ -211,7 +211,7 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
     * .gzip file contains the metric output associated with this pipeline execution
 
     :::image type="content" source="../images/dynamic-metric-load-step1001.png" lightbox="../images/dynamic-metric-load-step1001.png" alt-text="Screenshot that shows the output file":::
-    * The output of exports with additional data sources such as business or survey data is grouped into folders labelled according to each dataset used in the query. For example, queries with survey or business data will have separate folders for HR data, MetricOutput, and survey or business datasets.
+    * The output of exports with additional data sources such as business or survey data is grouped into folders labeled according to each dataset used in the query. For example, queries with survey or business data will have separate folders for HR data, MetricOutput, and survey or business datasets.
 
 * Metadata 
     * /[Pipeline Execution ID] / VivaInsights / [TenantID] / metadata / JobMetadata / metadata.json 
