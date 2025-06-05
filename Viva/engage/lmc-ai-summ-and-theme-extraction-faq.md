@@ -68,7 +68,7 @@ The underlying model is trained on pre-2021 data and doesn't provide relevant re
 
 Some high-risk use cases apply in this effort:
 
-**Privacy Concerns**: If the AI feature isn't adequately secured, it might risk exposure of user data to unauthorized parties, including private themes and personal information. The Viva Engage team views the highest level of privacy and security for our users as the top priority.
+**Privacy Concerns**: If the AI feature isn't adequately secured, it risks exposure of user data to unauthorized parties, including private themes and personal information. The Viva Engage team views the highest level of privacy and security for our users as the top priority.
 
 **Bias**: The fairness and impartiality of AI systems like AI summarization and theme extraction depend on the quality and bias factor of the data they train on. If the training data contains biases, the AI feature could unintentionally generate content that reflects those biases, potentially causing harm or offense. We're dedicated to addressing bias in AI systems and work towards more equitable and inclusive outputs.
 
@@ -88,13 +88,15 @@ To learn more, see [Microsoft’s privacy policy](https://go.microsoft.com/fwlin
 
 ## What are AI summarization's data usage, data residency and GDPR protections?
 
+AI Summarization and theme extraction features only access existing data within Viva Engage. They operate in the same data compliance framework as Viva Engage, and follow all applicable privacy regulations including GDPR. For details, see [Manage GDPR data subject requests in Viva Engage]() and [Understand how privacy works in Microsoft Viva]()
+
 ## See also
 
-[Enable advanced moderation from the admin center](Viva/engage/comms-dashboard-advanced-moderation.md)
+[Enable advanced moderation from the admin center](comms-dashboard-advanced-moderation.md)
 
-[Admin roles for Advanced moderation and Keyword monitoring](Viva/engage/lmc-keyword-monitoring-admin-article.md)
+[Admin roles for Advanced moderation and Keyword monitoring](lmc-keyword-monitoring-admin-article.md)
 
-[Advanced moderation: keyword monitoring for Viva Engage admins](Viva/engage/lmc-keyword-monitoring-howto-for-admin-audience.md)
+[Advanced moderation: keyword monitoring for Viva Engage admins](lmc-keyword-monitoring-howto-for-admin-audience.md)
 
 For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
 
