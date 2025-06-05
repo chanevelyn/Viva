@@ -49,7 +49,7 @@ Admin center configuration options vary based on licensing that includes Microso
 
 6. Optionally, use the **Confirmation message** setting to explain to your employees what happens after they submit a report. Set expectations for when the submitter can expect a response and describe next steps for the organization. This field is limited to 1,500 characters.  
 
-    :::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot shows the reporting admin panel.":::
+    :::image type="content" source="../media/admin-center-report-conversation-settings.png" alt-text="Screenshot shows the reporting admin panel.":::
 
 ### End user experience
 
@@ -112,13 +112,13 @@ Report conversations functionality is only available in the Viva Engage home net
 
 Users can't report private messages.
 
-### Can users report messages from private and secret communities?
+### Can users report messages from private communities?
 
-Users can report conversations from all public, private, and secret communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
+Users can report conversations from all public and private communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
 
 ### Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 
-Conversation reporting is only available from Viva Engage Teams integration.
+Users can report conversations from the Viva Engage app in Teams.
 
 ### How do I route reported conversations through Microsoft Purview Communication Compliance instead of using a single email address to report conversations?
 
