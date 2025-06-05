@@ -114,7 +114,7 @@ Users can't report private messages.
 
 ### Can users report messages from private communities?
 
-Users can report conversations from all public and private communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
+Users can report conversations from all public and private communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
 
 ### Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 
