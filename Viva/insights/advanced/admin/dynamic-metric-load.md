@@ -1,5 +1,5 @@
 ---
-ms.date: 05/5/2025
+ms.date: 06/5/2025
 title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -14,11 +14,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Export Viva Insights data using MGDC (preview)
-
->[!Note]
->This feature is for public preview customers. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
-
+# Export Viva Insights data using MGDC
 
 If you want to use and analyze Viva Insights data outside of the Viva Insights app, you can use Microsoft Graph Data Connect (MGDC) to transfer the backend data to Azure. This process allows users to export whatever subset of metrics they want from Viva Insights, which can include both system metrics and customized metrics.
 
@@ -34,7 +30,7 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 | 1. Create Azure Active Directory Application  |  Application Administrator or Application Developer   |  |
 | 2. Provision Storage Account  |  Application Administrator or Application Developer   |  |
 | 3. Provision Key Vault and store client secret  |  Application Administrator or Application Developer   | App secret |
-| 4. Enable MGDC for tenant  |  Global Administrator   |  |
+| 4. Enable MGDC for tenant  | Microsoft Graph Data Connect Administrator or Application Administrator   |  |
 | 5. Mark a Viva Insights query for export  |  Insights Analyst   |  |
 | 6. Register MGDC application  |  Azure AD Application Owner, with Insights Analyst role   | Storage account, Azure AD Application  |
 | 7. Consent to application/dataset  |  Viva Insights Administrator or MGDC Administrator  |  |
@@ -102,7 +98,7 @@ After you've followed the steps above and your Storage account is set up:
 
 ## 4. Enable MGDC for tenant
 
-*Applies to: Global Administrator*
+*Applies to: Microsoft Graph Data Connect Administrator or Application Administrator*
 
 1. Open a browser and sign in to your [Microsoft 365 Admin Portal](https://admin.microsoft.com/adminportal).
 1. Under **Settings**, select **Org settings**. You may have to select **Show all** to see the **Settings** option. 
@@ -197,7 +193,7 @@ Use [these steps](/graph/data-connect-templates-overview) to generate a quick st
 8. If there are any errors on the dataset, they will be specified on the bottom right under **Status**. To edit the dataset column names and data types, select the **[Dataset name]** tab at the top. Select the bracket icons on the right. Edit “name” and “type” as needed.
 1. Once the pipeline is complete, data should appear in your Storage account. Select **Containers**, then **datasets** as shown below, where the container name is the Pipeline Execution ID.
 
-   :::image type="content" source="../images/dynamic-metric-load-step0902b.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account":::
+   :::image type="content" source="../images/dynamic-metric-load-step0902b.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account.":::
 
    > [!NOTE]
    > If the pipeline execution fails, please save the Activity run ID from the Data Factory pipeline studio, as shown below. This will help our team debug for you.
@@ -215,6 +211,7 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
     * .gzip file contains the metric output associated with this pipeline execution
 
     :::image type="content" source="../images/dynamic-metric-load-step1001.png" lightbox="../images/dynamic-metric-load-step1001.png" alt-text="Screenshot that shows the output file":::
+    * The output of exports with additional data sources such as business or survey data is grouped into folders labeled according to each dataset used in the query. For example, queries with survey or business data will have separate folders for HR data, MetricOutput, and survey or business datasets.
 
 * Metadata 
     * /[Pipeline Execution ID] / VivaInsights / [TenantID] / metadata / JobMetadata / metadata.json 
