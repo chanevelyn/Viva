@@ -26,9 +26,9 @@ Viva Learning follows all existing content permissions. Therefore, only content 
 > The admin tab is only available for admins with a Viva Suite or Viva Learning license.
 
 > [!NOTE]
-> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and security group (both mail enabled and non-mail enabled) types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or Security Groups permissions.
 
-1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups).
+1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups)
 
    > [!NOTE]
    > You need to be a site owner or site contributor to add permissions.
@@ -65,7 +65,7 @@ Viva Learning follows all existing content permissions. Therefore, only content 
 
 9. If the group isn't present:
 
-   - A Microsoft 365 group or MESG group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups.
+   - A Microsoft 365 group or SGgroup can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups.
    - To see if group is already present, select on the folder, go to **Manage access,** select **More options,** then **Advanced settings**> and finally **Check permissions**
    - Start typing the group name
    - If it's already present, remove it and add directly or add a different group
