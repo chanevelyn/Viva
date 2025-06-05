@@ -105,7 +105,7 @@ Viva Glint admins may create the following types of User Roles:
 
 ## Privacy and legal subject matter experts might be required
 
-Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology services in the workplace.
+Some countries/regions require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology services in the workplace.
 
 ## More resources
 

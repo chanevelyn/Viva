@@ -85,7 +85,7 @@ All Viva apps built on your Microsoft 365 infrastructure support compliance with
 For detailed information, see [Microsoft Viva privacy](/Viva/viva-privacy).
 
 ## Data residency
-Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information.  In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
+Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information.  In addition, in certain countries/regions, customers are expected to comply with laws and regulations that explicitly govern data storage location.
 
 For information about data residency for Viva apps, see [Microsoft Viva privacy](/Viva/viva-privacy).
 
