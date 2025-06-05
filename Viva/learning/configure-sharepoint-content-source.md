@@ -53,7 +53,7 @@ While either communication and teams sites can be used, we recommend using a com
 > Viva Learning ingests up to 1000 files as learning objects. A Viva Suite or Viva Learning license is required to ingest more than 1000 files as learning objects.
 
 > [!NOTE]
-> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Security group (both mail enabled and non-mail enabled) types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or Security Groups permissions.
 
 
 
