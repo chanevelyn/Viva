@@ -49,11 +49,13 @@ Agents built in Microsoft Copilot Studio that are deployed in channels such as:
 
 1. Agents built using Microsoft Copilot Studio which are [published to Microsoft 365 Copilot](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) and Copilot Chat using the setting **Make agent available in Microsoft 365 Copilot**
 
-2. Autonomous Agents that proactively respond to signals across your business and initiate tasks, which can be configured to react to events or triggers without human intervention. [Learn more](/microsoft-copilot-studio/authoring-triggers-about).
+2. Agents built using Agent Builder in Microsoft 365 Copilot
 
-3. Agents that use generative AI instead of classic orchestration. [Learn more about generative versus classic orchestration](/microsoft-copilot-studio/advanced-generative-actions). 
+3. Autonomous Agents that proactively respond to signals across your business and initiate tasks, which can be configured to react to events or triggers without human intervention. [Learn more](/microsoft-copilot-studio/authoring-triggers-about).
 
-4. Agents built outside of Microsoft Copilot Studio like within Microsoft Sharepoint or third-party apps 
+4. Agents that use generative AI instead of classic orchestration. [Learn more about generative versus classic orchestration](/microsoft-copilot-studio/advanced-generative-actions). 
+
+5. Agents built outside of Microsoft Copilot Studio like within Microsoft Sharepoint or third-party apps 
 
 ## Prerequisites
 
@@ -187,10 +189,6 @@ To edit the value of the multiplier, select the calculator, where you'll see a b
 This is an estimate of the value of an agent's impact over the given time period, calculated by multiplying Agent assisted hours by an average hourly rate. By default, this hourly rate is set to $72, based on data compiled by the U.S. Bureau of Labor Statistics. To update the average hourly rate, select the Calculator, where you'll see a breakdown of how the total value is calculated with your updated setting.
 
 To toggle between Agent assisted hours and Agent assisted value, select the appropriate symbol at the top right of the card.
-
-### Glossary  
-
-View this report's metric definitions.
 
 ## Delete Copilot Studio agents data
 
