@@ -2646,5 +2646,10 @@
     "redirect_url": "/viva/glint/reports/benchmark-comparisons",
     "redirect_document_id": true
   },
+  {
+    "source_path": "viva/glint/communicate/survey-taker-faq.md",
+    "redirect_url": "/viva/glint/start/faqs-survey-takers",
+    "redirect_document_id": true
+  }  
  ]
 }

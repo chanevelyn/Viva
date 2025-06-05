@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/03/2025
+ms.date: 06/04/2025
 ---
 
 # Viva Glint for a multitenant organization FAQ
@@ -32,6 +32,9 @@ Customers with B2B Collab or cross-tenant synchronization (CTS) can access Viva 
 |**(Recommended)** An MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint with an MTO policy, users have to: <br><br> Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>       |
 |No MTO policy and users synced with CTS or B2B collaboration.     |When logging into Viva Glint without an MTO policy, Viva Glint can't identify a user's tenant.<br><br> **In an Incognito or InPrivate browser**, users have to:  <br><br> Choose the "Sign in to an organization" sign in option</li><li>Enter the target tenant domain name</li><li>Enter credentials (Email and password)</li><li>Complete two-factor authentication</li><li>Access Viva Glint</li></ol>      |
 |No sync method set up.    |**(Recommended)** [Enable MTO and sync users with cross-tenant synchronization](glint-mto.md).   |
+
+> [!NOTE]
+> It takes up to 24 hours for MTO policies to sync from Entra to Viva Glint.
 
 ## If my organization chooses not to enable MTO, but uses B2B collaboration or CTS, can I send surveys to all users in multiple tenants?
 Microsoft 365 admins can install Viva Glint to only one tenant - the target tenant. Viva Glint isn't installed to source tenants. To access Viva Glint to create and send surveys to all tenants:
