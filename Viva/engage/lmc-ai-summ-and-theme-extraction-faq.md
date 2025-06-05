@@ -94,7 +94,7 @@ To learn more, see [Microsoft’s privacy policy](https://go.microsoft.com/fwlin
 
 [Admin roles for Advanced moderation and Keyword monitoring](Viva/engage/lmc-keyword-monitoring-admin-article.md)
 
-[Advanced moderation: keyword monitoring for Viva Engage admins](lmc-keyword-monitoring-howto-for-admin-audience.md)
+[Advanced moderation: keyword monitoring for Viva Engage admins](Viva/engage/lmc-keyword-monitoring-howto-for-admin-audience.md)
 
 For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
 

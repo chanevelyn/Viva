@@ -66,9 +66,9 @@ Take the following steps to assign or manage admin roles in Viva Engage:
 
 [Enable advanced moderation from the admin center](Viva/engage/comms-dashboard-advanced-moderation.md)
 
-[AI Summarization and theme extraction FAQ](/Viva/engage/lmc-ai-summ-and-theme-extraction-faq)
+[AI Summarization and theme extraction FAQ](/Viva/engage/lmc-ai-summ-and-theme-extraction-faq.md)
 
-[Advanced moderation: keyword monitoring for Viva Engage admins](lmc-keyword-monitoring-howto-for-admin-audience.md)
+[Advanced moderation: keyword monitoring for Viva Engage admins](Viva/engage/lmc-keyword-monitoring-howto-for-admin-audience.md)
 
 For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
 

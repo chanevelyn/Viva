@@ -86,7 +86,7 @@ Exclusion of Private Messages employs the following safeguards:
 
 [Enable advanced moderation from the admin center](Viva/engage/comms-dashboard-advanced-moderation.md)
 
-[AI Summarization and theme extraction FAQ](/Viva/engage/lmc-ai-summ-and-theme-extraction-faq)
+[AI Summarization and theme extraction FAQ](/Viva/engage/lmc-ai-summ-and-theme-extraction-faq.md)
 
 [Admin roles for Advanced moderation and Keyword monitoring](Viva/engage/lmc-keyword-monitoring-admin-article.md)
 
