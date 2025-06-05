@@ -66,7 +66,7 @@ In addition, before you can run the query and populate the report in Power BI, y
 
 * Be assigned the role of **Insights Analyst** in Viva Insights. [Learn more about how to assign roles](../../setup-maint/assign-user-roles.md).
 * Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/getting-started-with-power-bi) to download and install the latest version.
-* [Ensure that data from Copilot Studio flows to Viva Insights](#where-to-find-power-platform-admin-center-settings).
+* [Ensure that data from Copilot Studio flows to Viva Insights](#where-to-find-power-platform-admin-center-settings). By default, Copilot Studio data flows to Viva Insights.
 
 ## Report setup
 
@@ -90,7 +90,7 @@ In addition, before you can run the query and populate the report in Power BI, y
     > [!NOTE]
     > The **More settings** pane also contains **Group by** and **Metric rule** settings. This Power BI query is set to **Group by Month**, and you can't change this setting, and neither can you change the **Metric rule** setting.
 
-4. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can't remove them. Session-related metrics are always available, but the availability of topic- and Knowledge source-related metrics depends on the data available from Copilot Studio. You can add other metrics by selecting **Add metrics**.
+4. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can't remove them. You can't add other metrics for this report.
 
 5. Under **Select which agents you want to include in the query**, add filters to narrow down the agents in scope for your report. You can filter by agent name, agent surface, and agent type.
 
