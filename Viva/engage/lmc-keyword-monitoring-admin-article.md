@@ -21,13 +21,13 @@ search.appverid:
 
 # Admin roles for Advanced moderation and Keyword monitoring
 
-Engage supports admin roles to efficiently manage network settings, content, and communications. You can assign and manage these roles directly through the Engage admin center.
+Viva Engage supports admin roles to efficiently manage network settings, content, and communications. You can assign and manage these roles directly through the Viva Engage **Admin center**.
 
-You can assign the following roles in the Engage Admin Center for use with the advanced moderation and keyword monitoring features:
+You can assign the following roles in the Admin center for use with advanced moderation and keyword monitoring features:
 
 - Verified Admin
 - Network Admin
-- Viva Engage Admin
+- Engage Admin
 - Corporate Communicator (requires advanced moderation granular permissions)
 
 For a detailed breakdown of admin role capabilities and their hierarchy, see [Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions).
@@ -35,7 +35,7 @@ For a detailed breakdown of admin role capabilities and their hierarchy, see [Ma
 ## Advanced Moderation Access for Corporate Communicators
 
 >[!NOTE]
->The advanced moderation permission is OFF by default and must be explicitly enabled for the user. Verified Admins, Network Admins, and Engage Admins can assign the advanced moderation permission to corporate communicators.
+>The advanced moderation permission is OFF by default. Verified Admins, Network Admins, and Engage Admins can assign the advanced moderation permission to corporate communicator accounts.
 
 Admins can grant a granular permission to Corporate Communicators for advanced moderation capabilities.
 
