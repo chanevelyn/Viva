@@ -49,7 +49,7 @@ Admin center configuration options vary based on licensing that includes Microso
 
 6. Optionally, use the **Confirmation message** setting to explain to your employees what happens after they submit a report. Set expectations for when the submitter can expect a response and describe next steps for the organization. This field is limited to 1,500 characters.  
 
-    :::image type="content" source="../media/admin-center-report-conversation-settings.png" alt-text="Screenshot shows the reporting admin panel.":::
+    :::image type="content" source="../media/engage/admin/admin-center-report-conversation-settings.png" alt-text="Screenshot shows the reporting admin panel.":::
 
 ### End user experience
 
