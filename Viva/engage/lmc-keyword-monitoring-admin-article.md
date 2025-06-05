@@ -39,7 +39,7 @@ For a detailed breakdown of admin role capabilities and their hierarchy, see [Ma
 
 Admins can grant a granular permission to Corporate Communicators for advanced moderation capabilities.
 
-When it's enabled, the advanced moderation permission allows Corporate Communicators to perform the following tasks:
+The advanced moderation permission allows Corporate Communicators to perform the following tasks:
 
 - Create and manage AI-based moderation themes
 - Set up and monitor keywords across the network
