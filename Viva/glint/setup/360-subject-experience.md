@@ -149,13 +149,23 @@ From your 360 report, you have access to a Report Recipients section that lists 
 > [!NOTE]
 > Subjects that don’t have access to their 360 reports still have visibility to view Report Recipients.
 
-#### Manager access to direct reports' 360 results
+#### Manager and Coach access to a Subject's 360 results
 
-To view 360 results for direct reports, managers can follow these steps:
+> [!NOTE]
+> When available, access 360 reports with links sent in Viva Glint 360 report notification emails.
+
+To view 360 results for direct reports, **managers** can follow these steps:
 
 1. Go to **Focus areas**.
 2. Select the **My directs** tab next to **My Focus areas**.
 3. Choose the card for the user whose report you want to view.
+4. Select the **Feedback** tab on their **Focus areas** page to view their 360 report.
+
+To view 360 results for subjects, **managers** and **coaches** can follow these steps:
+
+1. From the Viva Glint dashboard, select the search icon.
+2. Enter the name of the 360 subject whose report you want to view.
+3. Select the subject in search results.
 4. Select the **Feedback** tab on their **Focus areas** page to view their 360 report.
 
 ## Opt out of becoming a subject
