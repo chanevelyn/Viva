@@ -1,5 +1,5 @@
 ---
-ms.date: 05/5/2025
+ms.date: 06/5/2025
 title: Delete Copilot Studio agents data in Viva Insights
 description: Learn how to delete data from Microsoft Copilot Studio agents in Viva Insights, which is used for the Copilot Studio agents report.
 author: zachminers

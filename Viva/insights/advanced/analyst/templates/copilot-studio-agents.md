@@ -1,5 +1,5 @@
 ---
-ms.date: 05/5/2025
+ms.date: 06/5/2025
 title: Copilot Studio agents report
 description: Learn how to use the Copilot Studio agents Power BI template to understand the adoption and impact of Microsoft 365 Copilot custom agents across your organization.
 author: zachminers
@@ -40,18 +40,14 @@ This report can help you answer questions such as:
 Agents built in Microsoft Copilot Studio that are deployed in channels such as: 
 
 * Custom and demo websites 
-* Microsoft Teams and Microsoft 365 Copilot, including agents built using Agent builder in Microsoft 365 Copilot 
+* Microsoft Teams and Microsoft 365 Copilot
 * Mobile apps 
 * Facebook 
 * Azure bot service channels such as Skype, Twilio, and Microsoft Cortana 
 
 ### What's *not* covered in this report:
 
-1. Agents that enhance Microsoft 365 Copilot:
-
-* Agents built using Microsoft Copilot Studio which are [published to Microsoft 365 Copilot](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) and Copilot Chat using the setting **Make agent available in Microsoft 365 Copilot**
-
-* Agents published to [use within Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview) and Copilot Chat (declarative agents), regardless of how they're built and published
+1. Agents built using Microsoft Copilot Studio which are [published to Microsoft 365 Copilot](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) and Copilot Chat using the setting **Make agent available in Microsoft 365 Copilot**
 
 2. Autonomous Agents that proactively respond to signals across your business and initiate tasks, which can be configured to react to events or triggers without human intervention. [Learn more](/microsoft-copilot-studio/authoring-triggers-about).
 
@@ -70,7 +66,7 @@ In addition, before you can run the query and populate the report in Power BI, y
 
 * Be assigned the role of **Insights Analyst** in Viva Insights. [Learn more about how to assign roles](../../setup-maint/assign-user-roles.md).
 * Have the June 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/getting-started-with-power-bi) to download and install the latest version.
-* Ensure that data from Copilot Studio flows to Viva Insights. [Learn more](https://go.microsoft.com/fwlink/?linkid=2301464).
+* [Ensure that data from Copilot Studio flows to Viva Insights](#where-to-find-power-platform-admin-center-settings).
 
 ## Report setup
 
@@ -89,9 +85,6 @@ In addition, before you can run the query and populate the report in Power BI, y
 
     3. Set **Auto-refresh** (optional). You can set the query to automatically update by selecting **Auto-refresh**. When you select this option, your query automatically runs and computes a new result every time Viva Insights gets updated agent data.
 
-    > [!NOTE]
-    > If Agent data used in an auto-refreshing query changes (for example, an agent attribute name is changed or an attribute is removed), the query might stop auto-refreshing.
-
     4. Enter a **Description** (optional).
     
     > [!NOTE]
@@ -99,7 +92,7 @@ In addition, before you can run the query and populate the report in Power BI, y
 
 4. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can't remove them. Session-related metrics are always available, but the availability of topic- and Knowledge source-related metrics depends on the data available from Copilot Studio. You can add other metrics by selecting **Add metrics**.
 
-5. Under **Select which agents you want to include in the query**, add filters to narrow down the agents in scope for your report. You can filter by agent name, agent surface, and agent type. [Learn more about filter and metric options](..//..//analyst/filters.md).
+5. Under **Select which agents you want to include in the query**, add filters to narrow down the agents in scope for your report. You can filter by agent name, agent surface, and agent type.
 
 6. Under **Select which agent attributes you want to include in the query**, attributes are selected automatically. Once the query runs, you can use these attributes to group and filter the reports.
 
@@ -145,13 +138,13 @@ Each report page includes the following settings at the top:
 
 * **Time period for the report** – Select the start and end date for the data you'd like to view.
 
-* **Apply filters** – Select the Category, Agent name, Type, and Internal or External values to filter the Agents shown in the report.
+* **Apply filters** – Select the Category, Agent name, and Agent usage type to filter the Agents shown in the report.
 
 ## About this report
 
 The **Copilot Studio agents report** includes the following report pages to help you better understand agent adoption and KPI's across your organization.
 
-### Custom agent adoption summary  
+### Agent Overview
 
 This page provides an initial overview of adoption of the agents across the organization for the selected filters. The card on the left shows the total number of active agents based on engaged sessions. The left also has cards which show the total number of engaged agent sessions and the impact of agents based on agent assisted hours. Learn more about measuring [agent engagement](/microsoft-copilot-studio/guidance/measuring-engagement) and [outcomes](/microsoft-copilot-studio/guidance/measuring-outcomes).
 
