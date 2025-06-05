@@ -25,12 +25,9 @@ Direct managers assign 360 program subjects. As a 360 subject, a self-assessment
 
 ## Subject Guide
 
-**[Share this PDF version of the  Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
+**[Share this PDF version of the Viva Glint 360 Subject Guide](https://go.microsoft.com/fwlink/?linkid=2282087) with Subjects of 360 programs.**
 
 ## 3-step 360 Subject journey
-
->[!NOTE]
->This journey is written for a 360 Subject so it is shareable. Best practice is to use the PDF guide linked above.
 
 After accessing your 360 program, begin your three-step journey.
 
@@ -63,9 +60,9 @@ You may see prepopulated feedback providers (manager, direct reports, peers). Th
 3.	A banner confirms that your feedback providers are updated. 
 4.	Feedback provider email invitations are sent within 15 minutes of confirming your providers.
 
-### What if enough feedback providers haven't been included?
+### What if enough feedback providers aren't included?
 
-You receive on-screen notification if your minimum number of providers isn't met. Select **Update Feedback Providers** after correcting this issue.
+You receive on-screen notification if your minimum number of feedback providers isn't met. Select **Update Feedback Providers** after correcting this issue.
 
 :::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
 
@@ -105,7 +102,7 @@ During this time, stay engaged:
 You receive an email letting you know to review your report. Use the button in the email or access your report from the Feedback tab on the Viva Glint platform. 
 
 1.	Scroll to the **Feedback History** section to access your completed 360.
-2.	Select the card to open the report. Data shows the number of completed participants (you included) and their initials.
+2.	To open the report, select the card. Data shows the number of completed participants (you included) and their initials.
 3.	On the toolbar, select the horizontal ellipses to review the confidentiality settings. You can also download a PDF of your report.
 4.	Choose a tab to open:
      - **Insights** – A top-level view of your 360 results
@@ -132,7 +129,7 @@ View the total number of comments and the actual comments left by feedback provi
 
 #### Top relative strengths and Top relative opportunities
 
-In this section, take action to better understand where others see you as effective or where there's an opportunity for improvement.  Select **Take action** to view these insights further.
+In this section, take action to better understand where others see you as effective or where there's an opportunity for improvement. Select **Take action** to view these insights further.
 
 #### Overall Scores
 
@@ -154,7 +151,7 @@ From your 360 report, you have access to a Report Recipients section that lists 
 
 #### Manager access to direct reports' 360 results
 
-To view 360 reports for users that report directly to you:
+To view 360 results for direct reports, managers can follow these steps:
 
 1. Go to **Focus areas**.
 2. Select the **My directs** tab next to **My Focus areas**.
