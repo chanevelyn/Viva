@@ -148,7 +148,7 @@ The **Copilot Studio agents report** includes the following report pages to he
 
 ### Agent Overview
 
-This page provides an initial overview of adoption of the agents across the organization for the selected filters. The card on the left shows the total number of active agents based on engaged sessions. The left also has cards which show the total number of engaged agent sessions and the impact of agents based on agent assisted hours. Learn more about measuring [agent engagement](/microsoft-copilot-studio/guidance/measuring-engagement) and [outcomes](/microsoft-copilot-studio/guidance/measuring-outcomes).
+This page provides an initial overview of adoption of the agents across the organization for the selected filters. The card on the left shows the total number of active agents based on engaged sessions. The left also has cards which show the total number of engaged agent sessions and the impact of agents based on Agent assisted hours. Learn more about measuring [agent engagement](/microsoft-copilot-studio/guidance/measuring-engagement) and [outcomes](/microsoft-copilot-studio/guidance/measuring-outcomes).
 
 The card in the middle of the page shows how the number of active agents, number of sessions, and agent assisted hours have changed over time. Use the dropdown to toggle between the metrics.
 
@@ -156,17 +156,17 @@ The card on the right identifies the top five agents based on the number of mont
 
 At the top of the page, you can also filter by Category and Usage type. For Usage type, select **Internal** to see metrics for internal employee-facing scenarios. Select **External** to see metrics for agents used externally, such as on public websites. 
 
-### Identify Top agents used across the organization  
+### Identify top agents used across the organization  
 
 This page lets you focus on top agents sorted in descending order based on the number of monthly engaged sessions, and explore the Key Agent KPI's.  
 
 You can filter the agents on this page using the as Category, Agent name, Type, and Internal or External values.
 
-### Understand Deep Dive Agent Impact page
+### Individual agent deep dive
 
-This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left shows the number of engaged sessions over time, and it highlights Agent session outcomes based on Resolution, Abandons, and Escalatations.
+This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left shows the number of engaged sessions over time, and you can toggle between Agent session outcomes based on Resolution, Abandons, and Escalations.
 
-The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the number of agent assisted hours that could be gained by deploying the agent across the organization. For each **task** in a conversational agent session, the metric compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions. 
+The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the number of Agent assisted hours that could be gained by deploying the agent across the organization. For each **task** in a conversational agent session, the metric compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions. 
 
 The chart on the right shows the number of sessions per topic for the agent in the selected timeframe. [Learn more about topics in Copilot Studio](/microsoft-copilot-studio/guidance/topics-overview).
 
