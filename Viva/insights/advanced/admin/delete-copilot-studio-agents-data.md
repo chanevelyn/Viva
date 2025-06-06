@@ -22,10 +22,12 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Microsoft Copilot Studio sends agents metrics to Viva Insights, which populate the [Copilot Studio agents report](..//..//advanced/analyst/templates/copilot-studio-agents.md).
+Microsoft Copilot Studio sends agents metrics to Viva Insights, which populate the [Copilot Studio agents report](..//..//advanced/analyst/templates/copilot-studio-agents.md). This article shows you how to delete Copilot Studio agents data in Viva Insights.
 
 >[!IMPORTANT]
-> If you delete Copilot Studio agents data, the data can't be recovered. This also stops further data processing, so analysts won't be able to run new reports that use Copilot Studio agents data. You can't un-do this deletion.
+> If you delete Copilot Studio agents data, the data can't be recovered. This also stops further data processing, so analysts won't be able to run new reports that use Copilot Studio agents data.
+>
+>Queries you ran *before* you deleted Copilot Studio agents data are also no longer available to analysts. You can't un-do this deletion.
 
 ### Workflow 
 
@@ -45,7 +47,7 @@ Microsoft Copilot Studio sends agents metrics to Viva Insights, which populate t
     1. On the next screen:
         1. Give your app a name. 
         2. Under **Supported account types**, leave the first option, **Accounts in this organizational directory only ([Your organization] only - Single tenant)**, selected. 
-        3. Under **Redirect URI (optional)**, select **Public Client/native (mobile and desktop)** and provide the following URI: https://login.microsoftonline.com/common/oauth2/nativeclient. 
+        3. Under **Redirect URI (optional)**, select **Public Client/native (mobile and desktop)** and provide the following URI: https://login.microsoftonline.com/common/oauth2/nativeclient.
         4. At the bottom, select **Register**.
 
         :::image type="content" source="../images/delete-agent-data-register-app.png" alt-text="Screenshot that shows how to register a new app in Azure.":::
@@ -68,9 +70,10 @@ Microsoft Copilot Studio sends agents metrics to Viva Insights, which populate t
     
     When you remove permissions for the Microsoft Graph API, you're making sure the app only has permissions for what it needs.
 
-[Learn more about how to register an app in Azure](/entra/identity-platform/quickstart-register-app).
-
-[Learn more about who can register applications](/security/zero-trust/develop/app-registration#who-can-add-and-register-applications).
+> [!NOTE]
+> [Learn more about how to register an app in Azure](/entra/identity-platform/quickstart-register-app).
+>
+> [Learn more about who can register applications](/security/zero-trust/develop/app-registration#who-can-add-and-register-applications).
 
 ## 2. Grant admin consent to the application 
 
