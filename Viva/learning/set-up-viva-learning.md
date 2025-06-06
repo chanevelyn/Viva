@@ -81,9 +81,18 @@ In the Microsoft Admin Center, go to:
 
 1. **Settings** > **Viva** > **Viva Learning**.
 
-2. Select **Manage additional settings in Viva Learning**.
+1. Select **Manage additional settings in Viva Learning**.
 
-3. Check or uncheck the following setting: **Allow users to track their recommended trainings.** 
+1. Check or uncheck the following setting: **Allow users to track their recommended trainings.** 
+
+## Admin Toggle to enable/disable feature for Marking Courses as Complete
+
+Learners can manually mark courses as completed when the Content provider doesn't provide the completion signals to Viva Learning. This feature enables admins to turn off/on this Mark complete feature from settings page. Mark courses as complete feature is by default set On.  
+![Screenshot showing admin settings.](media/set-up-viva-learning/image.png)
+
+On disabling the toggle there will be a confirmation pop up and select of Confirm button setting is saved. The last modified date and last modified by will be captured by the system. Once the feature is disabled learners will not be able to mark course as complete as Mark Complete button is disabled. The same experience will be seen in courses in Academes and Learning paths.  
+![Screenshot showing the learner experience.](media/set-up-viva-learning/image1.png)
+
 
 ## Next steps
 
