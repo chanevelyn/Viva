@@ -88,9 +88,11 @@ To learn more, see [Microsoft’s privacy policy](https://go.microsoft.com/fwlin
 
 ## What are AI summarization's data usage, data residency and GDPR protections?
 
-AI Summarization and theme extraction features only access existing data within Viva Engage. They operate in the same data compliance framework as Viva Engage, and follow all applicable privacy regulations including GDPR. For details, see [Manage GDPR data subject requests in Viva Engage]() and [Understand how privacy works in Microsoft Viva]()
+AI Summarization and theme extraction access only existing data within Viva Engage. They operate in the same data compliance framework as Viva Engage, and follow all applicable privacy regulations including GDPR. For details, see [Manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise) and [Privacy in Microsoft Viva](https://learn.microsoft.com/viva/viva-privacy).
 
 ## See also
+
+[The Communications dashboard](https://support.microsoft.com/topic/bef4b52-ffb2-4832-8e5b-709bd04bee3b)
 
 [Enable advanced moderation from the admin center](comms-dashboard-advanced-moderation.md)
 

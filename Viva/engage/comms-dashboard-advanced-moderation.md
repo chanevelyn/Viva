@@ -45,6 +45,10 @@ When you add new themes, ongoing conversations that match themes start to popula
 
 ## See also
 
+[The Communications dashboard](https://support.microsoft.com/topic/bef4b52-ffb2-4832-8e5b-709bd04bee3b)
+
+For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).
+
 [AI Summarization and theme extraction FAQ](lmc-ai-summ-and-theme-extraction-faq.md)
 
 [Admin roles for Advanced moderation and Keyword monitoring](lmc-keyword-monitoring-admin-article.md)
@@ -52,5 +56,3 @@ When you add new themes, ongoing conversations that match themes start to popula
 [Advanced moderation: keyword monitoring for Viva Engage admins](lmc-keyword-monitoring-howto-for-admin-audience.md)
 
 For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
-
-For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).

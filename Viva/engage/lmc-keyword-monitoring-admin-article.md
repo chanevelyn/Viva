@@ -64,6 +64,8 @@ Take the following steps to assign or manage admin roles in Viva Engage:
 
 ## See also
 
+[The Communications dashboard](https://support.microsoft.com/topic/bef4b52-ffb2-4832-8e5b-709bd04bee3b)
+
 [Enable advanced moderation from the admin center](comms-dashboard-advanced-moderation.md)
 
 [AI Summarization and theme extraction FAQ](lmc-ai-summ-and-theme-extraction-faq.md)
