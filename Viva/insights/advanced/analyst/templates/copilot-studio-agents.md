@@ -158,13 +158,13 @@ At the top of the page, you can also filter by Category and Usage type. For Usag
 
 ### Identify top agents used across the organization  
 
-This page lets you focus on top agents sorted in descending order based on the number of monthly engaged sessions, and explore the Key Agent KPI's.  
+This page lets you focus on top agents sorted in descending order based on the number of monthly engaged sessions, and explore the key Agent KPIs.  
 
-You can filter the agents on this page using the as Category, Agent name, Type, and Internal or External values.
+You can filter the agents on this page using the Category, Agent name, and Usage type such as internal or external to the organization.
 
 ### Individual agent deep dive
 
-This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left shows the number of engaged sessions over time, and you can toggle between Agent session outcomes based on Resolution, Abandons, and Escalations.
+This page provides a deep dive into specific KPIs for particular agents using your selected filters. The chart on the left shows the number of engaged sessions over time, and you can toggle between this and Agent session outcomes based on Resolution, Abandons, and Escalations.
 
 The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the number of Agent assisted hours that could be gained by deploying the agent across the organization. For each task in a conversational agent session, the metric compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions. 
 
