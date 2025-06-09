@@ -77,7 +77,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Africa/Nouakchott |  +00:00 |    +00:00 |    Mauritania |    MR | 
  | Africa/Ouagadougou |     +00:00 |    +00:00 |    Burkina Faso |  BF | 
  | Africa/Porto-Novo |  +01:00 |    +01:00 |    Benin |     BJ | 
- | Africa/Sao_Tome |    +00:00 |    +00:00 |    Sao Tome and Principe |     ST | 
+ | Africa/Sao_Tome |    +00:00 |    +00:00 |    São Tomé and Príncipe |     ST | 
  | Africa/Timbuktu |    +00:00 |    +00:00 |    Mali |  ML | 
  | Africa/Tripoli |     +02:00 |    +02:00 |    Libya |     LY | 
  | Africa/Tunis |   +01:00 |    +01:00 |    Tunisia |   TN | 
@@ -337,14 +337,14 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Asia/Dubai |     +04:00 |    +04:00 |    United Arab Emirates (the), Oman, Réunion, Seychelles, French Southern Territories (the) |  AE, OM, RE, SC, TF | 
  | Asia/Dushanbe |  +05:00 |    +05:00 |    Tajikistan |    TJ | 
  | Asia/Famagusta |     +02:00 |    +03:00 |    Cyprus |    CY | 
- | Asia/Gaza |  +02:00 |    +03:00 |    Palestine, State of |   PS | 
+ | Asia/Gaza |  +02:00 |    +03:00 |    Palestinian Authority |   PS | 
  | Asia/Harbin |    +08:00 |    +08:00 |    China |     CN | 
- | Asia/Hebron |    +02:00 |    +03:00 |    Palestine, State of |   PS | 
+ | Asia/Hebron |    +02:00 |    +03:00 |    Palestinian Authority |   PS | 
  | Asia/Ho_Chi_Minh |   +07:00 |    +07:00 |    Viet Nam |  VN | 
- | Asia/Hong_Kong |     +08:00 |    +08:00 |    Hong Kong |     HK | 
+ | Asia/Hong_Kong |     +08:00 |    +08:00 |    Hong Kong SAR |     HK | 
  | Asia/Hovd |  +07:00 |    +07:00 |    Mongolia |  MN | 
  | Asia/Irkutsk |   +08:00 |    +08:00 |    Russian Federation (the) |  RU | 
- | Asia/Istanbul |  +03:00 |    +03:00 |    Turkey |    TR | 
+ | Asia/Istanbul |  +03:00 |    +03:00 |    Türkiye |    TR | 
  | Asia/Jakarta |   +07:00 |    +07:00 |    Indonesia |     ID | 
  | Asia/Jayapura |  +09:00 |    +09:00 |    Indonesia |     ID | 
  | Asia/Jerusalem |     +02:00 |    +03:00 |    Israel |    IL | 
@@ -360,8 +360,8 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Asia/Kuala_Lumpur |  +08:00 |    +08:00 |    Malaysia |  MY | 
  | Asia/Kuching |   +08:00 |    +08:00 |    Malaysia, Brunei Darussalam |   MY, BN | 
  | Asia/Kuwait |    +03:00 |    +03:00 |    Kuwait |    KW | 
- | Asia/Macao |     +08:00 |    +08:00 |    Macao |     MO | 
- | Asia/Macau |     +08:00 |    +08:00 |    Macao |     MO | 
+ | Asia/Macao |     +08:00 |    +08:00 |    Macao SAR |     MO | 
+ | Asia/Macau |     +08:00 |    +08:00 |    Macao SAR |     MO | 
  | Asia/Magadan |   +11:00 |    +11:00 |    Russian Federation (the) |  RU | 
  | Asia/Makassar |  +08:00 |    +08:00 |    Indonesia |     ID | 
  | Asia/Manila |    +08:00 |    +08:00 |    Philippines (the) |     PH | 
@@ -515,7 +515,7 @@ Select a default time zone in Microsoft Viva Glint [General settings](manage-gen
  | Europe/Guernsey |    +00:00 |    +01:00 |    Guernsey |  GG | 
  | Europe/Helsinki |    +02:00 |    +03:00 |    Finland, Åland Islands |    FI, AX | 
  | Europe/Isle_of_Man |     +00:00 |    +01:00 |    Isle of Man |   IM | 
- | Europe/Istanbul |    +03:00 |    +03:00 |    Turkey |    TR | 
+ | Europe/Istanbul |    +03:00 |    +03:00 |    Türkiye |    TR | 
  | Europe/Jersey |  +00:00 |    +01:00 |    Jersey |    JE | 
  | Europe/Kaliningrad |     +02:00 |    +02:00 |    Russian Federation (the) |  RU | 
  | Europe/Kiev |    +02:00 |    +03:00 |    Ukraine |   UA | 
