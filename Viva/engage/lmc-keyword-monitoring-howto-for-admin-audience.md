@@ -84,7 +84,7 @@ Exclusion of Private Messages employs the following safeguards:
 
 ## See also
 
-[The Communications dashboard](https://support.microsoft.com/topic/bef4b52-ffb2-4832-8e5b-709bd04bee3b)
+[The Communications dashboard](https://support.microsoft.com/topic/communications-dashboard-bbef4b52-ffb2-4832-8e5b-709bd04bee3b)
 
 [Enable advanced moderation from the admin center](comms-dashboard-advanced-moderation.md)
 
@@ -94,4 +94,4 @@ Exclusion of Private Messages employs the following safeguards:
 
 For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
 
-For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).
+For a more detailed walkthrough of advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](hhttps://support.microsoft.com/topic/communications-dashboard-advanced-moderation-13f58cf0-b8e5-40ab-bc55-34d69f762c1d).

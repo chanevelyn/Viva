@@ -88,11 +88,11 @@ To learn more, see [Microsoft’s privacy policy](https://go.microsoft.com/fwlin
 
 ## What are AI summarization's data usage, data residency and GDPR protections?
 
-AI Summarization and theme extraction access only existing data within Viva Engage. They operate in the same data compliance framework as Viva Engage, and follow all applicable privacy regulations including GDPR. For details, see [Manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
+AI Summarization and theme extraction access only existing data within Viva Engage. They operate in the same data compliance framework as Viva Engage, and follow all applicable privacy regulations including GDPR. For details, see [Manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md) and [Privacy in Microsoft Viva](../viva/viva-privacy.md).
 
 ## See also
 
-[The Communications dashboard](https://support.microsoft.com/topic/bef4b52-ffb2-4832-8e5b-709bd04bee3b)
+[The Communications dashboard](https://support.microsoft.com/topic/communications-dashboard-bbef4b52-ffb2-4832-8e5b-709bd04bee3b)
 
 [Enable advanced moderation from the admin center](comms-dashboard-advanced-moderation.md)
 
@@ -102,4 +102,4 @@ AI Summarization and theme extraction access only existing data within Viva Enga
 
 For more information about how AI works in Viva Engage, see [Data, Privacy, and Security for Microsoft 365 Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage).
 
-For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).
+For a more detailed walkthrough of advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/communications-dashboard-advanced-moderation-13f58cf0-b8e5-40ab-bc55-34d69f762c1d).

@@ -45,9 +45,9 @@ When you add new themes, ongoing conversations that match themes start to popula
 
 ## See also
 
-[The Communications dashboard](https://support.microsoft.com/topic/bef4b52-ffb2-4832-8e5b-709bd04bee3b)
+[The Communications dashboard](https://support.microsoft.com/topic/communications-dashboard-bbef4b52-ffb2-4832-8e5b-709bd04bee3b)
 
-For a more detailed walkthrough of Advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/13f58cf0-b8e5-40ab-bc55-34d69f762c1d).
+For a more detailed walkthrough of advanced moderation and its use of themes, see [Communications dashboard: Advanced moderation](https://support.microsoft.com/topic/communications-dashboard-bbef4b52-ffb2-4832-8e5b-709bd04bee3b).
 
 [AI Summarization and theme extraction FAQ](lmc-ai-summ-and-theme-extraction-faq.md)
 
