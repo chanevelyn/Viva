@@ -67,7 +67,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 1. [Export current employee data from the Viva Glint People page](people-page.md#use-the-export-feature) to preserve employees and Manager IDs in their current state. When the retroactive update is complete, reload this data to reset users to their current information.
 1. [Export survey cycle data](#to-export-users) with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey needs to be updated.
 
-   :::image type="content" source="../../media/glint/setup/export-cycle-users.png" alt-text="Screenshot of Viva Glint export survey cycle users data app parameter selection.":::
+   :::image type="content" source="../../media/glint/setup/export-cycle-users.png" alt-text="Screenshot of Viva Glint export survey cycle users data app parameter selection." lightbox="../../media/glint/setup/export-cycle-users.png":::
 
    > [!NOTE]
    > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.
@@ -108,7 +108,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 3. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
 1. Select parameters to update Manager ID:
-   :::image type="content" source="../../media/glint/setup/mgr-retro-id.png" alt-text="Screenshot of Viva Glint retroactive pulse update to update manager ID.":::
+   :::image type="content" source="../../media/glint/setup/mgr-retro-id.png" alt-text="Screenshot of Viva Glint retroactive pulse update to update manager ID." lightbox="../../media/glint/setup/mgr-retro-id.png":::
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
    1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
@@ -121,7 +121,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. **reloadAnalytics:** Switch toggle to **Off**.
    1. Select **Execute, and show first 500 log records**.
 1. Select parameters to update the overall Manager Hierarchy:
-   :::image type="content" source="../../media/glint/setup/mgr-retro-hierarchy.png" alt-text="Screenshot of Viva Glint retroactive pulse update to update manager hierarchy.":::
+   :::image type="content" source="../../media/glint/setup/mgr-retro-hierarchy.png" alt-text="Screenshot of Viva Glint retroactive pulse update to update manager hierarchy." lightbox="../../media/glint/setup/mgr-retro-hierarchy.png":::
 
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
