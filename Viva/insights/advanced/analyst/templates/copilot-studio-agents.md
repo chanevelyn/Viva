@@ -30,7 +30,7 @@ This report can help you answer questions such as:
 * What are top agents' high-level KPI-like sessions, satisfaction scores, and success rates?  
 * What is the impact of individual agents, such as the split of engaged sessions  and topics distribution, as well as the impact of agent-assisted hours?
 
-**Example Agent KPI's**
+**Example Agent KPIs**
 
 * Measuring agent engagement. [Learn more](/microsoft-copilot-studio/guidance/measuring-engagement).
 * Measuring agent outcomes. [Learn more](/microsoft-copilot-studio/guidance/measuring-outcomes).
@@ -144,7 +144,7 @@ Each report page includes the following settings at the top:
 
 ## About this report
 
-The **Copilot Studio agents report** includes the following report pages to help you better understand agent adoption and KPI's across your organization.
+The **Copilot Studio agents report** includes the following report pages to help you better understand agent adoption and KPIs across your organization.
 
 ### Agent Overview
 
