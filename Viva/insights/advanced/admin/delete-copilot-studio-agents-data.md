@@ -27,7 +27,9 @@ Microsoft Copilot Studio sends agents metrics to Viva Insights, which populate t
 >[!IMPORTANT]
 > If you delete Copilot Studio agents data, the data can't be recovered. This also stops further data processing, so analysts won't be able to run new reports that use Copilot Studio agents data.
 >
->Queries you ran *before* you deleted Copilot Studio agents data are also no longer available to analysts. You can't un-do this deletion.
+>Queries you ran *before* you deleted Copilot Studio agents data are also no longer available to analysts. 
+>
+>You can't un-do this deletion.
 
 ### Workflow 
 
