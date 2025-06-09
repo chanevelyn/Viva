@@ -89,7 +89,7 @@ If duplicated users aren't removed, admins see a "FAILED" State for the Retroact
 
 ### To perform a Retroactive User Updates upload
 
-Got to **Configuration** and in **Service Configuration**, select **Advanced Configuration**. For this task, admins access Data Apps and Uploads from the Advanced Configuration menu.
+Go to **Configuration** and in **Service Configuration**, select **Advanced Configuration**. For this task, admins access Data Apps and Uploads from the Advanced Configuration menu.
 
 > [!CAUTION]
 > - Don't perform a retroactive update while a Viva Glint survey is live.
