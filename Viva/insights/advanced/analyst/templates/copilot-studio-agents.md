@@ -166,7 +166,7 @@ You can filter the agents on this page using the as Category, Agent name, Type, 
 
 This page provides a deep dive into specific KPI's for particular agents using your selected filters. The chart on the left shows the number of engaged sessions over time, and you can toggle between Agent session outcomes based on Resolution, Abandons, and Escalations.
 
-The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the number of Agent assisted hours that could be gained by deploying the agent across the organization. For each **task** in a conversational agent session, the metric compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions. 
+The chart in the middle of the page also shows the Agent satisfaction score for the selected timeframe, as well as the number of Agent assisted hours that could be gained by deploying the agent across the organization. For each task in a conversational agent session, the metric compares the difference between the time a human would take and the time an agent actually took, and it sums these differences across all tasks and sessions. 
 
 The chart on the right shows the number of sessions per topic for the agent in the selected timeframe. [Learn more about topics in Copilot Studio](/microsoft-copilot-studio/guidance/topics-overview).
 
