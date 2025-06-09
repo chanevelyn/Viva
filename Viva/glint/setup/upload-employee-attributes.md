@@ -19,13 +19,13 @@ ms.date: 06/09/2025
 
 # Upload your employee data to Viva Glint
 
-User file imports help admins to keep users current with their organization's HRIS system. During the Platform Setup, learn how to upload employee data in the Microsoft Viva Glint application.
+User file imports help admins to keep users current with their organization's HR information system. During the Platform Setup, learn how to upload employee data in the Microsoft Viva Glint application.
 
 > [!WARNING]
 > For security reasons, never email your employee data file.
 
 > [!CAUTION]
-> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users are deactivated and lose access to the platform.
 
 ### File requirements
 
@@ -39,7 +39,7 @@ Use the [employee data file checklist](data-checklist.md) to ensure that your da
 The import function allows you to quickly modify employee records in bulk and add new users.
 
 > [!TIP]
-> Update your employee file on a regular basis. Ensure that your latest employee attributes have been sent and uploaded prior to a survey launch as your attributes can't be changed at the point of survey launch.
+> Update your employee file regularly. Upload current employee data before a survey launch to ensure accurate data in Distribution lists and reporting.
 
 ### Process for import of employee attributes
 
@@ -64,8 +64,8 @@ The following steps guide you through the process of importing the attributes ma
    1. [Troubleshoot errors](/viva/troubleshoot/glint/data-file-upload/data-file-upload-warnings-errors) as needed.
 
 > [!NOTE]
-> - Only the user performing the upload receives an email when the file has processed.
-> - If the file isn't confirmed within 60 minutes of upload, it's cancelled.
+> - Only the user performing the upload receives an email when the file processes.
+> - To prevent the upload from canceling, confirm within 60 minutes of uploading.
 
 ## Update your employee data regularly
 
@@ -74,7 +74,7 @@ Your company can send employee data updates whenever necessary and based on what
 > [!TIP]
 > Update your employee data weekly, or at least at a regular cadence. 
 >
-> If you have fewer than 10,000 employees, a daily feed of the full file should be sufficient, and you won’t have to send an incremental file. If you have a large employee base with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs.
+> If you have fewer than 10,000 employees, a daily feed of the full file should be sufficient. If you have a large employee base with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs.
 
 ## Related topics
 
