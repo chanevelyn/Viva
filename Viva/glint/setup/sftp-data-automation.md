@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2025
+ms.date: 06/09/2025
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -104,7 +104,7 @@ Consistent file format and layout over time ensure successful file imports. Main
 
 ### Naming convention:
 
-Viva Glint recommends the following file naming conventions, where "company-id" is your unique ID within Viva Glint, but this file name method isn't required. Ensure that whichever file name you select is 64 characters or fewer, including the file extension.
+Viva Glint recommends the following file naming conventions, where "company-id" is your unique ID within Viva Glint, but this file name method isn't required. Ensure that whichever file name you select is 50 characters or fewer, including the file extension.
 
 - Company-id_user_full_yyyymmdd.csv
 - Company-id_user_delta_yyyymmdd.csv
