@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/05/2025
+ms.date: 06/09/2025
 ---
 
 # Use Advanced Configuration Uploads
@@ -97,6 +97,8 @@ Got to **Configuration** and in **Service Configuration**, select **Advanced Con
 
 1. Export survey cycle data with the [EXPORT_USERS_FROM_SURVEY_CYCLE Data App](glint-data-apps.md#export_users_from_survey_cycle) for the surveys that need to be updated.
 
+   :::image type="content" source="../../media/glint/setup/export-cycle-users.png" alt-text="Screenshot of Viva Glint export survey cycle users data app parameter selection.":::
+
    > [!NOTE]
    > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.
 
@@ -114,12 +116,20 @@ Got to **Configuration** and in **Service Configuration**, select **Advanced Con
 1. Switch on the **Incremental** toggle.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
 
+   :::image type="content" source="../../media/glint/setup/retro-upload.png" alt-text="Screenshot of Viva Glint retroactive upload parameter selections.":::
+
    > [!CAUTION]
    > To prevent errors, don't upload your file until all previous steps are complete.
    
 1. Confirm the **File to be Uploaded** and select **Upload**.
 1. In the **Upload Job Details** page that appears, confirm that the **Attribute(s)** and **Updated users** count match the attributes and count of users in your uploaded file.
+
+   :::image type="content" source="../../media/glint/setup/retro-view-diff.png" alt-text="Screenshot of Viva Glint retroactive upload details page with attribute differences.":::
+   
 1. Select **Apply Upload to Database** to upload new values and kick off a process to refresh reporting data.
+
+   :::image type="content" source="../../media/glint/setup/retro-apply-upload.png" alt-text="Screenshot of Viva Glint retroactive upload details page with file details and the apply upload option.":::
+   
 1. In the **Load import file into database?** dialog, select **Yes**.
 1. Confirm changes to attributes in your **Dashboard** and **Reports**.
 
