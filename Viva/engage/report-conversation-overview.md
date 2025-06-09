@@ -1,8 +1,8 @@
 ---
-ms.date: 12/26/2024
+ms.date: 06/05/2025
 title: "Report a Viva Engage conversation"
 description: "Configure conversation reporting in Viva Engage to enable people to report conversation starter posts and comments that don't follow guidelines or policies."
-ms.reviewer: ethli
+ms.reviewer: spencerperry
 ms.author: mamiejohnson
 author: v-rgrace
 manager: elizapo
@@ -25,33 +25,31 @@ Viva Engage admins can empower network users to report conversations and comment
 
 Admin center configuration options vary based on licensing that includes Microsoft Purview Communication Compliance:
 
-- **Licenses that don't include communication compliance**. When you enable communication compliance, the Viva Engage admin can define an email address to receive reported conversations. As described in this article, the admin can also enter pre-submission instructions and post-submission confirmations for the user. 
+- **Licenses that don't include communication compliance**. When you enable communication compliance, the Viva Engage admin must define a Microsoft Entra-backed email address to receive reported conversations. As described in this article, the admin can also enter pre-submission instructions and post-submission confirmations for the user.
 
 - **Licenses that do include communication compliance**. When you enable communication compliance, reported conversations automatically route through communication compliance for investigation and remediation. [Learn more about routing reported conversations through Microsoft Purview Communication Compliance](/purview/communication-compliance-policies).
- 
-## To enable conversation reporting without a communication compliance license 
+
+## Enable conversation reporting without a communication compliance license
 
 1. Go to the Viva Engage admin center.
 
-2. In the **Setup & Configuration** tab, select **Tenant settings**. 
+2. In the **Setup & Configuration** tab, select **Tenant settings**.
 
-3. In the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Viva Engage admin center**.
+3. In the Tenant settings page, under **Conversation settings**, select **Edit**.
 
-4. Under **Content & Security** on the left panel, select **Report conversations**.
+4. In the Conversation settings page, enable the **Report conversations** toggle.
 
-    :::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot that shows reporting settings.":::
+5. After you enable conversations, configure the following settings:
 
-5. After you enable conversations, configure the following two settings:
+    - **Email** - Enter an organization email address to receive reports. The email address must be backed by Microsoft Entra ID.
 
-    - **Report recipient (an organization email address)** - Enter an organization email address to receive reports. Viva Engage can't verify that the email address you enter is an organization email address.  
+    - **Introductory message** – Enter messaging that explains the reporting process to users when they select **Report a Conversation**.  
 
-    - **Pre-submission details or instructions for user** – Enter messaging that explains the reporting process to users when they select **Report a Conversation**.  
+    For example, explain who receives the report, and the next steps. If you can, provide a link to the company's network usage guidelines. This field is limited to 1,500 characters.
 
-For example, explain who receives the report, and the next steps. If you can, provide a link to the company's network usage guidelines. This field is limited to 1,500 characters.
+6. Optionally, use the **Confirmation message** setting to explain to your employees what happens after they submit a report. Set expectations for when the submitter can expect a response and describe next steps for the organization. This field is limited to 1,500 characters.  
 
-6. Optionally, use the **Post-submission instructions to user** setting to explain to your employees what happens after they submit a report. Set expectations for when the submitter can expect a response and describe next steps for the organization. This field is limited to 1,500 characters.  
-
-    :::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot shows the reporting admin panel.":::
+    :::image type="content" source="../media/engage/admin/admin-center-report-conversation-settings.png" alt-text="Screenshot shows the reporting admin panel.":::
 
 ### End user experience
 
@@ -59,13 +57,13 @@ When you enable this feature, Viva Engage users see the **Report Conversation** 
 
 :::image type="content" source="../media/viva-engage-conversations-report-dropdown.png" alt-text="Screenshot showing user reporting for conversation starter.":::
 
-**Report Conversation option on conversation starter**
+#### Report Conversation option on conversation starter
 
 :::image type="content" source="../media/viva-engage-conversations-report-comment-dropdown.png" alt-text="Screenshot showing user reporting for comment.":::
 
-**Report Conversation option on conversation comment**
+#### Report Conversation option on conversation comment
 
-Users can find a right-panel pop-out with a custom message from the Engage admin and a required **Reason for Reporting** box.
+Users can find a right-panel pop-out with a custom message from the Viva Engage admin and a required **Reason for Reporting** box.
 
 :::image type="content" source="../media/viva-engage-conversations-report-comment.png" alt-text="Screenshot showing reason for reporting box.":::
 
@@ -94,34 +92,34 @@ The Viva Engage user who submitted the report also receives a copy of this email
 
 ## FAQ
 
-**Q:** I’m a Viva Engage admin. How do I know if my network is eligible for reporting conversations and comments?
+### I’m a Viva Engage admin. How do I know if my network is eligible for reporting conversations and comments?
 
-**A:** All tenants that use seeded or premium Viva Engage for their organization are eligible for the reporting conversations experience.
+The Report conversations feature is available to all tenants.
 
-**Q:** Can I add multiple email addresses to receive the reports?
+### Can I add multiple email addresses to receive the reports?
 
-**A:** You can define only one email. Use a group email or distribution list alias if you want the reports to go to multiple people.
+You can define only one email. Use a group email or distribution list alias if you want the reports to go to multiple people. Reports must go to an organizational email address backed by Entra ID.
 
-**Q:** If my Viva Engage network is eligible for this functionality, is it already on?
+### Is this functionality on by default?
 
-**A:** Viva Engage disables this feature by default. A Viva Engage admin must turn on the feature for users so they can see the option to report conversations and comments.
+Viva Engage disables this feature by default. A Viva Engage admin must turn on the Report conversations feature for users so they can see the option to report conversations and comments.
 
-**Q:** Can users report conversations from external networks?
+### Can users report conversations from external networks?
 
-**A:** Report conversations functionality is only available in the Viva Engage home network. Conversations in external networks can't be reported.
+Report conversations functionality is only available in the Viva Engage home network. Conversations in external networks can't be reported.
 
-**Q:** Can users report private messages or messages in the Viva Engage Inbox?
+### Can users report private Viva Engage messages?
 
-**A:** Report conversations functionality is only available on conversations within communities and the discovery feed.
+Users can't report private messages.
 
-**Q:** Can users report messages from private and secret communities?
+### Can users report messages from private communities?
 
-**A:** Users can report conversations from all public, private, and secret communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private or secret community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
+Users can report conversations from all public and private communities in Viva Engage. The email report includes a link to the original conversation starter where the starter or comment was reported. If the person reviewing the reports doesn't have access to the private community, they can work with the Engage admin to get access to that community for further review. Admins can also work with the community administrator to get access to the reported message.
 
-**Q:** Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
+### Can users report messages from Viva Engage integrations with Teams, Outlook, and SharePoint?
 
-**A:** Conversation reporting is only available from Viva Engage Teams integration.
+Users can report conversations from the Viva Engage app in Teams.
 
-**Q:** How do I route reported conversations through Microsoft Purview Communication Compliance instead of using a single email address to report conversations?
+### How do I route reported conversations through Microsoft Purview Communication Compliance instead of using a single email address to report conversations?
 
-**A:** If you have a license that includes communication compliance, [learn how to take advantage of review and remediation capabilities of Microsoft Purview Communication Compliance](/purview/communication-compliance-policies).
+If you have a license that includes communication compliance, [learn how to take advantage of review and remediation capabilities of Microsoft Purview Communication Compliance](/purview/communication-compliance-policies).
