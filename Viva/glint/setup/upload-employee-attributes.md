@@ -1,5 +1,5 @@
 ---
-title: Upload your employee attributes in Viva Glint
+title: Upload your employee data to Viva Glint
 description: Learn how Viva Glint provides the most relevant results reporting when employee attributes are uploaded on a regular cadence.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -14,15 +14,15 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/21/2024
+ms.date: 06/09/2025
 ---
 
-# Upload your employee attributes to Viva Glint
+# Upload your employee data to Viva Glint
 
 User file imports help admins to keep users current with their organization's HRIS system. During the Platform Setup, learn how to upload employee data in the Microsoft Viva Glint application.
 
->[!WARNING]
-> For security reasons, never email your employee attributes file.
+> [!WARNING]
+> For security reasons, never email your employee data file.
 
 > [!CAUTION]
 > Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
@@ -30,6 +30,9 @@ User file imports help admins to keep users current with their organization's HR
 ### File requirements
 
 Use the [employee data file checklist](data-checklist.md) to ensure that your data meets all of Viva Glint's requirements.
+
+> [!CAUTION]
+> To prevent upload errors, ensure that the file name doesn't exceed 50 characters.
 
 ## Import employee data
 
