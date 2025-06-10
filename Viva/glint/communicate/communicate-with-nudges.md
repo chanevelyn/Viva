@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/24/2025
+ms.date: 06/10/2025
 ---
 
 # Communicate with Viva Glint Nudges
@@ -98,6 +98,9 @@ Select the **Nudge #** to enable, disable, or preview Nudge messages. The corres
 #### View enabled programs 
 
 When Viva Glint Admins enable Nudges for Recurring and Ad Hoc surveys in Program Setup, they appear in the **Enabled programs** list. 
+
+> [!NOTE]
+> For new Recipient groups, Survey programs appear in this section after the new group is saved.
 
 To enable **Nudges** for a survey program:
 
