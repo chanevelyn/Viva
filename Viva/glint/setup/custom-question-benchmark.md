@@ -67,7 +67,7 @@ To view which benchmarks have a score available for a Viva Glint question:
    :::image type="content" source="../../media/glint/setup/view-benchmark-info.png" alt-text="Screenshot of benchmark information options available at the question level.":::
 
    > [!NOTE]
-   > Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmarks.md#selecting-external-benchmarks-after-admin-consent).
+   > Benchmark suites in the "x of y external benchmarks" dialog are based on [external benchmark suites selected in General Settings](opting-into-external-benchmarks.md#give-consent-to-and-select-external-benchmarks).
 
 ### Link a question in Program Setup
 
