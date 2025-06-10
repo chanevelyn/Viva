@@ -50,6 +50,12 @@ When a survey closes, Manager Hierarchy information that displays in reporting i
 
 If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](advanced-config-uploads.md) feature instead.
 
+Common scenarios for a Manager Hierarchy retroactive update include:
+
+- A manager leaves the organization and is replaced by another manager
+- A company goes through a reorganization and new manager/team alignment needs to be added
+- The current Manager Hierarchy wasn't uploaded to Viva Glint before survey launch
+
 ### Employee Lifecycle and Always-On surveys
 
 Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a survey cycle that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for the same user during a retroactive update. An admin can remove users who have multiple records when preparing a file of corrected user data.
