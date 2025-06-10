@@ -85,7 +85,7 @@ Admins can extend a survey under these conditions:
    :::image type="content" source="../../media/glint/setup/extend-live-survey.png" alt-text="Screenshot of starting point to extend a live survey.":::
    
 1. Select **Manage Schedule & Invites** from the dropdown menu. The **Manage Schedule** panel opens.
-1. Use the up arrow in the **Response window** field to add days onto the survey. In this example, the survey date has been extended to 18 days, from the original 14 days.
+1. Use the up arrow in the **Response window** field to add days onto the survey. In this example, the survey date is extended to 18 days, from the original 14 days.
 1. Select **Save Changes**.
 
    :::image type="content" source="../../media/glint/setup/extend-manage-schedule.png" alt-text="Screenshot of Manage Schedule panel to extend a live survey.":::
