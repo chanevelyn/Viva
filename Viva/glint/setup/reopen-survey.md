@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2025
+ms.date: 06/10/2025
 ---
 
 # Reopen or extend a Viva Glint survey cycle
@@ -75,6 +75,9 @@ Admins can extend a survey under these conditions:
 > - On March 8, you decide to extend the Close Date to March 15. The survey close notification automatically moves to March 18.
 
 ## Process to extend a live survey cycle window
+
+> [!NOTE]
+> For Lifecycle and Always-On surveys, the new survey cycle window only applies to surveys generated after this change is saved.
 
 1. From your admin dashboard, select **Configuration** and then **Survey programs**.
 2. From the **Upcoming and Live** tab, select the **Live survey cycle** and then select the **horizontal ellipses** that display.
