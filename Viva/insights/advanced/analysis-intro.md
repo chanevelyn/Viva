@@ -127,4 +127,4 @@ We welcome your feedback on the platform! Like in other Microsoft products, you 
 
 ### Community
 
-[!INCLUDE [Viva Insights community](../personal/includes/insights-community.md)]
+Visit the [Viva Insights community](../personal/includes/insights-community.md) to connect with other Viva Insights users and share your experiences, contribute and receive support for common questions, and stay up to date on the latest features and tools.
