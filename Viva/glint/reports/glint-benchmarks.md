@@ -6,7 +6,6 @@ author: AliciaWeixelman
 manager: jose.milanes
 audience: admin
 f1.keywords: NOCSH
-keywords: external benchmark suites, benchmark collateral
 ms.collection:  
 - m365initiative-viva
 - selfserve 
