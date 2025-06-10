@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: checklist
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/08/2025
+ms.date: 06/09/2025
 ---
 
 # Review employee data with Viva Glint checklists
@@ -25,7 +25,7 @@ Confirm that your employee data file, attributes, and attribute values align wit
 
 |Item   |Check that...   |
 |:----------|:-----------|
-|File name    |There aren't special characters (like @ or %) in the name.       |
+|File name    |There aren't special characters (like @ or %) in the name and it doesn't exceed 50 characters.       |
 |File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).  |
 |File encoding    |The .csv file is UTF-8 or UTF-8 with BOM encoded. |
 |File encryption    |If you opt for PGP encryption, the file extension reflects the encryption (for example: filename.csv.pgp).       |

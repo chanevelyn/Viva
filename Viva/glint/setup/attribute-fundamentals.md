@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/08/2025
+ms.date: 06/09/2025
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -35,7 +35,7 @@ Attribute column headers (labels) are unique to your organization. For example, 
 
 | **Attribute** | **Description/Notes** | **Required for Engagement surveys** | **Required for Employee Lifecycle surveys** |
 |---|---|---|---|
-| **Status** | Must always be fully capitalized ACTIVE or INACTIVE.<br>An employee on temporary leave should have their status updated to INACTIVE and then returned to ACTIVE upon return. | Yes | Yes |
+| **Status** | Must always be fully capitalized ACTIVE or INACTIVE.<br>An employee on temporary leave should have their status updated to INACTIVE and then returned to ACTIVE upon return. <br><br> **Note:** DELETED and SUPPORT statuses also exist in Viva Glint but aren't valid values for regular employee uploads.| Yes | Yes |
 | **First name** | Appears in email invites and reminders (can be the legal first name, preferred first name, or whichever is in your HRIS). | Yes | Yes |
 | **Last name** | Employee’s legal last name field from your HRIS. | Yes | Yes |
 | **Employee ID** | Each employee has a unique ID. Don't use blanks or spaces. | Yes | Yes |

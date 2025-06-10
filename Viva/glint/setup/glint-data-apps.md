@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/03/2025
+ms.date: 06/09/2025
 ---
 
 # Use Advanced Configuration Data Apps
@@ -50,6 +50,12 @@ When a survey closes, Manager Hierarchy information that displays in reporting i
 
 If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](advanced-config-uploads.md) feature instead.
 
+Common scenarios for a Manager Hierarchy retroactive update include:
+
+- A manager leaves the organization and is replaced by another manager
+- A company goes through a reorganization and new manager/team alignment needs to be added
+- The current Manager Hierarchy wasn't uploaded to Viva Glint before survey launch
+
 ### Employee Lifecycle and Always-On surveys
 
 Ongoing survey types like Lifecycle and Always-On can have the same user respond multiple times in a survey cycle that may need a retroactive update. Viva Glint retroactive updates don't currently support attribute value updates to multiple records for the same user during a retroactive update. An admin can remove users who have multiple records when preparing a file of corrected user data.
@@ -64,8 +70,10 @@ If duplicated users aren't removed, admins see a "Failed to run the data app RET
 
 Use these steps when manager reporting lines need to be corrected for a closed survey.
 
-1. Export current employee data from the Viva Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, reload this data to reset users to their current information.
-1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey needs to be updated.
+1. [Export current employee data from the Viva Glint People page](people-page.md#use-the-export-feature) to preserve employees and Manager IDs in their current state. When the retroactive update is complete, reload this data to reset users to their current information.
+1. [Export survey cycle data](#to-export-users) with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey needs to be updated.
+
+   :::image type="content" source="../../media/glint/setup/export-cycle-users.png" alt-text="Screenshot of Viva Glint export survey cycle users data app parameter selection." lightbox="../../media/glint/setup/export-cycle-users.png":::
 
    > [!NOTE]
    > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.
@@ -106,6 +114,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 3. After uploading your corrected data on the **People** page and creating a Distribution List, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
 1. Select parameters to update Manager ID:
+   :::image type="content" source="../../media/glint/setup/mgr-retro-id.png" alt-text="Screenshot of Viva Glint retroactive pulse update to update manager ID." lightbox="../../media/glint/setup/mgr-retro-id.png":::
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
    1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.
@@ -118,6 +127,8 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. **reloadAnalytics:** Switch toggle to **Off**.
    1. Select **Execute, and show first 500 log records**.
 1. Select parameters to update the overall Manager Hierarchy:
+   :::image type="content" source="../../media/glint/setup/mgr-retro-hierarchy.png" alt-text="Screenshot of Viva Glint retroactive pulse update to update manager hierarchy." lightbox="../../media/glint/setup/mgr-retro-hierarchy.png":::
+
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
    1. **roleOrDistributionList:**  Select **Load Values** and choose the Distribution List created in Step 6.

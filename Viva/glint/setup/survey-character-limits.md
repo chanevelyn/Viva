@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/14/2024
+ms.date: 06/09/2025
 ---
 
 # Survey field character limits in Viva Glint programs
@@ -28,7 +28,7 @@ The character limits for each open text area in your survey setup are given in t
 | Customer UUID | 64 |
 | Data File Attribute Values | 64 |
 | Data File Attribute Labels | 64 |
-| Data File Name | 255 |
+| Data File Name | 50 |
 
 ## Survey Text
 
@@ -36,7 +36,7 @@ The character limits for each open text area in your survey setup are given in t
 | --- | --- |
 | Program Name | 50 |
 | Intro Text | 1024 |
-| Company Message to Survey Participants | 1024 |
+| Company Message to Survey Participants | 3000 |
 | Thank You Text | 1024 |
 | Description | 4000 if imported and 1024 if edited directly in the program |
 | Section Title | 128 |
