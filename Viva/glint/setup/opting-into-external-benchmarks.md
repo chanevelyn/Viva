@@ -37,15 +37,15 @@ To opt into external benchmarks:
 
 1. Go to **Configuration** and choose **General settings** in **Service configuration.**
 1. In **Reporting**, go to **External benchmarks** and select A**dd external benchmarks**.
-1. In the edit pane that appears, the external benchmark option is Off bf default:
-   :::image type="content" source="../../media/glint/setup/consent-external-benchmarks.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned Off.":::
+1. In the edit pane that appears, the external benchmark option is Off by default:
+   :::image type="content" source="../../media/glint/setup/consent-external-benchmarks2.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned Off.":::
    
 1. Review the external benchmark statement and switch the toggle to **On** to opt into and enable external benchmarks.
 
    > [!IMPORTANT]
-   > The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content — including data collected through your use of Viva Glint — for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization. We will not identify your organization or reveal the content of survey comments in these benchmarks" 
+   > The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content—including data collected through your use of Viva Glint—for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization. We will not identify your organization or reveal the content of survey comments in these benchmarks" 
 
-   :::image type="content" source="../../media/glint/setup/select-external-benchmarks.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned On.":::
+   :::image type="content" source="../../media/glint/setup/select-external-benchmarks2.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned On.":::
 
 1. Use the categories dropdown menu and the Search field to find external benchmark suites for your organization. Categories include:
    
@@ -59,6 +59,6 @@ To opt into external benchmarks:
 1. Select the checkbox next to each external benchmark that should be available to users in reports and select **Save changes**.
    
    > [!NOTE]
-   > External benchmark suites are only available for admins to select when the external benchmark toggle is ebabled.
+   > External benchmark suites are only available for admins to select when the external benchmark toggle is enabled.
 
 
