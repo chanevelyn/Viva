@@ -85,11 +85,12 @@ Defines when and how frequently users receive Nudges. From the dropdown menu, ch
       
 #### Enable, disable, and preview content 
 
-Select the **Nudge #** to enable, disable, or preview Nudge messages. The corresponding preview pane opens.
+Select the **Edit & Preview** option on each Nudge to enable, disable, or preview Nudge messages. The corresponding preview pane opens.
 
 - Enable or disable by using the **On** and **Off** toggle. 
 - Preview what your Nudge looks like: It includes your company logo, the survey name, highlight where the user is in the results process, and a link to view results.
-- Results process: 
+
+Available Nudge messages: 
   - Nudge #1: Interpret results 
   - Nudge #2: Share with your team 
   - Nudge #3: Choose a Focus Area (or whatever term your organization uses) 
@@ -109,9 +110,14 @@ To enable **Nudges** for a survey program:
 3. Enable the **Eligible for Nudges** setting by switching the toggle to **Yes**.
 4. Select **Save Changes**.
 
-## Edit Nudge details 
+## Enable, edit, or delete Nudge recipient groups 
 
 Once Nudge details are saved, Viva Glint Admins can enable or disable Nudge messages for survey programs.
+
+To enable a recipient group:
+
+1. Go to **Configuration** and select **Nudges**.
+2. Select **Enable** on the Recipient group that should be active.
 
 To make changes to a recipient group: 
 
@@ -120,6 +126,14 @@ To make changes to a recipient group:
 3. Select Edit details on the group to edit. 
 1. Make changes and select **Save Changes**.  
 1. Select **Enable** and then **Enable Recipient Group** on the Configuration section of the Nudges landing page to enable the group for survey programs that have Nudges enabled.
+
+To delete a recipient group:
+
+1. Go to **Configuration** and select **Nudges**.
+2. Hover over the ellipsis on the far right of the Recipient group that should be deleted.
+3. Select **Delete group.**
+4. Select **Delete Recipient Group** in the confirmation dialog that appears.
+   
 
 ## Nudge FAQs
 
