@@ -61,4 +61,6 @@ To opt into external benchmarks:
    > [!NOTE]
    > External benchmark suites are only available for admins to select when the external benchmark toggle is enabled.
 
+1. Edit benchmark selections after consenting and saving changes by choosing **Modify external benchmarks**.
+
 
