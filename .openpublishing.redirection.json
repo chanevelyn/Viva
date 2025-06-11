@@ -2647,6 +2647,16 @@
     "redirect_document_id": true
   },
   {
+    "source_path": "Viva/skills/skills-manage-inferencing-visibility.md",
+    "redirect_url": "/copilot/microsoft-365/people-skills-ai-inferencing",
+    "redirect_document_id": true
+  },
+    {
+    "source_path": "Viva/glint/people-science/people-science-benchmark-philosophy.md",
+    "redirect_url": "/copilot/microsoft-365/people-skills-overview",
+    "redirect_document_id": true
+  },
+  {
     "source_path": "viva/glint/communicate/survey-taker-faq.md",
     "redirect_url": "/viva/glint/start/faqs-survey-takers",
     "redirect_document_id": true
