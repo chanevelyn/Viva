@@ -36,7 +36,7 @@ To view these reports, you must meet **at least one** of the following requireme
 
 These pre-built reports help business leaders understand how employees are using Copilot across the organization, and how Copilot is impacting employee work behaviors and business objectives. Unlike custom Power BI queries, these reports can't be customized with unique filters or attributes. Select **View report** to see the insights for each.
 
-**Copilot Studio agents** – This report can help business leaders understand the adoption and impact of Microsoft 365 Copilot custom agents across the organization. It can help users learn the top agents being used and the impact of individual agents, such as the impact of agent-assisted hours. Learn more about this report's insights.
+**Copilot Studio agents** – This report can help business leaders understand the adoption and impact of Microsoft 365 Copilot custom agents across the organization. It can help users learn the top agents being used and the impact of individual agents, such as the impact of agent-assisted hours. [Learn more about this report's insights](..//advanced/analyst/templates/copilot-studio-agents.md).
 
 :::image type="content" source="images/copilot-reports-studio-agents-01.png" alt-text="Screenshot that shows the Copilot Studio agents report.":::
 

@@ -25,6 +25,9 @@ Viva Insights includes the [Viva Insights web app](https://go.microsoft.com/fwli
 * Other documentation provides information on [preparing](./admin/prepare-org-data.md) and [uploading](./admin/upload-org-data-first.md) data, running [queries](./analyst/person-query.md), accessing query [results](./analyst/query-results.md), and using predefined [Power BI templates](./analyst/templates/introduction-to-templates.md).
 * Analysts can use Microsoft 365 Copilot in Viva Insights to help them set up their queries. [Learn more](./analyst/copilot-query.md).
 
+>[!Note]
+>Advanced analysis features allow analysts to set up reports from a variety of data sources. Some of these reports might be designated as a "preview" or "preview report." Preview reports are provided under your organization's Microsoft volume licensing agreement, including the [Product Terms](https://www.microsoft.com/licensing/terms) and the [Microsoft Products and Services Data Protection Addendum](https://aka.ms/dpa) and its Processing Personal Data, GDPR, Data Security, and HIPAA Business Associate terms. A preview report, however, might rely on data from an application or service that is subject to separate terms and conditions. Microsoft might change or discontinue a preview report at any time.
+
 ## Analysis features
 
 ### Create analysis
