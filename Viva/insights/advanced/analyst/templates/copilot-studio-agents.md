@@ -199,7 +199,7 @@ After the data is deleted, the query won't auto-refresh, and you can't run any n
 ## Where to find Power Platform admin center settings
 
 1. [Microsoft 365 Service setting](/power-platform/admin/geographical-availability-copilot#turn-on-data-movement-bing-search-and-microsoft-365-services-for-copilots-and-generative-ai-features)
-2. [Setting for Data flow from Microsoft Copilot Studio to Viva Insights](/microsoft-copilot-studio/flows-overview)
+2. [Setting for Data flow from Microsoft Copilot Studio to Viva Insights](/microsoft-copilot-studio/analytics-viva-insights)
 3. [Cross Geo setting](/power-platform/admin/settings-features#sharing-copilot-studio-agent-data-with-viva-insights)
 
 ## Power BI tips, FAQs, and troubleshooting
