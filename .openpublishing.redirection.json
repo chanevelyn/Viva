@@ -2649,12 +2649,12 @@
   {
     "source_path": "Viva/skills/skills-manage-inferencing-visibility.md",
     "redirect_url": "/copilot/microsoft-365/people-skills-ai-inferencing",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
     {
     "source_path": "Viva/skills/skills-overview.md",
     "redirect_url": "/copilot/microsoft-365/people-skills-overview",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "viva/glint/communicate/survey-taker-faq.md",
