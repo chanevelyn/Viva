@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/29/2025
+ms.date: 06/11/2025
 ---
 
 # Key roles for Viva Glint
@@ -33,6 +33,17 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 
 > [!TIP]
 > If Viva Glint Admins who manage the Viva Glint app should also have access to the Microsoft 365 admin enter to submit support requests, [add them to the Viva Glint Tenant Administrator role](/viva/glint/setup/post-provisioning-next-steps#assign-viva-glint-tenant-admins).
+
+> [!IMPORTANT]
+> 
+> To provision Viva Glint tenants as a **Microsoft 365 Global Admin**:
+>
+> - Admin users that access resources with a [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) enabled account must have Global Admin privileges with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
+>
+> To manage settings in the Microsoft 365 admin center as a **Viva Glint Tenant Admin**:
+>
+> - Admin users that access resources with a [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) enabled account must be assigned with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
+
 
 ## Microsoft 365 Global Administrator
 
