@@ -92,6 +92,7 @@ Learn more about how to set up and use each report with the links below.
 * [Copilot impact report](./advanced/analyst/templates/microsoft-365-copilot-impact.md)
 * [Copilot for Sales adoption report](./advanced/analyst/templates/copilot-for-sales-adoption.md)
 * [Copilot business impact report](./advanced/analyst/templates/copilot-business-impact.md)
+* [Copilot Studio agents report](./advanced/analyst/templates/copilot-studio-agents.md)
 
 ### How to identify business impact metrics
 

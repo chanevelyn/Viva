@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/11/2025
+ms.date: 06/11/2025
 ---
 
 # Assign Viva Glint Tenant and Service Administrators
@@ -22,6 +22,12 @@ ms.date: 04/11/2025
 After setting up a [Microsoft Viva Glint tenant](viva-glint-tenant-provision.md) as a Microsoft 365 Global Administrator, assign Viva Glint Tenant Administrators. Tenant admins manage Viva Glint settings in the Microsoft 365 admin center and assign Viva Glint Administrators who manage the Viva Glint app. [Learn more about key Viva Glint roles](/viva/glint/start/role-definitions).
 
 ## Assign Viva Glint Tenant Admins
+
+> [!IMPORTANT]
+> 
+> To manage settings in the Microsoft 365 admin center as a **Viva Glint Tenant Admin**:
+>
+> - Admin users that access resources with a [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) enabled account must be assigned with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
 
 To assign Viva Glint Tenant Admins as the Microsoft 365 Global Admin:
 
