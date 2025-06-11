@@ -96,11 +96,11 @@ Optional system attributes are values that indicate how and when communications 
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
 > [!IMPORTANT]
-> Send language and time zone values exactly as they appear in related tabs in the following articles:
+> Send language and time zone values exactly as they appear in the following articles:
 > - [Viva Glint supported languages](supported-languages.md)
 > - [Viva Glint supported time zones](supported-time-zones.md)
 > 
-> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's [default selection in General Settings](manage-general-settings.md#localization).
 
 ### Time zones
 
