@@ -52,7 +52,7 @@ Microsoft Copilot Studio sends agents metrics to Viva Insights, which populate t
         3. Under **Redirect URI (optional)**, select **Public Client/native (mobile and desktop)** and provide the following URI: `https://login.microsoftonline.com/common/oauth2/nativeclient`.
         4. At the bottom, select **Register**.
 
-        :::image type="content" source="../images/delete-agent-data-register-app.png" alt-text="Screenshot that shows how to register a new app in Azure.":::
+        :::image type="content" source="../images/delete-agent-data-register-app.png" alt-text="Screenshot that shows how to register a new app in Azure." lightbox="../images/delete-agent-data-register-app.png":::
 
     2. On the **Overview** screen, copy the **Application (client) ID** and **Directory (tenant) ID**. Keep these IDs handy. You'll need them later.
 
