@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/28/2025
+ms.date: 06/12/2025
 ---
 
 # Set up Viva Glint User Roles
@@ -118,6 +118,9 @@ Admins can specify the employee population and attributes their leaders can view
    1. Data Management
    
       :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
+
+      > [!IMPORTANT]
+      > The **Manage Role Membership** option only grants permission for users in the preset Company Admin role to create new roles with the **User roles** feature. Users in non-Company Admin roles can't access the **User roles** feature but can manage role membership for individual users by going to **People**, choosing a user, and selecting the **pencil symbol** next to their User Roles list.
 
    1. Resources
    
