@@ -42,7 +42,7 @@ Review each setting and choose which selections to make and features to enable:
 |**Default Dashboard**|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Viva Glint dashboard experience. Change the default by using the dropdown menu to select a different report. <br><br> **Important:** Company Admin roles have access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
 |**Export Comments**|The setting is on by default and allows users to export verbatim comments exports using the **Export and Share** option in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the toggle is changed to **Off**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
 |**Report Template Access**|The individual reports this role can view. Select the **X** to delete a report or use the Search option to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview). |
-|**Report reporting access**|Select questions that are visible to users in this role when viewing results. |
+|**Question reporting access**|Select questions that are visible to users in this role when viewing results. |
 
 ## Set up Question Reporting Access
 
