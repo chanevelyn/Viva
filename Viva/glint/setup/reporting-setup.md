@@ -115,7 +115,7 @@ Select the **Driver impact outcomes** from the search field. Select a set of out
 
 Select the desired **Manager report defaults**. Select up to two items to appear by default in [the manager report](/viva/glint/reports/manager-report).
 
-:::image type="content" source="../../media/glint/setup/manager-report-defaultss.png" alt-text="Screenshot of dropdown menus to select items for the Manager report." lightbox="../../media/glint/setup/manager-report-defaults.png":::
+:::image type="content" source="../../media/glint/setup/manager-report-defaults.png" alt-text="Screenshot of dropdown menus to select items for the Manager report." lightbox="../../media/glint/setup/manager-report-defaults.png":::
 
 ### PowerPoint export template
 
