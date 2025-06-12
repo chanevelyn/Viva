@@ -29,17 +29,16 @@ In the **Program Roles** section, view which roles have access and use the **Add
 
 Roles in this dropdown menu are based on which [User Roles](/viva/glint/setup/set-up-user-roles) are already set up in Viva Glint. After adding a new role, it expands to reveal role settings:
 
-
-
+:::image type="content" source="../../media/glint/setup/reporting-user-role-settings.png" alt-text="Screenshot of the Viva Glint Reporting settings for a newly added User Role." lightbox="../../media/glint/setup/reporting-user-role-settings.png":::
 
 Review each setting and choose which selections to make and features to enable:
 
 |Permission|Description|
 |-------------|---------------|
 |**Reporting view**| Choose whether the role is granted [Live View or Phased access](/viva/glint/setup/live-versus-phased-access).|
-|**Concierge Visibility**|Chhose whether users in the role see the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard.|
+|**Concierge Visibility**|Choose whether users in the role see the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard.|
 |**Broader Team Insights**|Choose whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights).
-|**Team Conversations**|Users in a role with this feature enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
+|**Team Conversations**|Users in a role with this feature enabled and who have enough responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
 |**Default Dashboard**|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Viva Glint dashboard experience. Change the default by using the dropdown menu to select a different report. <br><br> **Important:** Company Admin roles have access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
 |**Export Comments**|The setting is on by default and allows users to export verbatim comments exports using the **Export and Share** option in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the toggle is changed to **Off**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
 |**Report Template Access**|The individual reports this role can view. Select the **X** to delete a report or use the Search option to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview). |
@@ -53,10 +52,10 @@ Selected questions can be excluded from a survey for specific roles.
 - Remove an item by selecting the **X** next to it. 
 - Add an item by using the **Search** option and selecting the item to be added.
 
-
+:::image type="content" source="../../media/glint/setup/question-access.png" alt-text="Screenshot of the Viva Glint Question reporting access section of a User Role." lightbox="../../media/glint/setup/question-access.png":::
 
 > [!NOTE]
-> Questions that are selected as **Key outcomes** or included in **Aggregate indicies** can't be removed. 
+> Questions that are selected as **Key outcomes** or included in **Aggregate indices** can't be removed. 
 
 ### Aggregate Indices
 
@@ -71,12 +70,12 @@ To add an Aggregate Index:
    - **eNPS (employee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
      
    > [!CAUTION]
-   > If you change the calculation method, you'll need to reselect at least one question.
+   > If you change the calculation method, reselect at least one question.
 
    > [!NOTE]
    > Viva People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
    
-4. In the **Add questions** dropdown menu, select items to be grouped together. Your questions now appear in **Selected auestions**. 
+4. In the **Add questions** dropdown menu, select items to be grouped together. Your questions now appear in **Selected questions**. 
 5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
 6. Select **Save and Add to Program**.
 7. Select **X** to close the slider window.
