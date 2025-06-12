@@ -1,7 +1,7 @@
 ---
-ms.date: 04/1/2025
+ms.date: 06/23/2025
 title: Configure manager settings
-description: Set manager settings in the advanced insights app
+description: Set manager settings in the Viva Insights web app
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
@@ -43,7 +43,7 @@ The size of the team includes the manager and all the employees who directly or 
 
 ### Current managers
 
-You'll notice the following numbers on the **Manager settings** page. These numbers are based on Microsoft Entra data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
+You'll notice the following numbers on the **Manager settings** page. These numbers are based on Microsoft Entra data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the web app:
 
 * **Current managers**
     * **Measured managers** - The number of managers who are assigned licenses and who can see their team's insights throughout the Viva Insights in Teams
@@ -52,7 +52,7 @@ You'll notice the following numbers on the **Manager settings** page. These numb
 ## Configure manager settings
 
 
-:::image type="content" source="../images/manager-settings-5-minimum.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings-5-minimum.png":::
+:::image type="content" source="../images/manager-settings-one-insights.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings-one-insights.png":::
 
 To configure manager settings, follow these steps:
 
@@ -123,7 +123,7 @@ As we described earlier, managers also need to be [assigned a license](assign-li
 
 ### Minimum group size
 
-Minimum group size helps protect individual privacy. Because it's easier to guess information about an individual based on results about a smaller group, we hide organization insights for weeks when fewer people are active in Outlook and Teams than the minimum group size. The Insights Administrator can choose to increase this threshold, but it also has to be at least five. The minimum group size applies to data visualizations in advanced insights Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams.
+Minimum group size helps protect individual privacy. Because it's easier to guess information about an individual based on results about a smaller group, we hide organization insights for weeks when fewer people are active in Outlook and Teams than the minimum group size. The Insights Administrator can choose to increase this threshold, but it also has to be at least five. The minimum group size applies to data visualizations in advanced analysis Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams.
 
 ## Next steps
 
