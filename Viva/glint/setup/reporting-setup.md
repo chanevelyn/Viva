@@ -92,7 +92,7 @@ To add an Aggregate Index:
 
 Select the desired **Key Outcome** from the dropdown menu. The key outcome is the main result of the survey. It can be the score from a single item or an aggregate index. This score appears as the most prominent score displayed in most reports.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-key-outcome.png" alt-text="Screenshot of the Key Outcome dropdown menu in Reporting setup." lightbox="../../media/glint/program-summary-reporting-key-outcome.png":::
+:::image type="content" source="../../media/glint/setup/key-outcome.png" alt-text="Screenshot of the Key Outcome dropdown menu in Reporting setup." lightbox="../../media/glint/setup/key-outcome.png":::
 
 > [!NOTE]
 > Changes to key outcome are displayed immediately upon saving.
@@ -109,13 +109,13 @@ The key outcome is added to all roles by default and can't be removed. If change
 
 Select the **Driver impact outcomes** from the search field. Select a set of outcome items or aggregates to be used for driver impact analysis. This analysis calculates the impact of each item or aggregate on the selected outcome and shows the impact on a chart.
 
-:::image type="content" source="../../media/glint/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup." lightbox="../../media/glint/program-summary-reporting-driver-impact.png":::
+:::image type="content" source="../../media/glint/setup/driver-impact-outcome.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup." lightbox="../../media/glint/setup/driver-impact-outcome.png":::
 
 ### Manager report defaults
 
 Select the desired **Manager report defaults**. Select up to two items to appear by default in [the manager report](/viva/glint/reports/manager-report).
 
-:::image type="content" source="../../media/glint/program-summary-reporting-manager-defaults.png" alt-text="Screenshot of an example of survey items that appear on a  manager's dashboard." lightbox="../../media/glint/program-summary-reporting-manager-defaults.png":::
+:::image type="content" source="../../media/glint/setup/manager-report-defaultss.png" alt-text="Screenshot of dropdown menus to select items for the Manager report." lightbox="../../media/glint/setup/manager-report-defaults.png":::
 
 ### PowerPoint export template
 
