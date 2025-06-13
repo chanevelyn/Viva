@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/06/2024
+ms.date: 06/13/2025
 ---
 
 # Comments suppression in Viva Glint
@@ -32,11 +32,11 @@ These features influence comment suppression:
 
  ## Question types that influence comment suppression
 
-Typically, the confidentiality threshold for comment suppression is 10. At least 10 unique respondents must leave a comment in order for verbatim comments to show in reportion. 
+Typically, the confidentiality threshold for comment suppression is 10. At least 10 unique respondents must submit a survey for comments to be visible. 
 
 |Survey item type|Relationship to comments|Effect on comment suppression|
 |--------|-------------|
-|Open-ended|Item that requires a comment only| Meets the confidentiality threshold with 10 unique respondents|
+|Open-ended|Item that requires a comment only| Meets the confidentiality threshold with 10 unique survey respondents (not necessarily repondents to this question)|
 |Multiple choice and rating items| Comments are often optional| If confidentiality threshold is met, comments are visible on the report, even if not all respondents left a comment.|
 
 ## Viewing comments
