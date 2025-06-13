@@ -19,7 +19,9 @@ ms.date: 06/13/2025
 
 # Use Viva Glint’s Executive Summary report
 
-The Microsoft Viva Glint Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company.  
+The Microsoft Viva Glint Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company. 
+
+:::image type="content" source="../../media/glint/reports/exec-summary-report.png" alt-text="Screenshot of the Viva Glint executive summary report.":::
 
 ## Choose reports to share on your Executive Summary 
 
