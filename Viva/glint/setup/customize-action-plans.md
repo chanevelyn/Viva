@@ -30,7 +30,7 @@ Focused and streamlined action planning is essential. A Suggested Action plan is
 
 ## Understand terminology associated with Content Resources and Action Plans
 
-This terminology assists with understanding how Glint sets up Suggestion Action templates: 
+This terminology assists with understanding how Glint sets up Suggested Action templates: 
 
 |Term|Definition|
 |---------|---------|
@@ -53,8 +53,8 @@ Access **Content Resources** from the *Action Taking* section on your admin dash
 |---|---|
 | **Name** | 100, no spaces |
 | **Title** | 2048|
-| **Description** | 50 K+ |
-| **Rich text** | 50 K+ |
+| **Description** | 50K+ |
+| **Rich text** | 50K+ |
 | **Image file name** | 255, include file extension |
 | **PDF file name** | 255, include file extension |
 | **Video link URL** | 5048 |
@@ -116,7 +116,7 @@ From your Glint admin dashboard, select the **Configuration** symbol and then **
 1.	Select **Save**.
 1.	Select **Publish**.
 
-## Embed the video into the Suggestion Action Plan
+## Embed the video into the Suggested Action Plan
 
 1.	From your Viva Glint admin dashboard, select the **Configuration symbol** and then **Content Resources**.
 1.	Search for the Suggested Action Item and open it.
