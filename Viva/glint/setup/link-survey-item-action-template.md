@@ -14,15 +14,15 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 06/13/2025
 ---
 
 # Link an item to a Suggested Action template in Viva Glint
 
-Standard resources are most often automatically linked to a Suggested Action template by default. You can edit an existing template and link new items to it. 
+Standard resources are usually automatically linked to a Suggested Action template by default in Microsoft Viva Glint. You can edit an existing template and link new items to it. 
 
->[!IMPORTANT]
->A new Action template, created by cloning an existing template, needs to be renamed.
+> [!IMPORTANT]
+> A new Action template, created by cloning an existing template, needs to be renamed.
 
 ## Map a new question to a Suggested Action template
 
