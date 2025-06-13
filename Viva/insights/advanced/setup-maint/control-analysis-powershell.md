@@ -16,11 +16,11 @@ audience: Admin
 
 # Enable or disable advanced analysis with PowerShell
 
-*Applies to: Microsoft 365 global admin*
+*Applies to: AI admin*
 
 Advanced analysis is on by default, but users can't access advanced analysis until the Microsoft 365 global admin [assigns the roles](./assign-user-roles.md) of Insights admin and Insights analyst.
 
-Once roles are assigned, this feature access control allows global admins to enable or disable advanced analysis for Viva Insights using PowerShell cmdlets. This control supports tenant-level policies only, not user or group-level policies.
+Once roles are assigned, this feature access control allows AI admins to enable or disable advanced analysis for Viva Insights using PowerShell cmdlets. This control supports tenant-level policies only, not user or group-level policies.
 
 If you disable advanced analysis, Insights analysts can't access the **Advanced analysis** tab in the Viva Insights web app, and business leaders can't access reports published by analysts.
 

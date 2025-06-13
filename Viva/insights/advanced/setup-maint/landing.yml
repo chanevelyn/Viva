@@ -57,7 +57,7 @@ landingContent:
             url: assign-licenses.md
           - text: Assign roles - Privileged Role Administrator
             url: assign-user-roles.md
-          - text: Enable or disable advanced analysis with PowerShell - Microsoft 365 global admin
+          - text: Enable or disable advanced analysis with PowerShell - AI admin
             url: control-analysis-powershell.md
           - text: Configure manager and leader permissions - Insights Administrator
             url: manager-settings.md
