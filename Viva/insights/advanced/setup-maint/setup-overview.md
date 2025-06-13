@@ -26,7 +26,7 @@ This setup checklist, along with related articles, helps coordinate tasks betwee
 
 1. Assign Viva Suite/Insights licenses (Privileged Role Administrator, License admin, or user admin)
 2. Assign admin and analyst roles (Privileged Role Administrator)
-3. Enable or disable advanced analysis with PowerShell (Microsoft 365 global admin)
+3. Enable or disable advanced analysis with PowerShell (AI admin)
 4. Assign manager and leader permissions (Insights Administrator)
 5. Manage Viva Insights app defaults (Microsoft 365 admin)
 6. Set up and deploy the Teams app (Teams Service Administrator)
