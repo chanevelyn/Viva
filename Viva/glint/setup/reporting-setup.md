@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/12/2025
+ms.date: 06/13/2025
 ---
 
 # Viva Glint Reporting setup
@@ -104,6 +104,9 @@ The key outcome is added to all roles by default and can't be removed. If change
 > "To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
 
 **Accept** or **Cancel** this change and then add the new key outcome to all roles. An admin must remove the previous key outcome from enabled roles.
+
+> [!CAUTION]
+> Key outcomes are set at the survey program level (not at the survey cycle level). Changing the Key outcome in Reporting updates all past survey cycles.
 
 ### Driver impact outcomes
 
