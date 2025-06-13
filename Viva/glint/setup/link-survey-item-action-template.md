@@ -79,6 +79,9 @@ Default action items automatically appear anytime a new Focus Area is created fo
 
 Custom content is identified within the column labeled *Shared* in *Content Resources* on the admin dashboard. 
 
+> [!NOTE]
+> [Learn how Content Resource edits for content already connected to Focus Areas can be visible for managers](customize-action-plans.md#edit-content-resources-connected-to-focus-areas).
+
 :::image type="content" source="../../media/glint/reports/content-resources-shared-column.png" alt-text="Screenshot that shows whether resources are custom or the property of Viva Glint." lightbox="../../media/glint/reports/content-resources-shared-column.png":::
 
 To delete custom content, it can't be associated with any Action Plan or any other resources. 
