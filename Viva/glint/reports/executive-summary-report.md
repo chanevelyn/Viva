@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: trend, demographics, comment 
+keywords: trend, demographics, comment, executive summary 
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,53 +14,30 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/13/2025
+ms.date: 06/13/2025
 ---
 
 # Use Viva Glint’s Executive Summary report
 
-The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company.  
+The Microsoft Viva Glint Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company.  
 
 ## Choose reports to share on your Executive Summary 
 
-There are many reports that you can include in this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately. Others may group as part of a related section.
-
-> [!NOTE]
-> **For the Executive Summary Report in Employee Lifecycle Programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
+By default, the Executive summary report includes the sections described in this table:
 
 | Report or section  | Description |
 | -------------- | ----------------- |
-| **Survey Results**| Overview of the most recent results from a survey   |
-| **Scores Trend** | A historical graphic display of score variance over time, as available    |
-| **Scores Trend by Demographic** | How a score varies over time by demographic|
-| **Score by Demographic**  | How a score varies by demographic |
-| **Demographic breakdown by Attribute** | How demographic breakdown varies by attribute |
-| **Survey Overview**   | Overview of the key results item/question  |
-| **Survey Participation**  | Overview of the response rate and comments for the survey  |
-| **Question/Item Overview**| Overview of just a single item or question from the survey |
-| **History**   | How key item/question, response rate, and favorability changed over time, as available |
-| **Scores**| View of the overall survey score  |
-| **All Scores**| Detailed view of each item/question score  |
-| **Heat Map by Demographic**| How all items vary by demographic |
-| **Heat Map by Survey Date**| How all questions/items vary over time, if applicable |
-| **Celebration**  | Highlights improvements from previous pulse|
-| **Driver Impact**| Surfaces key strengths and opportunities across the entire survey|
-| **Strengths** | Top strengths relative to comparator   |
-| **Opportunities**| Top opportunities relative to comparator   |
-| **Response Rate History** | How response rates have changed over time, if applicable|
-| **Response Rate by Demographic**| How response rates vary by demographic|
-| **Multiple Choice Questions by Demographic** | How response rates to a multiple-choice question vary by demographic|
-| **Radial by Demographic** | How the key question/item varies by demographic|
-| **Score Benchmarks**   | How my teams score against the entire company |
-| **Non-Rating Questions**  | How people respond to each non-rating item |
-| **Driver Impact by Demographic**| How a single item score and impact vary by demographic  |
-| **Comments Overview** | Overview of comments including overall sentiment and top topics  |
-| **Comments Questions** | How questions/items vary by volume and sentiment    |
-| **Comments Topics**    | Top comment topics and how they're related to each other  |
-| **Keywords**  | A visual of top keywords from comments|
-| **All Comments** | Read representative, prescriptive, or all comments |
+| **Survey overview**| Overview of the most recent score for the survey's key outcome compared to the default benchmarks and the last survey cycle (if available)  |
+| **Historical trend** | A trend graph of the survey's key outcome score over time, when there are multiple survey cycle scores available    |
+| **Survey Results**| Overview of the most recent results from a survey, including: response rate, comment count, key outcome favorability breakdown, question count, scores increased or decreased since the last survey cycle, and number of questions above or below the selected benchmark   |
+| **Strengths and Opportunities** | Top strengths and opportunities relative to the benchmark and impact on the key outcome   |
+| **Scores**| A list of all survey questions and their scores, including columns for: score, question text, a benchmark comparison, change since last survey cycle (if available), impact, percent favorable breakdown, and comment count |
+| **Primary and Secondary hierarchy sections** | Key outcome scores broken down by the highest level of your organization's first and secondary hierarchies selected in General settings, including columns for: attribute (like manager team), key outcome score, benchmark comparison, change since last survey cycle (if available), percent favorable breakdown, response rate and count  |
 
 To learn about other feedback reports available, see [Report types](/../../viva/glint/reports/survey-reports-overview).
+
+> [!NOTE]
+> When questions in an aggregate index used as the key outcome include [question targeting](/viva/glint/setup/targeted-survey-items) to exlude some users, the key outcome response rate in the Survey overview differs from the overall Response rate in the Survey Results section.
 
 ## Choose your benchmark comparison
 
