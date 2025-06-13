@@ -19,7 +19,7 @@ ms.date: 06/13/2025
 
 # Comments suppression in Viva Glint
 
-Factors that influence suppression in the Glint Comments report - **or comment reporting in any other report** - include factors such as filters and item (question) type.
+Factors that influence suppression in the Microsoft Viva Glint Comments report - **or comment reporting in any other report** - include factors such as filters and item (question) type.
 
 **Comment suppression** refers to comments not being visible when the response rate doesn't meet the confidentiality threshold set. Suppression protects the confidentiality of respondents when their identity could possibly be identified. 
 
@@ -36,7 +36,7 @@ Typically, the confidentiality threshold for comment suppression is 10. At least
 
 |Survey item type|Relationship to comments|Effect on comment suppression|
 |--------|-------------|
-|Open-ended|Item that requires a comment only| Meets the confidentiality threshold with 10 unique survey respondents (not necessarily repondents to this question)|
+|Open-ended|Item that requires a comment only| Meets the confidentiality threshold with 10 unique survey respondents (not necessarily respondents to this question)|
 |Multiple choice and rating items| Comments are often optional| If confidentiality threshold is met, comments are visible on the report, even if not all respondents left a comment.|
 
 ## Viewing comments
@@ -53,7 +53,7 @@ One item has seven comments and when selected, it indicates suppression. Another
 **Explanation:**
 This section pulls in comments based on mixed item types. Open-ended items must have at least 10 responses to protect confidentiality. 
 - Responses from the first item are suppressed because it's open-ended and doesn't meet the confidentiality threshold.
-- The second item is a rating or multiple choice item. Even with only two comment responses, comments are visibile because the item itself meets the threshold of having at least 10 respondents. 
+- The second item is a rating or multiple choice item. Even with only two comment responses, comments are visible because the item itself meets the threshold of having at least 10 respondents. 
 
 ## Comments when filtering for multiple surveys
 
