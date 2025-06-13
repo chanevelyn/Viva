@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2025
+ms.date: 06/13/2025
 ---
 
 # Customize Suggested Action templates in Viva Glint    
@@ -143,4 +143,22 @@ From your Glint admin dashboard, select the **Configure** symbol and then **Cont
 7.	Select **Publish**.
 8.	Confirm the update.
 
+## Edit Content Resources connected to Focus Areas
+
+Depending on the status of Focus Areas in your organization, edits to Content Resources already connected to Focus Areas and their Action Items apply differently. Review the following table to see how Content Resource edits flow to users' Focus Areas and Action Items.
+
+|Focus Area status   |Add or edit content from Focus Areas  |Add or edit content from Results|
+|:----------|:-----------|:------------|
+|Complete     |Original content retained in Focus Area    |Updated content appears in Focus Area  |
+|Open (On track, Off track)  |Original content retained in Focus Area  |Original content retained in Focus Area  |
+|Not created  |Updated content appears in Focus Area   |Updated content appears in Focus Area  |
+|Deleted   |Updated content appears in Focus Area    |Updated content appears in Focus Area   |
+
+To make Content Resource edits appear in users' Focus Areas in cases where Viva Glint would usually retain the original content for a user:
+
+- **Reassign Focus Areas**: Users can deselect and reselect a Focus Area to pull in the latest content from the Suggested Action Template and its Content Resources.
+- **Use Dashboard access**: Encourage users to always access Focus Areas and Action Items from their Dashboards to see the most recent content.
+- **Update Content Resources**: Ensure that Viva Glint Admins keep content updated in Content Resources, which flow into Suggested Action Templates.
+
+[Learn more about linking custom content to Suggested Action Templates](link-survey-item-action-template.md).
 
