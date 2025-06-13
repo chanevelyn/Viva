@@ -160,5 +160,8 @@ To make Content Resource edits appear in users' Focus Areas in cases where Viva 
 - **Use Dashboard access**: Encourage users to always access Focus Areas and Action Items from their Dashboards to see the most recent content.
 - **Update Content Resources**: Ensure that Viva Glint Admins keep content updated in Content Resources, which flow into Suggested Action Templates.
 
+> [!NOTE]
+> Users need to log out and log in again to see Content Resource changes in their Focus Area Action Items.
+
 [Learn more about linking custom content to Suggested Action Templates](link-survey-item-action-template.md).
 
