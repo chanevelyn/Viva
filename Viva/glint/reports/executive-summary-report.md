@@ -39,7 +39,7 @@ By default, the Executive summary report includes the sections described in this
 To learn about other feedback reports available, see [Report types](/../../viva/glint/reports/survey-reports-overview).
 
 > [!NOTE]
-> When questions in an aggregate index used as the key outcome include [question targeting](/viva/glint/setup/targeted-survey-items) to exlude some users, the key outcome response rate in the Survey overview differs from the overall Response rate in the Survey Results section.
+> When questions in an aggregate index used as the key outcome include [question targeting](/viva/glint/setup/targeted-survey-items) to exclude some users, the key outcome response rate in the Survey overview differs from the overall Response rate in the Survey Results section.
 
 ## Choose your benchmark comparison
 
