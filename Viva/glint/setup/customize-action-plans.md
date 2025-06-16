@@ -163,5 +163,5 @@ To make Content Resource edits appear in users' Focus Areas in cases where Viva 
 [Learn more about linking custom content to Suggested Action Templates](link-survey-item-action-template.md).
 
 > [!NOTE]
-> If Content Resources can be removed completely instead of edited, consider using the [Deprecation feature](ink-survey-item-action-template.md#deprecate-custom-content-resources) to deprecate content. Content is removed from all Focus Areas, regardless of status, after users log out and log in again.
+> If Content Resources can be removed completely instead of edited, consider using the [Deprecation feature](link-survey-item-action-template.md#deprecate-custom-content-resources) to deprecate content. Content is removed from all Focus Areas, regardless of status, after users log out and log in again.
 
