@@ -19,6 +19,9 @@ audience: Admin
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
 
+>[!Important]
+> Employees who have Microsoft 365 Copilot licenses assigned are automatically assigned a Viva Insights license.
+
 When you assign somebody a license for Viva Insights, you do two things:
 
 * Add them into aggregated data, which analysts can run queries on and managers can view in organization insights.
