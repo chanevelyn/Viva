@@ -85,6 +85,9 @@ To retire a Content Resource, use the **Deprecate** option. This feature removes
 
    > [!IMPORTANT]
    > This action is irreversible.
+   
+   > [!NOTE]
+   > Users need to log out and log in again to see Content Resource changes in their Focus Area Action Items.
 
 ## Delete custom Content Resources
 
