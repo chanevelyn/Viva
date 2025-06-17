@@ -1,6 +1,6 @@
 ---
 title: Viva Glint file upload warning and error overview
-description: Use the following table to determine if messages that you receive relate to file or line level issues, whether they fail a file or row of data, and find links to resolution steps.
+description: After uploading employee data to Microsoft Viva Glint, you might receive error or warning messages. Errors or warnings can occur at the file level or the line level.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: jose.milanes
