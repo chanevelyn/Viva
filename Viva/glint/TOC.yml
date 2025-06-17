@@ -177,16 +177,15 @@ items:
       - name: Set up Nudges for managers
         href: communicate/communicate-with-nudges.md
       - name: Manage Content Resources for action taking
-        items:
-          - name: Link Content Resources to Suggested Action templates
-            href: setup/link-survey-item-action-template.md
+        href: setup/link-survey-item-action-template.md
       - name: Customize Suggested Action templates
         href: setup/customize-action-plans.md
       - name: Set up Focus Area periods
         href: setup/focus-area-period-feature.md
-      - name: Manage General Settings 
-        href: setup/manage-general-settings.md
+      - name: Manage General Settings
         items: 
+            - name: General Settings overview
+              href: setup/manage-general-settings.md           
             - name: Set up attribute-based access
               href: setup/attribute-based-survey-access.md
             - name: Send emails in user time zones
