@@ -19,15 +19,18 @@ ms.date: 06/17/2025
 
 # Viva Glint file upload warning and error overview
 
-After uploading a file in Microsoft Viva Glint with the [in-app import option](upload-employee-attributes.md) or with [Secure file transfer protocol](sftp-data-automation.md), you might receive error or warning messages. Errors or warnings can occur at the file level or the line level.
+After uploading employee data to Microsoft Viva Glint, you might receive error or warning messages. Errors or warnings can occur at the file level or the line level.
 
 - **File level**: File level issues relate to data across all records in your file or the file itself.
 - **Line level**: Line level issues relate to rows of data in your file. The message might provide line numbers to indicate where the issue exists or it might describe conditions where you can find affected rows.
 - **Warnings**: Warnings are informational and might require your attention to determine whether corrections are necessary. These records are uploaded to Viva Glint but don't pass validation or might not function as expected because of invalid data.
 - **Errors**: Errors are issues that prevent data from being uploaded to Viva Glint. A file-level error prevents the entire file from being uploaded, and a line-level error prevents only specific lines from being uploaded.
 
-Use the following table to determine if messages that you receive relate to file or line level issues, whether they fail a file or row of data, and find links to resolution steps. 
+Use the following table to:
 
+- Determine whether errors/warnings are file or line level issues
+- Determine whether a file or lines of data are impacted 
+- Find links to resolution steps
 
 | Upload type   | Error or warning  | File or line level | Message - shortened | Resolution |
 |:----------|:-----------|:------------|:------------|:------------|
