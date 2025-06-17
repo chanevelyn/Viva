@@ -1,12 +1,12 @@
 ---
-title: Viva Glint survey feedback reports
+title: Viva Glint reports
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager reports, response rate, team summary, report access level, manager feedback resource
+keywords: reports, report options, reports overview
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 3/19/2025
 ---
 
-# Viva Glint survey feedback reports
+# Viva Glint reports
 
 Microsoft Viva Glint reports offer an aggregate view of survey results for managers and admins in various formats. Admins establish access to survey reports in the **Reporting** step of **Program Summary** for each specific User Role. Defining access status is available for recurring and ad hoc survey programs.
 
