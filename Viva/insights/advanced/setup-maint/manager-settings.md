@@ -1,5 +1,5 @@
 ---
-ms.date: 06/23/2025
+ms.date: 06/30/2025
 title: Configure manager settings
 description: Set manager settings in the Viva Insights web app
 author: zachminers
@@ -16,12 +16,12 @@ audience: Admin
 
 # Configure manager settings
 
-*Applies to: Insights Administrator*
+*Applies to: Insights Administrator, AI admin*
 
 >[!Important]
 > Manager settings affect [organization insights](../../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web.
 
-As an Insights Administrator, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
+As an Insights Administrator or AI admin, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
 
 ## About manager settings
 
@@ -79,7 +79,7 @@ To configure manager settings, follow these steps:
 
 ### Leader role assignment
 
-As an Insights Admin, you can manage access to the group manager experience for  business leaders in your organization. The group manager experience provides insights and recommendations to help leaders foster a healthy and productive work culture for their teams.  
+As an Insights admin or AI admin, you can manage access to the group manager experience for  business leaders in your organization. The group manager experience provides insights and recommendations to help leaders foster a healthy and productive work culture for their teams.  
 
 To enable the group manager experience, you need to assign the Group Manager role to the eligible leaders in your organization. You can do this by either selecting a .csv file or AAD groups. You can create and manage AAD groups that contain the leaders you want to enable for the group manager experience. You can use dynamic or static groups, and you can add or remove members as needed.  
 
@@ -87,7 +87,7 @@ To enable the group manager experience, you need to assign the Group Manager rol
 
 To assign the Group Manager role using AAD groups, follow these steps:
 
-1. Sign in to the Viva Insights Admin portal with your Insights Admin credentials.  
+1. Sign in to the Viva Insights Admin portal with your admin credentials.  
 
 2. On the left, select **Settings**, and then **Manager Settings**.  
 
@@ -103,7 +103,7 @@ To assign the Group Manager role using AAD groups, follow these steps:
 
 You can use the Viva Insights app to search for specific managers and see their licensing status, team size, and their direct and indirect reports. You can use this information to cross-reference against your own records or troubleshoot any licensing issues related to managers' access to insights. 
 
-1. Sign in to the Viva Insights Admin portal with your Insights Admin credentials. 
+1. Sign in to the Viva Insights Admin portal with your admin credentials. 
 
 2. On the left, select **Settings**, then **Manager settings**. 
 
@@ -123,12 +123,10 @@ As we described earlier, managers also need to be [assigned a license](assign-li
 
 ### Minimum group size
 
-Minimum group size helps protect individual privacy. Because it's easier to guess information about an individual based on results about a smaller group, we hide organization insights for weeks when fewer people are active in Outlook and Teams than the minimum group size. The Insights Administrator can choose to increase this threshold, but it also has to be at least five. The minimum group size applies to data visualizations in advanced analysis Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams.
+Minimum group size helps protect individual privacy. Because it's easier to guess information about an individual based on results about a smaller group, we hide organization insights for weeks when fewer people are active in Outlook and Teams than the minimum group size. The Insights Administrator or AI admin can choose to increase this threshold, but it also has to be at least five. The minimum group size applies to data visualizations in advanced analysis Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams.
 
 ## Next steps
 
 > [!div class="nextstepaction"]
 > [Configure personal insights defaults
 ](configure-personal-insights.md)
-
-*Applies to: Exchange admin, Insights Administrator*
