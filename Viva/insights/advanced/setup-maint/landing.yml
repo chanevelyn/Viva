@@ -59,7 +59,7 @@ landingContent:
             url: assign-user-roles.md
           - text: Enable or disable advanced analysis with PowerShell - AI admin
             url: control-analysis-powershell.md
-          - text: Configure manager and leader permissions - Insights Administrator
+          - text: Configure manager and leader permissions - Insights Administrator, AI admin
             url: manager-settings.md
           - text: Set up personal insights app defaults - Exchange Online admin
             url: configure-personal-insights.md              
