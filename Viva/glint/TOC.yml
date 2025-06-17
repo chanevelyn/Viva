@@ -293,6 +293,8 @@ items:
              items:
                - name: Release results to roles in phased access
                  href: setup/live-versus-phased-access.md
+               - name: Enable the Team Summary dashboard
+                 href: reports/team-summary-enable-manage.md
            - name: Communications setup 
              href: setup/program-summary-communications.md
              items:
@@ -371,9 +373,9 @@ items:
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
         href: setup/change-live-survey.md   
-  - name: View feedback results
+  - name: View survey results
     items:
-      - name: Feedback reports guide
+      - name: Viva Glint reports guide
         href: reports/survey-reports-overview.md
       - name: Report functionality
         items:
@@ -403,7 +405,7 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Feedback reports 
+      - name: Viva Glint reports 
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
@@ -468,11 +470,7 @@ items:
           - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
-            items:
-              - name: Enable and manage the Team Summary dashboard
-                href: reports/team-summary-enable-manage.md
-              - name: Use the Team Summary dashboard
-                href: reports/managers-use-team-summary-dashboard.md
+            href: reports/managers-use-team-summary-dashboard.md
   - name: Take action as a manager
     items:
       - name: Manager Guide - Copilot in Viva Glint
