@@ -120,6 +120,8 @@ items:
                     href: setup/set-up-sftp.md
                   - name: People page import
                     href: setup/upload-employee-attributes.md
+                  - name: Upload warning and error overview
+                    href: setup/file-warning-overview.md
   - name: Microsoft 365 Copilot in Viva Glint
     items:
       - name: Introduction to Copilot in Viva Glint 
