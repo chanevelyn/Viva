@@ -28,8 +28,8 @@ After uploading employee data to Microsoft Viva Glint, you might receive error o
 
 Use the following table to:
 
-- Determine whether errors/warnings are file or line level issues
-- Determine whether a file or lines of data are impacted 
+- Determine whether data issues are warnings or errors
+- Determine whether a file or line of data is impacted 
 - Find links to resolution steps
 
 | Upload type   | Error or warning  | File or line level | Message - shortened | Resolution |
