@@ -24,7 +24,7 @@ description: "Learn about putting Viva Engage feeds in other applications, and u
 Viva Engage offers various integrations to help make other applications more mobile and social. You can integrate Viva Engage with first-party Microsoft applications and with third-party external applications.
   
 > [!TIP]
-> Many integrations require [the Viva Engage community or group's feedID](https://support.microsoft.com/en-us/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f).
+> Many integrations require [the Viva Engage community or group's feedID](https://support.microsoft.com/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f).
   
 ## Viva Engage for SharePoint
 
@@ -32,7 +32,7 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
   
 ## Viva Engage and Teams
 
-[Add a Viva Engage tab to a Teams channel](https://support.microsoft.com/en-us/office/add-a-viva-engage-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528)
+[Add a Viva Engage tab to a Teams channel](https://support.microsoft.com/office/add-a-viva-engage-page-to-a-teams-channel-ca06ec83-f22d-4b76-83a5-c83aa2a33528)
 
 ## Viva Engage Embed
 
@@ -63,4 +63,4 @@ The Viva Engage for Salesforce.com Integration automatically delivers your Sales
   
 ## Custom apps with the Viva Engage APIs
 
-You can build custom applications and automation tools that integrate with Viva Engage. Use your custom apps to streamline business processes such as data backup, compliance exports, user lifecycle management, and community engagement. The legacy Viva Engage (Yammer) REST APIs provide HTTP-based access to core features like messages, users, and groups. Microsoft supports these APIs for backward compatibility. For modern scenarios, including role management, community creation, and structured engagement workflows, Microsoft Graph now offers a growing set of Viva Engage Graph APIs. The Graph APIs support app-only access, real-time operations, and integration with other Microsoft 365 services. Use the following links to investigate the [legacy Viva Engage (Yammer) APIs](https://learn.microsoft.com/en-us/rest/api/yammer/rest-api-rate-limits) and the [Microsoft Graph Viva Engage APIs](https://learn.microsoft.com/en-us/graph/api/resources/engagement-api-overview?view=graph-rest-beta) to choose the right approach for your solution.
+You can build custom applications and automation tools that integrate with Viva Engage. Use your custom apps to streamline business processes such as data backup, compliance exports, user lifecycle management, and community engagement. The legacy Viva Engage (Yammer) REST APIs provide HTTP-based access to core features like messages, users, and groups. Microsoft supports these APIs for backward compatibility. For modern scenarios, including role management, community creation, and structured engagement workflows, Microsoft Graph now offers a growing set of Viva Engage Graph APIs. The Graph APIs support app-only access, real-time operations, and integration with other Microsoft 365 services. Use the following links to investigate the [legacy Viva Engage (Yammer) APIs](https://learn.microsoft.com/rest/api/yammer/rest-api-rate-limits) and the [Microsoft Graph Viva Engage APIs](https://learn.microsoft.com/graph/api/resources/engagement-api-overview?view=graph-rest-beta) to choose the right approach for your solution.
