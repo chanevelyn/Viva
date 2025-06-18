@@ -19,4 +19,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Viva Glint external benchmark collateral
 
-[Opt into external benchmarks](/viva/glint/setup/opting-into-external-benchmarks)
+After [opting your organzation into external benchmarks](/viva/glint/setup/opting-into-external-benchmarks) in Microsoft Viva Glint, use the benchmark information in this article to select external benchmark suites.
+
+
