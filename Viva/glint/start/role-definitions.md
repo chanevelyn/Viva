@@ -23,7 +23,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 
 ## Viva Glint and Microsoft 365 admin center access by role
 
-|Role  | Assigned by | Role grants access to the Microsoft 365 admin enter to submit support requests  | Role grants access to the Viva Glint app |
+|Role  | Assigned by | Role grants access to the Microsoft 365 admin center to submit support requests  | Role grants access to the Viva Glint app |
 |:----------|:-----------|:------------|:------------|
 |Microsoft 365 Global Administrator   | Entra organization signup (automatic) | Yes | No  |
 |Viva Glint Tenant Administrator   | Microsoft 365 Global Administrator | Yes | No  |
