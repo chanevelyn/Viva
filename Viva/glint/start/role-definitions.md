@@ -66,7 +66,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 ## Viva Glint Administrator
 
 - Also known as:
-  - Viva Glint service administrator in the Microsoft 365 admin center
+  - Viva Glint Service Administrator in the Microsoft 365 admin center
   - Company Admin in the Viva Glint app
 - Assigned by the Viva Glint Tenant Administrator to have responsibility for admin tasks in the Viva Glint platform
 - Can access all data
