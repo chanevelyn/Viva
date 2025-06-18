@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2025
+ms.date: 06/13/2025
 ---
 
 # Customize Suggested Action templates in Viva Glint    
@@ -23,14 +23,14 @@ Suggested Action templates contain content that Microsoft Viva Glint includes as
 
 ## Viva People Science explains Focus Areas and Suggested Action templates
 
-Focused and streamlined action planning is essential. A Suggested Action plan is a written commitment to make incremental improvements to the employee experience. It's designed to increase work engagement on your team and within your company.
+Focused and streamlined action planning is essential. A Suggested Action plan is a written commitment to make incremental improvements to the employee experience and can help to increase work engagement on your team and within your company.
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action taking](https://go.microsoft.com/fwlink/?linkid=2261087)
 
 ## Understand terminology associated with Content Resources and Action Plans
 
-This terminology assists with understanding how Glint sets up Suggestion Action templates: 
+This terminology assists with understanding how Glint sets up Suggested Action templates: 
 
 |Term|Definition|
 |---------|---------|
@@ -38,8 +38,8 @@ This terminology assists with understanding how Glint sets up Suggestion Action 
 |**Suggested Action Templates**|The overall template associated with a survey item. Choosing a Focus Area from survey results directs managers to the Suggested Action Template associated with the chosen key driver|
 |**Suggested Action Items**|The components of a Suggested Action Template| 
 |**Content Resources**|Articles, images, PDFs, and videos that are available to managers in a Suggested Action Template|
-|**Standard content**|Content that is prepopulated into Glint Content Resources. Content must first exist or be added in *Content Resources* before it is attached to a Suggested Action template.|
-|**Custom content**|Content that you, as the Viva Glint customer, have uploaded to your Content Resources|
+|**Standard content**|Content that is prepopulated into Glint Content Resources. Content must first exist or be added in *Content Resources* before it's attached to a Suggested Action template.|
+|**Custom content**|Content that you, as the Viva Glint customer, upload to your Content Resources|
 
 ## Familiarize yourself with the Content Resources feature
 
@@ -53,8 +53,8 @@ Access **Content Resources** from the *Action Taking* section on your admin dash
 |---|---|
 | **Name** | 100, no spaces |
 | **Title** | 2048|
-| **Description** | 50 K+ |
-| **Rich text** | 50 K+ |
+| **Description** | 50K+ |
+| **Rich text** | 50K+ |
 | **Image file name** | 255, include file extension |
 | **PDF file name** | 255, include file extension |
 | **Video link URL** | 5048 |
@@ -83,7 +83,7 @@ Access **Content Resources** from the *Action Taking* section on your admin dash
 Many LinkedIn Learning videos are already linked to Viva Glint templates. If you’re a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
 
 >[!IMPORTANT]
->Videos that are not the property of LinkedIn Learning can also be used as resources in your templates. Follow the LinkedIn Learning instructions, as much as possible, to achieve your upload.
+>Videos that aren't the property of LinkedIn Learning can also be used as resources in your templates. Follow the LinkedIn Learning instructions, as much as possible, to achieve your upload.
 
 ## Choose a LinkedIn Learning video to add to Content Resources
 
@@ -97,7 +97,7 @@ Many LinkedIn Learning videos are already linked to Viva Glint templates. If you
 
 ## Add the new video to Content Resources
 
-From your Glint admin dashboard, select the **Configure** symbol and then **Content Resources.**
+From your Glint admin dashboard, select the **Configuration** symbol and then **Content Resources.**
 
 :::image type="content" source="../../media/glint/setup/content-resources.png" alt-text="Screenshot of where to access Content Resources setup from the admin dashboard." lightbox="../../media/glint/setup/content-resources.png":::
 
@@ -116,9 +116,9 @@ From your Glint admin dashboard, select the **Configure** symbol and then **Cont
 1.	Select **Save**.
 1.	Select **Publish**.
 
-## Embed the video into the Suggestion Action Plan
+## Embed the video into the Suggested Action Plan
 
-1.	From your Viva Glint admin dashboard, select the **Configure symbol** and then **Content Resources**.
+1.	From your Viva Glint admin dashboard, select the **Configuration symbol** and then **Content Resources**.
 1.	Search for the Suggested Action Item and open it.
 1.	Place the cursor where you want to embed the video.
 1.	Select **Insert** and then **Video Link** to search for or link to the resource.
@@ -126,13 +126,13 @@ From your Glint admin dashboard, select the **Configure** symbol and then **Cont
 1.	Select **Save**.
 
     > [!IMPORTANT]
-    > Create a new name to clone this resource.
+    > To clone this resource, create a new name.
 
 7.	Select **Publish**.
 
 ## Add a LinkedIn Learning Video to a Focus Area
 
-1.	From your Viva Glint admin dashboard, select the **Configure symbol** and then **Suggested Action Templates**.
+1.	From your Viva Glint admin dashboard, select the **Configuration symbol** and then **Suggested Action Templates**.
 2.	Search and select the name of the Focus Area. 
 3.	Delete the old Suggested Action.
 
@@ -143,4 +143,25 @@ From your Glint admin dashboard, select the **Configure** symbol and then **Cont
 7.	Select **Publish**.
 8.	Confirm the update.
 
+## Edit Content Resources connected to Focus Areas
+
+Depending on the status of Focus Areas in your organization, edits to Content Resources already connected to Focus Areas and their Action Items apply differently. Review the following table to see how Content Resource edits flow to users' Focus Areas and Action Items.
+
+|Focus Area status   |Add or edit content from Focus Areas  |Add or edit content from Results|
+|:----------|:-----------|:------------|
+|Complete     |Original content retained in Focus Area    |Updated content appears in Focus Area  |
+|Open (On track, Off track)  |Original content retained in Focus Area  |Original content retained in Focus Area  |
+|Not created  |Updated content appears in Focus Area   |Updated content appears in Focus Area  |
+|Deleted   |Updated content appears in Focus Area    |Updated content appears in Focus Area   |
+
+To make Content Resource edits appear in users' Focus Areas in cases where Viva Glint would usually retain the original content for a user:
+
+- **Reassign Focus Areas**: Users can deselect and reselect a Focus Area to pull in the latest content from the Suggested Action Template and its Content Resources.
+- **Use Dashboard access**: Encourage users to always access Focus Areas and Action Items from their Dashboards to see the most recent content.
+- **Update Content Resources**: Ensure that Viva Glint Admins keep content updated in Content Resources, which flow into Suggested Action Templates.
+
+[Learn more about linking custom content to Suggested Action Templates](link-survey-item-action-template.md).
+
+> [!NOTE]
+> If Content Resources can be removed completely instead of edited, consider using the [Deprecation feature](link-survey-item-action-template.md#deprecate-custom-content-resources) to deprecate content. Content is removed from all Focus Areas, regardless of status, after users log out and log in again.
 

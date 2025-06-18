@@ -1,5 +1,5 @@
 ---
-title: Complete Program Setup for a Microsoft Viva Glint survey
+title: Complete Program Setup for a Viva Glint survey
 description: Program Setup page is the first section of a Microsoft Viva Glint survey that lets Viva Glint Administrators define the basic settings for a survey program. Choose items like a survey name and what languages are needed, along with confidentiality directives.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 05/08/2025
 ---
 
-# Complete Program Setup for a Microsoft Viva Glint survey
+# Complete Program Setup for a Viva Glint survey
 
 The Program Setup page is the first section in Program Summary for a Microsoft Viva Glint survey. The Viva Glint admin role is to define the basic settings and confidentiality for all cycles within this survey program. 
 

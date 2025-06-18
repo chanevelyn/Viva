@@ -19,14 +19,12 @@ ms.date: 5/02/2025
 
 # Overall Results report from a Microsoft Viva Glint survey
 
-:::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
-
 As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to the previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
 
 :::image type="content" source="../../media/glint/reports/overall-results-example.png" alt-text="Screenshot of an Overall Results report.":::
 
 > [!NOTE]
-> **For the Executive Summary Report in Employee Lifecycle programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
+> When questions in an aggregate index used as the key outcome include [question targeting](/viva/glint/setup/targeted-survey-items) to exclude some users, the key outcome response rate in the Survey overview section differs from the overall survey Response rate.
 
 ## Change report settings
 
@@ -52,3 +50,6 @@ Viva Glint provides four default options for comparison reporting. In addition t
 Share your results with leaders and stakeholders in the way that works best for you. Select the **Export and Share** button for access:
 
 :::image type="content" source="../../media/glint/reports/overall-export-share.png" alt-text="Screenshot of exporting and sharing options.":::
+
+> [!NOTE]
+> **For the Executive Summary Report in Employee Lifecycle programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
