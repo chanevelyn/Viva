@@ -80,7 +80,7 @@ In the Viva Glint app:
 
 ## Manage Guest users
 
-To add Support or Partner users, see: [Manage Support users in Viva Glint](add-external-user.md)
+To add Support or Partner users, see [Manage Support users in Viva Glint](add-external-user.md).
 
 > [!CAUTION]
 > Don't add Support users to the Viva Glint Company Admin role by assigning them in the Microsoft 365 admin center. Users aren't able to successfully log in to Viva Glint.
