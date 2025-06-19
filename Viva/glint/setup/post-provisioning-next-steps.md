@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/11/2025
+ms.date: 06/18/2025
 ---
 
 # Assign Viva Glint Tenant and Service Administrators
@@ -32,11 +32,18 @@ After setting up a [Microsoft Viva Glint tenant](viva-glint-tenant-provision.md)
 To assign Viva Glint Tenant Admins as the Microsoft 365 Global Admin:
 
 1. Log in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234) with your admin credentials. 
-2. Go to the **Users** section and select **Roles** in the menu on the left.
+2. Go to the **Roles** section and select **Role assignments** in the menu on the left.
 3. Search for "Viva Glint Tenant Administrator" in the list of available roles. 
-4. Select the role and choose **Assign.** Choose the users or groups you want to assign the role to and confirm your selection. 
+4. Select the role and choose the **Assigned** tab.
+5. Choose **Add users** or **Add groups you want to search and assign the role to** and confirm your selection. 
 
 ## Assign Viva Glint Service Admins
+
+> [!NOTE]
+> In the Microsoft 365 admin center, this role is called Viva Glint Service Administrator, but is also known as:
+>
+> - Viva Glint Administrator in Viva Glint articles
+> - Company Admin in the Viva Glint app
 
 To assign Viva Glint Service Admins as the Viva Glint Tenant Admin:
 
@@ -58,10 +65,6 @@ To assign Viva Glint Service Admins as the Viva Glint Tenant Admin:
 7. Newly assigned users receive an email notification:
 
    :::image type="content" source="../../media/glint/setup/service-admin-email.png" alt-text="Screenshot of the email notification that Viva Glint service admins receive when they're added to the admin role.":::
-   
-
-> [!CAUTION]
-> Don't assign Support users to the Company Admin role in the Microsoft 365 admin center. To add Support users, see: [Manage Support users in Viva Glint](add-external-user.md).
 
 ## Manage Viva Glint service admins in the Viva Glint app
 
@@ -74,6 +77,13 @@ In the Viva Glint app:
 3. On the user's profile, select the pencil icon to edit **User Roles**.
 4. Select or deselect **Company Admin** to add or remove a user from the role.
 5. Select **Save**.
+
+## Manage Guest users
+
+To add Support or Partner users, see [Manage Support users in Viva Glint](add-external-user.md).
+
+> [!CAUTION]
+> Don't add Support users to the Viva Glint Company Admin role by assigning them in the Microsoft 365 admin center. Users aren't able to successfully log in to Viva Glint.
 
 ## What do I do if I need help?
 
