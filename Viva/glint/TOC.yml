@@ -120,6 +120,8 @@ items:
                     href: setup/set-up-sftp.md
                   - name: People page import
                     href: setup/upload-employee-attributes.md
+                  - name: Upload warning and error overview
+                    href: setup/file-warning-overview.md
   - name: Microsoft 365 Copilot in Viva Glint
     items:
       - name: Introduction to Copilot in Viva Glint 
@@ -177,16 +179,15 @@ items:
       - name: Set up Nudges for managers
         href: communicate/communicate-with-nudges.md
       - name: Manage Content Resources for action taking
-        items:
-          - name: Link Content Resources to Suggested Action templates
-            href: setup/link-survey-item-action-template.md
+        href: setup/link-survey-item-action-template.md
       - name: Customize Suggested Action templates
         href: setup/customize-action-plans.md
       - name: Set up Focus Area periods
         href: setup/focus-area-period-feature.md
-      - name: Manage General Settings 
-        href: setup/manage-general-settings.md
+      - name: Manage General Settings
         items: 
+            - name: General Settings overview
+              href: setup/manage-general-settings.md           
             - name: Set up attribute-based access
               href: setup/attribute-based-survey-access.md
             - name: Send emails in user time zones
@@ -294,6 +295,8 @@ items:
              items:
                - name: Release results to roles in phased access
                  href: setup/live-versus-phased-access.md
+               - name: Enable the Team Summary dashboard
+                 href: reports/team-summary-enable-manage.md
            - name: Communications setup 
              href: setup/program-summary-communications.md
              items:
@@ -372,9 +375,9 @@ items:
         href: setup/reopen-survey.md
       - name: Make changes to a live survey
         href: setup/change-live-survey.md   
-  - name: View feedback results
+  - name: View survey results
     items:
-      - name: Feedback reports guide
+      - name: Viva Glint reports guide
         href: reports/survey-reports-overview.md
       - name: Report functionality
         items:
@@ -404,7 +407,7 @@ items:
             href: reports/report-customization.md
           - name: Confidentiality and suppression
             href: reports/confidentiality-suppression-reports.md     
-      - name: Feedback reports 
+      - name: Viva Glint reports 
         items:
          - name: Executive Summary Report
            href: reports/executive-summary-report.md
@@ -469,11 +472,7 @@ items:
           - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
-            items:
-              - name: Enable and manage the Team Summary dashboard
-                href: reports/team-summary-enable-manage.md
-              - name: Use the Team Summary dashboard
-                href: reports/managers-use-team-summary-dashboard.md
+            href: reports/managers-use-team-summary-dashboard.md
   - name: Take action as a manager
     items:
       - name: Manager Guide - Copilot in Viva Glint
@@ -527,9 +526,9 @@ items:
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Resolve upload errors related to derived attributes
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-           - name: Resolve upload warnings related to duplicate data
+           - name: Resolve upload errors related to duplicate data
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-           - name: Resolve upload warnings related to invalid or unexpected values
+           - name: Resolve upload errors and warnings related to invalid or unexpected values
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Resolve upload warnings related to manager hierarchy
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
