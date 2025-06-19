@@ -23,12 +23,6 @@ After setting up a [Microsoft Viva Glint tenant](viva-glint-tenant-provision.md)
 
 ## Assign Viva Glint Tenant Admins
 
-> [!IMPORTANT]
-> 
-> To manage settings in the Microsoft 365 admin center as a **Viva Glint Tenant Admin**:
->
-> - Admin users that access resources with a [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) enabled account must be assigned with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
-
 To assign Viva Glint Tenant Admins as the Microsoft 365 Global Admin:
 
 1. Log in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234) with your admin credentials. 
@@ -39,23 +33,31 @@ To assign Viva Glint Tenant Admins as the Microsoft 365 Global Admin:
 
 ## Assign Viva Glint Service Admins
 
-> [!NOTE]
-> In the Microsoft 365 admin center, this role is called Viva Glint Service Administrator, but is also known as:
+In the Microsoft 365 admin center, this role is called Viva Glint Service Administrator, but is also known as:
+
+- Viva Glint Administrator in Viva Glint articles
+- Company Admin in the Viva Glint app
+
+> [!IMPORTANT]
+> 
+> To manage settings in the Microsoft 365 admin center as a **Viva Glint Tenant Admin**:
 >
-> - Viva Glint Administrator in Viva Glint articles
-> - Company Admin in the Viva Glint app
+> - Admin users that access resources with a [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) enabled account must be assigned with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
 
 To assign Viva Glint Service Admins as the Viva Glint Tenant Admin:
 
-> [!IMPORTANT]
-> If your organization migrates from LinkedIn Glint, your Viva Glint Tenant admin doesn’t need to assign Viva Glint service admins in the admin center. Admin users are migrated as part of your technical migration to Microsoft Viva Glint.
+
 
 1. Ensure that all Viva Glint Service Admin users have their First Name, Last Name, Employee ID, and Email populated in Microsoft Entra. [Manage Entra user profile information](/entra/fundamentals/how-to-manage-user-profile-info).
 
    > [!IMPORTANT]
    > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that's used to transfer data to Viva Glint.
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234). 
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?linkid=2264234).
+
+   > [!IMPORTANT]
+   > If your organization migrates from LinkedIn Glint, your Viva Glint Tenant admin doesn’t need to assign Viva Glint service admins in the admin center. Admin users are migrated as part of your technical migration to Microsoft Viva Glint. 
+
 1. Go to **Settings** and select **Viva**.
 2. In the list of applications, select **Viva Glint**.
 3. Select **Assign Glint service admin** and choose **Add users**.
