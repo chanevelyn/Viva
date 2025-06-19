@@ -1,12 +1,12 @@
 ---
-title: Viva Glint survey feedback reports
+title: Viva Glint reports
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager reports, response rate, team summary, report access level, manager feedback resource
+keywords: reports, report options, reports overview
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 3/19/2025
 ---
 
-# Viva Glint survey feedback reports
+# Viva Glint reports
 
 Microsoft Viva Glint reports offer an aggregate view of survey results for managers and admins in various formats. Admins establish access to survey reports in the **Reporting** step of **Program Summary** for each specific User Role. Defining access status is available for recurring and ad hoc survey programs.
 
@@ -32,7 +32,7 @@ Admins can assign specific reports for distinct roles.
 | [**Driver Impact**](/viva/glint/reports/driver-impact-report)| Allows managers to easily identify Strengths (areas the team should celebrate) and Opportunities (areas the team should work to improve engagement) based on key engagement driver scores. | All, but specifically managers |
 | [**Executive Summary**](/viva/glint/reports/executive-summary-report) | Presents high-level data views for team presentations at all levels. This report resembles the overall dashboard view. | All |
 | [**Focus Area Overview**](/viva/glint/reports/focus-area-overview-report)| Shows the status of completion of identified goals across teams. Provides critical insights briefly, with access to more details. | Admins and managers |
-| [**Heat Map**](/viva/glint/reports/heat-map)| Identifies high and low scoring teams on engagement and corresponding drivers. Based on permissions, these drivers can be filtered by demographic attributes. | Senior leaders, HRBPs, admins (anyone who would benefit from looking across multiple groups for comparisons) |
+| [**Heat Map**](/viva/glint/reports/heat-map)| Identifies high and low scoring teams for all survey items with color coding for selected populations. Based on permissions, users can filter scores by available attributes. | Senior leaders, HRBPs, admins (anyone who would benefit from looking across multiple groups for comparisons) |
 | [**Overall Results**](/viva/glint/reports/overall-results) | Mimics the Glint dashboard but allows data filtering and reviewing of more demographics. | All |
 | [**Manager Report**](/viva/glint/reports/manager-report)| Displays a *direct* or *roll-up hierarchy* view of all managers within a specific hierarchy. | Admins |
 | [**Multiple Choice Question Report**](/viva/glint/reports/multi-choice-report)| Displays tables that break down multi-select/multiple choice questions by percentage of responses and default hierarchy selections. | All |
