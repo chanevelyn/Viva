@@ -32,7 +32,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 |Viva Glint end user                  | Distribution list | No  | No  |
 
 > [!TIP]
-> If Viva Glint Admins who manage the Viva Glint app should also have access to the Microsoft 365 admin enter to submit support requests, [add them to the Viva Glint Tenant Administrator role](/viva/glint/setup/post-provisioning-next-steps#assign-viva-glint-tenant-admins). Also consider these roles to grant Viva Glint Admins additional permissions in the Microsoft 365 admin center:
+> If Viva Glint Admins who manage the Viva Glint app should also have access to the Microsoft 365 admin enter to submit support requests, [add them to the Viva Glint Tenant Administrator role](/viva/glint/setup/post-provisioning-next-steps#assign-viva-glint-tenant-admins). Also consider these roles to grant Viva Glint Admins additional permissions in the Microsoft 365 admin center or as alternatives to the Viva Glint Tenant Admin role, depending on the permissions users need:
 >
 > - [Service Support Administrator](/entra/identity/role-based-access-control/permissions-reference#service-support-administrator)
 > - [Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader)
@@ -48,13 +48,13 @@ Assigning roles for Viva Glint leadership is among the first tasks for the Micro
 > - Admin users that access resources with a [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-configure) enabled account must be assigned with [Direct assignment and **not** Group assignment](/entra/fundamentals/concept-learn-about-groups#assignment-types) access rights.
 
 
-## Microsoft 365 Global Administrator
+## [Microsoft 365 Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
 
 - Provisions Viva Glint tenants
 - Represents your organization, initiates, and controls Viva Glint product subscriptions and licenses
 - Assigns Viva Glint Tenant Administrators
 
-## Viva Glint Tenant Administrator
+## [Viva Glint Tenant Administrator](/entra/identity/role-based-access-control/permissions-reference#viva-glint-tenant-administrator )
 
 - Assigned by the Microsoft 365 Global Administrator to manage Viva Glint settings in the Microsoft 365 admin center
 - Assigns Viva Glint Administrators
