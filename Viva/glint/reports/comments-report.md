@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 4/21/2025
+ms.date: 06/20/2025
 ---
 
 # Use Viva Glint’s Comments report 
