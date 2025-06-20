@@ -1,5 +1,5 @@
 ---
-ms.date: 06/23/2025
+ms.date: 06/30/2025
 title: View and customize your general settings
 description: This article gives an overview of the general settings page in the advanced insights app for admins and analysts.
 author: zachminers
@@ -41,3 +41,18 @@ The analyst query notification email is on by default. To unsubscribe:
 4. Select **Save**. You can also access these preferences by selecting **Unsubscribe** at the bottom of the email.
 
 [Learn more about how to set up custom queries](../../advanced/analyst/person-query-overview.md).
+
+## Delegate access notification emails 
+
+*Applies to: Users given delegate access to the Copilot Dashboard or Copilot Analytics reports*
+
+If you're given delegate access to the Copilot Dashboard or Copilot Analytics reports, you'll receive a notification email like the one pictured below, in addition to a notification in Teams.
+
+:::image type="content" source="../images/general-settings-delegate-email.png" alt-text="Screenshot that shows the delegate notification email.":::
+
+The email notification is on by default. To turn it off: 
+
+1. Open the Viva Insights web app. 
+2. On the left, under **Settings**, select **General**.  
+3. Under **Email preferences > Delegation notification email**, clear the setting **Enable email notifications**.  
+4. Select **Save changes**. 
