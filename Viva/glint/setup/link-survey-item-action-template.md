@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/13/2025
+ms.date: 06/16/2025
 ---
 
 # Link an item to a Suggested Action template in Viva Glint
@@ -74,6 +74,20 @@ Standard resources are usually automatically linked to a Suggested Action templa
 ## Add a default action item 
 
 Default action items automatically appear anytime a new Focus Area is created for that item. For any Suggested Action Item that your company wants users to review, select **Move to Default** next to that item.
+
+## Deprecate custom Content Resources
+
+To retire a Content Resource, use the **Deprecate** option. This feature removes custom content from any associated Focus Areas, regardless of the Focus Area status.
+
+1. Select the custom Content Resource from **Resources**.
+2. Select the **Deprecate** option in the top right.
+3. In the confirmation dialog that appears, select **Delete**.
+
+   > [!IMPORTANT]
+   > This action is irreversible.
+   
+   > [!NOTE]
+   > Users need to log out and log in again to see Content Resource changes in their Focus Area Action Items.
 
 ## Delete custom Content Resources
 
