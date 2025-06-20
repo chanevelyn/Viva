@@ -81,7 +81,7 @@ To add a link to an employee resource or other information in your survey introd
 By default, the blank recurring survey template doesn't include multiple cycles. To add cycles:
 
 1. Go to **Configuration** and choose **Survey programs** in **Surveys**.
-2. Select your blank reucrring survey and go to the **Questions** tab.
+2. Select your blank recurring survey and go to the **Questions** tab.
 3. Above the survey introduction message, select the **+** sign.
   
    :::image type="content" source="../../media/glint/setup/add-survey-cycle.png" alt-text="Screenshot of the survey cycle addition option in Question setup." lightbox="../../media/glint/setup/add-survey-cycle.png":::
