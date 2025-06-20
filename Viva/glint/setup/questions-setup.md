@@ -84,7 +84,7 @@ By default, the blank recurring survey template doesn't include multiple cycles.
 2. Select your blank reucrring survey and go to the **Questions** tab.
 3. Above the survey introduction message, select the **+** sign.
   
-   :::image type="content" source="../../media/glint/setup/add-survey-cycle.png" alt-text="Screenshot of the survey cycle addition option in Question setup." lightbox="../../media/glint/setup/add-survey-cycle.png"::::
+   :::image type="content" source="../../media/glint/setup/add-survey-cycle.png" alt-text="Screenshot of the survey cycle addition option in Question setup." lightbox="../../media/glint/setup/add-survey-cycle.png":::
 
 4. After adding cycles, go to each question and select cycle numbers to include the questions in all or specific survey cycles.
 
