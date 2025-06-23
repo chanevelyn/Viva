@@ -3,7 +3,8 @@ title: "Manage Viva Engage users across their lifecycle from Microsoft 365"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+ms.reviewer: snarla
+author: v-rgrace
 manager: elizapo
 ms.date: 09/24/2024
 audience: Admin
