@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/24/2025
+ms.date: 06/10/2025
 ---
 
 # Communicate with Viva Glint Nudges
@@ -59,22 +59,25 @@ This table shows the conditions, messages, and actions for Nudge notifications:
 
 To set up Nudges, recipient groups must be created and enabled. Only one User Role can be selected per recipient group. You can create multiple groups to reach more User Roles or send Nudges at a different frequency for each group.
 
-From the Viva Glint admin dashboard, select **Configuration**, then **Nudges** in the  **Notifications** section. 
-
-### Add a new recipient group
+From the Viva Glint admin dashboard, select **Configuration**, then **Nudges** in the  **Notifications** section.
 
 On the Nudges landing page, select **+ New recipient group**.
 
-#### Set up recipients 
+:::image type="content" source="../../media/glint/setup/new-recipient-group.png" alt-text="Screenshot of the add recipient group option for Nudges.":::
 
-1. Choose who receives the Nudge: 
+### Set up recipients 
+
+1. Choose who receives the Nudge:
+   :::image type="content" source="../../media/glint/setup/nudge-recipients-setup.png" alt-text="Screenshot of the recipient selection for a Nudge recipient group.":::
     1. **User Role**: Select a role from the dropdown menu. Add only one User Role per group. If you have one User Role that includes all managers, it reduces the number of recipient groups you need to create.
     2. **Exclude**: Select individual users, Distribution Lists, or User Roles from the search bar.
     3. **Recipient List**: Download the list of recipients to a *.csv* file to have it for reference.  
     
-#### Set up timing
+### Set up timing
 
 Defines when and how frequently users receive Nudges. From the dropdown menu, choose to send Nudges from every one to eight weeks. Viva Glint Admins can adjust frequency after a survey launches.
+
+:::image type="content" source="../../media/glint/setup/nudge-timing-setup.png" alt-text="Screenshot of the timing setup for a Nudge recipient group.":::
 
 - **Frequency:** Send Nudges every two to four weeks.
 - **Send Day:** Choose a business day of the week for Nudges to send.
@@ -83,21 +86,47 @@ Defines when and how frequently users receive Nudges. From the dropdown menu, ch
 > [!TIP]
 > Align Nudges to your survey cadence. For example, 90 days for quarterly surveys or 180 days for biannual survey.
       
-#### Enable, disable, and preview content 
+### Select communication channels
 
-Select the **Nudge #** to enable, disable, or preview Nudge messages. The corresponding preview pane opens.
+> [!NOTE]
+> This option only appears when [Microsoft Teams is enabled as a communication channel in General settings](/viva/glint/setup/glint-teams).
+
+:::image type="content" source="../../media/glint/setup/enable-teams-nudges.png" alt-text="Screenshot of the channels section in a Nudge recipient group.":::
+
+Enable or disable Email and Microsoft Teams as communication channels for Nudges.
+
+### Enable, disable, and preview content 
+
+Select the **Edit & Preview** option on each Nudge to enable, disable, or preview Nudge messages.
+
+:::image type="content" source="../../media/glint/setup/nudge-edit-preview.png" alt-text="Screenshot of the edit pencil icon on a Nudge message.":::
 
 - Enable or disable by using the **On** and **Off** toggle. 
 - Preview what your Nudge looks like: It includes your company logo, the survey name, highlight where the user is in the results process, and a link to view results.
-- Results process: 
+
+  :::image type="content" source="../../media/glint/setup/nudge-edit-pane.png" alt-text="Screenshot of the Nudge content edit page with a message preview and enabled toggle.":::
+
+Available Nudge messages: 
+
   - Nudge #1: Interpret results 
   - Nudge #2: Share with your team 
   - Nudge #3: Choose a Focus Area (or whatever term your organization uses) 
-  - Nudge #4: Focus Area reminder 
+  - Nudge #4: Focus Area reminder
 
-#### View enabled programs 
+#### Use the Email preview option
+
+1. In a Recipient group setup page, next to the Edit details option, select **Email preview.**
+2. In the preview pane that appears, select a **Recipient**, **Language**, and preview email **Options.**
+3. Select **Generate Preview**.
+
+### View enabled programs 
 
 When Viva Glint Admins enable Nudges for Recurring and Ad Hoc surveys in Program Setup, they appear in the **Enabled programs** list. 
+
+:::image type="content" source="../../media/glint/setup/nudge-enabled-programs.png" alt-text="Screenshot of the enabled programs list in a Nudge recipient group.":::
+
+> [!NOTE]
+> For new Recipient groups, Survey programs appear in this section after the new group is saved.
 
 To enable **Nudges** for a survey program:
 
@@ -106,9 +135,17 @@ To enable **Nudges** for a survey program:
 3. Enable the **Eligible for Nudges** setting by switching the toggle to **Yes**.
 4. Select **Save Changes**.
 
-## Edit Nudge details 
+   :::image type="content" source="../../media/glint/setup/nudge-program-setup.png" alt-text="Screenshot of the Nudge eligibility toggle in a survey's program setup.":::
 
-Once Nudge details are saved, Viva Glint Admins can enable or disable Nudge messages for survey programs.
+## Enable, edit, or delete Nudge recipient groups 
+
+Viva Glint Admins can enable, disable and edit, or delete Nudge recipient groups for survey programs.
+
+To enable a recipient group:
+
+1. Go to **Configuration** and select **Nudges**.
+2. Select **Enable** on the Recipient group that should be active.
+   :::image type="content" source="../../media/glint/setup/enable-nudge.png" alt-text="Screenshot of the Enable option on a Nudge recipient group.":::
 
 To make changes to a recipient group: 
 
@@ -117,6 +154,15 @@ To make changes to a recipient group:
 3. Select Edit details on the group to edit. 
 1. Make changes and select **Save Changes**.  
 1. Select **Enable** and then **Enable Recipient Group** on the Configuration section of the Nudges landing page to enable the group for survey programs that have Nudges enabled.
+
+To delete a recipient group:
+
+1. Go to **Configuration** and select **Nudges**.
+2. Hover over the ellipsis on the far right of the Recipient group that should be deleted.
+3. Select **Delete group.**
+   :::image type="content" source="../../media/glint/setup/delete-nudge-group.png" alt-text="Screenshot of the delete group option on a Viva Glint Nudge recipient group.":::
+5. Select **Delete Recipient Group** in the confirmation dialog that appears.
+   :::image type="content" source="../../media/glint/setup/confirm-delete-nudge.png" alt-text="Screenshot of the confirmation dialog that appears when a Viva Glint admin deletes a Nudges recipient group."::: 
 
 ## Nudge FAQs
 

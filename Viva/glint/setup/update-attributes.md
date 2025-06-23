@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 06/20/2025
 ---
 
 # Update attributes in Viva Glint
@@ -55,7 +55,7 @@ To add new attributes to your Viva Glint setup from the admin dashboard:
 9. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
   
      > [!NOTE]
-     > Derived Manager Hierarchy and Hierarchy Groups can't be edited after initial setup.
+     > Hierarchy Group levels and mapping can't be changed after initial setup. Viva Glint admins can change hierarchy and hierarchy level names after initial setup. 
   
 10. Review newly added attributes and select **Continue**.
 11. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
@@ -95,20 +95,22 @@ To edit derived fields after your initial setup:
 3. In the **Derived Attributes** section, select **Manage Derived Attributes**.
 4. Select the checkbox next to the Derived Attribute that you want to edit or add.
    1. To disable a Derived Attribute: Deselect the checkbox next to the desired field.
-   1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the Calculate From dropdown menu.
-   1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
-   :::image type="content" source="../../media/glint/setup/new-derived-attribute.png" alt-text="Screenshot of the Derived Attributes section after selecting the Manage Derived Attributes button.":::
-
-      > [!NOTE]
-      > Manager Hierarchy isn't editable after initial setup.
+   1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the **Calculate From** dropdown menu.
+   1. To update the field used to create a Derived Attribute: Select the checkbox next to the desired field and choose a new field in the **Calculate From** dropdown menu. 
+   :::image type="content" source="../../media/glint/setup/new-derived-attribute2.png" alt-text="Screenshot of the Derived Attributes section after selecting Manage Derived Attributes.":::
 
 ## Manage Optional System Attributes
 
 Choose how and when Viva Glint communicates with employees by mapping language, time zone, and personal emails to Viva Glint fields.
 
 > [!IMPORTANT]
-> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> Send language and time zone values exactly as they appear in related tabs in the following articles:
+> - [Viva Glint supported languages](supported-languages.md)
+> - [Viva Glint supported time zones](supported-time-zones.md)
+> 
+> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+> 
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 To edit optional system attributes after your initial setup:
 
@@ -116,10 +118,71 @@ To edit optional system attributes after your initial setup:
 2. Select **Actions** and then **Manage User Attributes**.
 3. In the **Optional System Attributes** section, select **Manage Optional System Attributes**.
    1. To disable an Optional System Attribute: Deselect the checkbox next to the desired field.
-   1. To enable an Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the Sync From dropdown menu.
-   1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the Sync From dropdown menu.
+   1. To enable an Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the **Sync From** dropdown menu.
+   1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the **Sync From** dropdown menu.
 
-   :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
+      :::image type="content" source="../../media/glint/setup/new-optional-attribute.png" alt-text="Screenshot of the Optional System Attributes section after selecting the Manage Optional System Attributes button.":::
+
+## Manage hierarchy groups
+
+Use the following guidance to manage hierarchy attributes **before** updating your employee data files so that they continue to import seamlessly. Use these steps to update Hierarchy group or level names, add new hierarchies, or edit existing hierarchy levels.
+
+### Rename hierarchy attributes
+
+To rename a hierarchy group:
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, go to the hierarchy that you want to rename.
+4. Select the ellipsis next to the hierarchy group and choose **Edit hierarchy group**.
+5. In the dialog that appears, edit the **Hierarchy group name** field.
+6. Select **Save changes**.
+
+   :::image type="content" source="../../media/glint/setup/edit-hierarchy-grp-name.png" alt-text="Screenshot of the Viva Glint dialog to edit a hierarchy group name.":::
+
+To rename hierarchy levels:
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, go to the hierarchy that has levels that you want to rename.
+4. Select the ellipsis next to the hierarchy group and choose **Edit hierarchy group.**
+5. In the dialog that appears, edit the **Level** fields in the Hierarchy levels section.
+6. Select **Save changes**.
+
+   :::image type="content" source="../../media/glint/setup/edit-hierarchy-level-name.png" alt-text="Screenshot of the Viva Glint dialog to edit  hierarchy level names.":::
+
+   > [!CAUTION]
+   > Use this method if the underlying data remains the same, but the hierarchy level name changes in your system. Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
+
+### Add a hierarchy
+
+To add a new hierarchy group:
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, select **+ Add Hierarchy Group**.
+4. In the dialog that appears, enter a **Hierarchy group name**.
+
+   :::image type="content" source="../../media/glint/setup/add-hierarchy.png" alt-text="Screenshot of the Viva Glint dialog to add a new hierarchy.":::
+   
+6. Select the **+ Add level** to add as many levels as needed, up to 10.
+7. Next to each level, enter a name.
+8. Select **Create**.
+
+### Edit hierarchy levels
+
+1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Hierarchy Groups** section, select the ellipsis next to the hierarchy group to edit and choose **Edit hierarchy group.**
+4. In the dialog that appears, select a level name to edit or use the **+ Add level** option to add a new lowest level.
+
+   :::image type="content" source="../../media/glint/setup/edit-hierarchy.png" alt-text="Screenshot of the Viva Glint dialog to edit a hierarchy group.":::
+   
+5. Enter a name for any new levels.
+6. Select **Save changes**.
+
+   > [!CAUTION]
+   > Rename levels only if the underlying data remains the same, but the hierarchy level name changes in your system. Repurposing attribute name labels can create issues in reporting. For example, rename a "Department" level to "Team" only if the values in the column remain the same.
 
 ## Update custom attribute visibility
 

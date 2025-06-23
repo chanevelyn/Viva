@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/04/2025
+ms.date: 06/09/2025
 ---
 
 # Manage Support users in Viva Glint
@@ -35,21 +35,21 @@ To add a user:
 
 1. From the admin dashboard, select the **Configuration** symbol, then in **Employees**, choose **People**.
 2. In the **Actions** dropdown menu, select **Add a Support User**.
-3. Enter the First Name, Last Name, and Email on file in Microsoft Entra ID for this user.  
-4. The **Company Admin User Role** is selected by default and grants Support users the required level of access to help in your Viva Glint account.
+3. Enter the First Name, Last Name, and Email on file in Microsoft Entra ID for this user.
 
-    > [!IMPORTANT]
-    > Support users in Viva Glint don't have all export/import abilities.
-
-5. Switch the **External user** toggle to **Yes** to flag guests in Viva Glint.
-6. Switch the **Grant user advanced configuration access** setting to **Yes** to allow Support users access to **Advanced Configuration** features.
+   > [!NOTE]
+   > There is no field for Employee ID for Support users. By default, the ID is always the value that admins enter for the Support user's Email.
+   
+5. The **Company Admin User Role** is selected by default and grants Support users the required level of access to help in your Viva Glint account.
+6. Switch the **External user** toggle to **Yes** to flag guests in Viva Glint.
+7. Switch the **Grant user advanced configuration access** setting to **Yes** to allow Support users access to **Advanced Configuration** features.
   
    > [!IMPORTANT]
    > Users with access to Advanced Configuration settings can make changes to potentially sensitive areas of
    > your Viva Glint configuration. For an Advanced Configuration overview, see [Understand Advanced
    > Configuration options in Viva Glint.](understand-advanced-configuration.md)
 
-7. Select **Add support user.**
+8. Select **Add support user.**
 
 ## Sign in as a Support user
 

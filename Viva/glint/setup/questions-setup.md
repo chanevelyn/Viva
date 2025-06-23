@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2025
+ms.date: 06/20/2025
 ---
 
 # Viva Glint Questions setup
@@ -75,6 +75,18 @@ To add a link to an employee resource or other information in your survey introd
 1. Preview your survey to confirm that the logo appears as expected.
    1. [Recurring or Ad Hoc survey preview process](preview-manage-enable-engage-programs.md)
    1. [Lifecycle and Always-On survey preview process](preview-filter-lifecycle-programs.md#preview-the-survey)
+
+## Add cycles to a blank recurring survey
+
+By default, the blank recurring survey template doesn't include multiple cycles. To add cycles:
+
+1. Go to **Configuration** and choose **Survey programs** in **Surveys**.
+2. Select your blank recurring survey and go to the **Questions** tab.
+3. Above the survey introduction message, select the **+** sign.
+  
+   :::image type="content" source="../../media/glint/setup/add-survey-cycle.png" alt-text="Screenshot of the survey cycle addition option in Question setup." lightbox="../../media/glint/setup/add-survey-cycle.png":::
+
+4. After adding cycles, go to each question and select cycle numbers to include the questions in all or specific survey cycles.
 
 ## Add survey questions
 
@@ -147,7 +159,7 @@ Viva Glint survey questions have some fields that are view only and fields can v
 | Question Type             | The question type: Rating, Open-Ended, or Multiple Choice/Multi-Select      | All             | View only   |
 | Reporting label           | The shortened label for a question that appears in reports.       | All             | Editable    |
 | Question text             | The full question text that survey takers see. This text also appears in some report areas.       | All             | Editable    |
-| Benchmark                 | The Viva Glint standard question that this item is linked to for benchmarking. [Learn more](custom-question-benchmark.md).       | Rating          | Editable    |
+| Benchmark                 | The Viva Glint [standard question that this item is linked to for benchmarking](custom-question-benchmark.md).    | Rating          | Editable    |
 | Instruction text          | Help text for survey takers to answer the question.       | All             | Editable    |
 | Comment placeholder text  | Help text for survey takers to provide comments.       | All             | Editable    |
 | Rating scale              | The number of responses for rated questions.        | Rating          | View only   |
