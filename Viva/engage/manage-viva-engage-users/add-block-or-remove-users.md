@@ -40,7 +40,12 @@ To remove user access to the Viva Engage network, consult the following document
 
 1. Go to the Viva Engage Admin Center.
 2. Select **Governance and compliance > Data management**.
-3. Check the options for **Manage GDPR data subject requests**.
+3. Check the options for **Manage GDPR data subject requests**. GDPR subject requests support three distinct options:
+
+   - **Permanently remove this user, but retain their messages** - Removes the user and retains their posted messages and content.
+   - **Permanently remove this user, and remove their messages** - Removes the user and their posted messages and content. You can't reverse this action.
+   - **Erase this user. Wipe their name and personal information, but leave their messages (Can't be undone after 14 days)** - Deactivates the user for 14 days to give the admin time to evaluate files and messages before permanently deleting the user.
+
 4. When finished, select **Remove user**.
 
 The following image illustrates.
