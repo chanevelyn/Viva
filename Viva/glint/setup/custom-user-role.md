@@ -24,7 +24,7 @@ Viva Glint Administrators can setup custom access at the role level or the user 
 ## Grant custom survey access for a role
 
 > [!NOTE]
-> Setting custom access at the User role level applies the selected population for the role's Admin, Focus Area, and Survey access. Custom access granted at the role level can only be edited at the role level and no additional population's can be added on a user's profile. 
+> Setting custom access at the User role level applies the selected population for the role's Admin, Focus Area, and Survey access. Custom access granted at the role level can only be edited at the role level and no edits can be made on to access on a user's profile. 
 
 1. Select **Configuration** and then choose **User roles**.
 1. Select the role that should have custom access.
@@ -43,7 +43,14 @@ Viva Glint Administrators can setup custom access at the role level or the user 
 
     :::image type="content" source="../../media/glint/setup/access-permissions-scope-program.png" alt-text="Screenshot of survey programs selected for a role.":::
     
-1. Select **Save** in the top right of the **Access permissions scope** pane. 
+1. Select **Save** in the top right of the **Access permissions scope** pane.
+1. On a role member's profile, update custom access displays, with the role that grants access, for Admin, Focus area, and Survey access:
+
+   :::image type="content" source="../../media/glint/setup/user-profile-custom-access.png" alt-text="Screenshot of custom admin, focus area, and survey access on a user's profile and the user role that grants the custom access.":::
+
+1. Because the custom access is granted at the role level, selecting the pencil symbol to edit shows a grayed out population that can only be edited at the role level:
+
+   :::image type="content" source="../../media/glint/setup/edit-access-gray.png" alt-text="Screenshot of the custom access edit dialog on a user's profile showing a grayed out population that can only be edited at the role level.":::
 
 ## Grant custom survey access for a user
 
