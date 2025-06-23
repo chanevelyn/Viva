@@ -22,13 +22,13 @@ description: "Manage users and guests in Viva Engage."
 
 # Manage GDPR data subject requests for Viva Engage users
 
-For all Viva Engage networks, use the **Manage GDPR data subject requests** module in the Viva Engage admin center to process data subject requests for GDPR.
+Network admins, Verified admins & Engage admins can use the **Manage GDPR data subject requests** module in the Viva Engage admin center to process data subject requests for GDPR.
 
 Before you proceed, if necessary, review the following documents:
 
 - [Manage GDPR data subject requests in Viva Engage Enterprise](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md)
 
-- [GDPR requests for Office 365](/compliance/regulatory/gdpr-dsr-Office365.md)
+- [GDPR requests for Office 365](/compliance/regulatory/gdpr-dsr-Office365)
 
 To remove user access to the Viva Engage network, consult the following documents:
 
@@ -39,9 +39,11 @@ To remove user access to the Viva Engage network, consult the following document
 ## Remove a user based upon a GDPR request
 
 1. Go to the Viva Engage Admin Center.
-2. Select **Governance and compliance > Data export**.
+2. Select **Governance and compliance > Data management**.
 3. Check the options for **Manage GDPR data subject requests**.
 4. When finished, select **Remove user**.
+
+The following image illustrates.
 
 ![Admins can remove users based upon Admin Center options](/viva/media/engage/admin/admin-center-data-management-gdpr-request.png)
 
