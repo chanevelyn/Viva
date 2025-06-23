@@ -184,7 +184,7 @@ Indicate the type of refresh you’re performing and how Viva Insights should ma
 
 **Mapping example**
 
-The following example represents one field you’ll find in the metadata.json file:
+The following example represents one field in the metadata.json file:
 
 ```json
 "PersonId": {
@@ -573,11 +573,11 @@ Select your **Copy data** activity, then select **General** to complete each fie
 
 ###### 7. Copy data activity settings: Settings and User Properties
 
-No additional customizations are required for **Settings** or **User Properties**. You can edit these settings on a case-by-case basis if you need to.
+No other customizations are required for **Settings** or **User Properties**. You can edit these settings on a case-by-case basis if you need to.
 
 ###### 8. Copy data activity: Trigger Setup (Automation)
 
-To add a trigger to the automation setup, select **Add trigger**. The recommended automation is weekly, you can also customize the frequency.
+To add a trigger to the automation setup, select **Add trigger**. The recommended automation is weekly. You can also customize the frequency.
 
 :::image type="content" source="../images/import-org-data-adf-16.png" alt-text="Screenshot that shows how to set up the Trigger.":::
 
