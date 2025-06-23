@@ -50,7 +50,7 @@ To remove user access to the Viva Engage network, consult the following document
 
 The following image illustrates.
 
-![Admins can remove users based upon Admin Center options](/viva/media/engage/admin/admin-center-data-management-gdpr-request.png)
+![Admins can remove users based upon Admin Center options](/viva/media/engage/admin/admin-center-data-management-request.png)
 
 GDPR subject requests support three distinct options:
 
