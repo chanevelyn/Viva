@@ -33,7 +33,7 @@ items:
       href: setup-admin-access/tenant-admin-dashboard.md
     - name: Export pulse data
       href: setup-admin-access/export-pulse-data.md
-- name: Privacy, secutiy and data management
+- name: Privacy, security, and data management
   items:
     - name: Privacy and data protection
       href: get-started/privacy-and-data-protection.md
@@ -51,6 +51,8 @@ items:
   items:
     - name: Measure Microsoft 365 Copilot impact in your organization
       href: viva-integrations/measure-copilot-impact-in-your-organization.md
+    - name: Action taking after Viva Glint engagement surveys
+      href: viva-integrations/action-taking-after-glint-survey.md
 - name: Troubleshoot
   items:
     - name: Resolve setup errors
