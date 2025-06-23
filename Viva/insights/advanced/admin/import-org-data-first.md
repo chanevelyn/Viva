@@ -158,7 +158,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 #### Tips for preparing your data
 
 * For new data, include full historical data for all employees. 
-* Import organizational data for all employees in the company, including licensed and non-licensed employees. 
+* Import organizational data for all employees in the company, including licensed and nonlicensed employees. 
 * See the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
 #### Export your data on a set frequency
@@ -270,7 +270,7 @@ If connector is set and caller application (id) is granted authorization:
 ```
                        
 
-If Insights Administrator has removed the connector or, connector has not been set by Insights Administrator yet: 
+If the Insights Administrator has removed the connector or, the connector hasn't been set yet by the Insights Administrator: 
 
  
 `403: Forbidden.`
@@ -595,15 +595,15 @@ For information about what happens next, go to the appropriate section:
 
 ### Validation succeeds
 
-After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, a “Processing” status appears on the **Import history** table.
+After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, a "Processing" status appears on the **Import history** table.
 
-After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a “Success” or “Failed” status in the **Import history** table.
+After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a "Success" or "Failed" status in the **Import history** table.
 
 #### Processing succeeds
 
-When you find the “Success” status in the **Import history** table, the upload process is complete.
+When you find the "Success" status in the **Import history** table, the upload process is complete.
 
-After you receive the “Success” status, you can:
+After you receive the "Success" status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
 * Select the mapping icon to see the mapping settings for the workflow.
@@ -613,7 +613,7 @@ After you receive the “Success” status, you can:
 
 #### Processing fails
 
-If processing fails, a “Processing failed” status appears in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
+If processing fails, a "Processing failed" status appears in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
 
 >[!Note]
 >Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, [log a support ticket with us](/microsoft-365/admin/get-help-support).
