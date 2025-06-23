@@ -23,24 +23,27 @@ Viva Glint Administrators can setup custom access at the role level or the user 
 
 ## Grant custom survey access for a role
 
+> [!NOTE]
+> Setting custom access at the User role level applies the selected population for the role's Admin, Focus Area, and Survey access. Custom access granted at the role level can only be edited at the role level and no additional population's can be added on a user's profile. 
+
 1. Select **Configuration** and then choose **User roles**.
-2. Select the role that should have custom access.
-3. Select **Permissions** and go to **Team access**.
+1. Select the role that should have custom access.
+1. Select **Permissions** and go to **Team access**.
 
    :::image type="content" source="../../media/glint/setup/user-role-access-permissions.png" alt-text="Screenshot of a role's Team access, including programs and the option to define custom populations.":::
    
-6. Select **Custom** and in the Populations access section, select **Define populations**.
-7. In the **Access permissions scope** pane that appears, select **+ New Population** on the **Populations** tab.
-8. Select **+ Add filters** and choose attribute values for the data the role should have access to.
+1. Select **Custom** and in the Populations access section, select **Define populations**.
+1. In the **Access permissions scope** pane that appears, select **+ New Population** on the **Populations** tab.
+1. Select **+ Add filters** and choose attribute values for the data the role should have access to.
 
    :::image type="content" source="../../media/glint/setup/access-permissions-scope-pop.png" alt-text="Screenshot of a population selected for a role's custom access.":::
    
-9. Still in the **Access permissions scope** pane, go to the **Programs** tab.
-10. Select survey programs that this role should have access to.
+1. Still in the **Access permissions scope** pane, go to the **Programs** tab.
+1. Select survey programs that this role should have access to.
 
     :::image type="content" source="../../media/glint/setup/access-permissions-scope-program.png" alt-text="Screenshot of survey programs selected for a role.":::
     
-13. Select **Save** in the top right of the **Access permissions scope** pane.
+1. Select **Save** in the top right of the **Access permissions scope** pane. 
 
 ## Grant custom survey access for a user
 
