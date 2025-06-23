@@ -36,7 +36,7 @@ Viva Glint Administrators can setup custom access at the role level or the user 
 1. In the **Access permissions scope** pane that appears, select **+ New Population** on the **Populations** tab.
 1. Select **+ Add filters** and choose attribute values for the data the role should have access to.
 
-   :::image type="content" source="../../media/glint/setup/access-permissions-scope-pop.png" alt-text="Screenshot of a population selected for a role's custom access.":::
+   :::image type="content" source="../../media/glint/setup/access-permissions-scope-pop.png" alt-text="Screenshot of a population selected for a role's custom access."../../media/glint/setup/access-permissions-scope-pop.png":::
    
 1. Still in the **Access permissions scope** pane, go to the **Programs** tab.
 1. Select survey programs that this role should have access to.
