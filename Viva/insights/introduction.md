@@ -1,5 +1,5 @@
 ---
-ms.date: 06/23/2025
+ms.date: 06/30/2025
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
@@ -22,6 +22,9 @@ ms.custom: intro-overview
 ---
 
 # Introducing Microsoft Viva Insights
+
+>[!Note]
+>Starting this month, we're integrating the Copilot Dashboard with advanced reporting functionality from Viva Insights. This experience provides broader access to Copilot Analytics reporting and is expected to reach all customers by mid-July. Our product documentation has been updated to reflect the enhanced product experience. [Learn more about the changes](https://techcommunity.microsoft.com/blog/viva_insights_blog/unifying-the-viva-insights-app-for-copilot-dashboard-and-advanced-reporting/4414666).
 
 Microsoft Viva Insights is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva). Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights and offers recommendations to improve productivity and wellbeing. It provides personal insights to your employees, team insights for managers, organization insights for your managers and business leaders, and advanced analysis tools for analysts to address critical questions about work culture.
 
