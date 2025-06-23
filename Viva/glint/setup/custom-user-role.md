@@ -32,7 +32,7 @@ Viva Glint Administrators can setup custom access at the role level or the user 
 
    :::image type="content" source="../../media/glint/setup/user-role-access-permissions.png" alt-text="Screenshot of a role's Team access, including programs and the option to define custom populations.":::
    
-1. Select **Custom** and in the Populations access section, select **Define populations**.
+1. Select **Custom** and in the **Populations access** section, select **Define populations**.
 1. In the **Access permissions scope** pane that appears, select **+ New Population** on the **Populations** tab.
 1. Select **+ Add filters** and choose attribute values for the data the role should have access to.
 
