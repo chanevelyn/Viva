@@ -14,15 +14,15 @@ search.appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2024
+ms.date: 06/16/2025
 ---
 
 # Link an item to a Suggested Action template in Viva Glint
 
-Standard resources are most often automatically linked to a Suggested Action template by default. You can edit an existing template and link new items to it. 
+Standard resources are usually automatically linked to a Suggested Action template by default in Microsoft Viva Glint. You can edit an existing template and link new items to it. 
 
->[!IMPORTANT]
->A new Action template, created by cloning an existing template, needs to be renamed.
+> [!IMPORTANT]
+> A new Action template, created by cloning an existing template, needs to be renamed.
 
 ## Map a new question to a Suggested Action template
 
@@ -75,9 +75,26 @@ Standard resources are most often automatically linked to a Suggested Action tem
 
 Default action items automatically appear anytime a new Focus Area is created for that item. For any Suggested Action Item that your company wants users to review, select **Move to Default** next to that item.
 
+## Deprecate custom Content Resources
+
+To retire a Content Resource, use the **Deprecate** option. This feature removes custom content from any associated Focus Areas, regardless of the Focus Area status.
+
+1. Select the custom Content Resource from **Resources**.
+2. Select the **Deprecate** option in the top right.
+3. In the confirmation dialog that appears, select **Delete**.
+
+   > [!IMPORTANT]
+   > This action is irreversible.
+   
+   > [!NOTE]
+   > Users need to log out and log in again to see Content Resource changes in their Focus Area Action Items.
+
 ## Delete custom Content Resources
 
 Custom content is identified within the column labeled *Shared* in *Content Resources* on the admin dashboard. 
+
+> [!NOTE]
+> [Learn how Content Resource edits for content already connected to Focus Areas can be visible for managers](customize-action-plans.md#edit-content-resources-connected-to-focus-areas).
 
 :::image type="content" source="../../media/glint/reports/content-resources-shared-column.png" alt-text="Screenshot that shows whether resources are custom or the property of Viva Glint." lightbox="../../media/glint/reports/content-resources-shared-column.png":::
 

@@ -1,6 +1,6 @@
 ---
-title: Licensing requirements
-description: "Licensing requirements"
+title: Viva Pulse licensing requirements
+description: "Licensing requirements for Viva Pulse"
 ms.reviewer: 
 ms.author: michellehu
 author: michellehu
@@ -15,7 +15,7 @@ ms.collection: m365initiative-viva-pulse
 search.appverid: MET150
 ---
 
-# Licensing requirements
+# Viva Pulse licensing requirements
 
 The following list of capabilities is available to Viva Pulse authors and administrators.
 

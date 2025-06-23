@@ -1,5 +1,5 @@
 ---
-title:  Microsoft 365 Copilot in Viva Glint-FAQs 
+title:  Microsoft 365 Copilot in Viva Glint- Enablement and general FAQs 
 description: Scan commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,10 +17,10 @@ ms.topic: faq
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-aapproved
-ms.date: 04/10/2025
+ms.date: 05/15/2025
 ---
 
-# Microsoft 365 Copilot in Viva Glint-FAQs 
+# Microsoft 365 Copilot in Viva Glint-Enablement and general FAQs 
 
 ## Foundational and enablement questions
 
@@ -33,7 +33,7 @@ ms.date: 04/10/2025
 **A:** When a manager or a leader doesn't have access to a specific demographic attribute or group results, Copilot can't find that attribute in the User's report filter, so is unable to use that attribute for filtering comments. Copilot is still able to summarize the comments but without filtering by that attribute.
 Examples:
 1. If a User asks to summarize comments from male employees but doesn't have access to the gender attribute or the male attribute value, Copilot summarizes **all** comments and provides a summary. The summary isn't specific to the attribute requested.
-2. If a User requests a summary of comments using multiple filters (e.g., Accounting department, Generation X) but lacks permission for one or more of the filters, Copilot generates a summary based **only** on the filters the User has permission to access. The summary excludes restricted filters.
+2. If a User requests a summary of comments using multiple filters (for example, Accounting department, Generation X) but lacks permission for one or more of the filters, Copilot generates a summary based **only** on the filters the User has permission to access. The summary excludes restricted filters.
 
 <br>**Q: How often is the Large Language Model (LLM) updated for Copilot in Viva Glint?**
 
@@ -67,7 +67,7 @@ Examples:
 
 <br>**Q: What features does enabling Copilot in Viva Glint provide access to?**
 
-**A:** Through an interactive question and response format, users can request comment summarization across survey items, as well as filter attributes. Current functionality includes the ability to summarize, in English:
+**A:** Through an interactive question and response format, users can request comment summarization across survey items, and filter attributes. Current functionality includes the ability to summarize, in English:
 - All Comments
 - Comments by Item
 - Comments by Comment Sentiment
@@ -81,6 +81,9 @@ Copilot in Viva Glint comment summarization is available in all languages suppor
 For the best feedback, encourage your employees to leave comments in their native language.
 
 [Microsoft 365 Copilot currently supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8). Copilot in Viva Glint may not support all of the languages listed on this page. Support for all languages is on the roadmap. Your platform informs you of which languages are available for your programs.
+
+> [!NOTE]
+> Not all languages supported by Microsoft 365 Copilot are available for Viva Glint. More language support is on the roadmap. Your platform informs you of available languages.
 
 <br>**Q: Can customers participate in multiple private previews and Microsoft 365 Copilot in Viva Glint?**
 
@@ -140,11 +143,15 @@ For the best feedback, encourage your employees to leave comments in their nativ
 
 **A:** Learn about [Microsoft Viva Glint's Narrative Intelligence](https://techcommunity.microsoft.com/discussions/results_and_action_taking_on_viva_glint/what-is-viva-glints-narrative-intelligence/3884799) and download the PDF to share with your leaders.
 
+<br>**Q: How does the algorithm define Diversity, Equity, and Inclusion-related or sensitive topics/attributes? Is it solely based on our attributes sent to Viva Glint? Is there a key term library?**
+
+**A:** [Read this article about Copilot's responsible AI approach](https://www.microsoft.com/microsoft-365/blog/2024/02/13/making-our-generative-ai-products-safer-for-consumers).
+
 ## Copilot roadmap
 
 <br>**Q: Are new features planned for Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Yes! We'll let you know as soon as new features are available. All items mentioned as currently unavailable are on our list for consideration.
+**A:** Yes! We let you know as soon as new features are available. All items mentioned as currently unavailable are on our list for consideration.
 
 <br>**Q: Does Copilot in Viva Glint have any limitations?**
 
@@ -157,12 +164,12 @@ For the best feedback, encourage your employees to leave comments in their nativ
 - Copilot in Viva Glint doesn’t currently support cross-program filters.
 - Copilot in Viva Glint doesn’t currently support plug-ins.
 
-<br>**Q: What languages does Copilot in Viva Glint support for comment summarization?**
+<br>**Q: How often does Copilot in Viva Glint update underlying functionalities? How are we notified of new functionalities?**
 
-**A:** Copilot in Viva Glint comment summarization is available in most languages supported by Microsoft 365 Copilot. The admin still needs to interact with the program in English. To obtain the best feedback possible, encourage your employees to leave comments in their native language. [Microsoft 365 Copilot supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
+**A:** In order to determine whether a new model update would address existing issues or improve response quality and system performance, Viva	Glint continuously monitors Copilot’s reliability. Viva Glint sends out monthly newsletters that include important enhancements to Copilot in Viva Glint. 
 
-> [!NOTE]
-> Not all languages supported by Microsoft 365 Copilot are available for Viva Glint. Support for all these languages is on the roadmap. Your platform informs you of available languages.
+
+
 
  
 
