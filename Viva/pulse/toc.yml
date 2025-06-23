@@ -51,8 +51,8 @@ items:
   items:
     - name: Measure Microsoft 365 Copilot impact in your organization
       href: viva-integrations/measure-copilot-impact-in-your-organization.md
-    - name: Action taking after Viva Glint engagement surveys
-      href: viva-integrations/action-taking-after-glint-survey.md
+    - name: Take actions with Viva Pulse after Viva Glint engagement surveys
+      href: viva-integrations/take-actions-after-glint-survey.md
 - name: Troubleshoot
   items:
     - name: Resolve setup errors

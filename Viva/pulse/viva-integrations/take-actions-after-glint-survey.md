@@ -1,6 +1,6 @@
 ---
-title: Action taking with Viva Pulse after Viva Glint engagement surveys
-description: "Action taking with Viva Pulse after Viva Glint engagement surveys"
+title: Take actions with Viva Pulse after Viva Glint engagement surveys
+description: "Take actions with Viva Pulse after Viva Glint engagement surveys"
 ms.reviewer: 
 ms.author: michellehu
 author: michellehu-msft
@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ---
 
-# Action taking with Viva Pulse after Viva Glint engagement surveys
+# Take actions with Viva Pulse after Viva Glint engagement surveys
 
 Managers and leaders are empowered to gather additional information and check in on team progress by using Pulse to follow up with their teams after an org-wide Glint engagement survey. The Pulse survey recommends questions from the top strengths and opportunities identified in the Glint engagement survey, so managers and leaders can gather a timely understanding of the team’s progress to date in addressing key focus areas, make mid-point adjustments if needed, and maintain momentum in their efforts to improve engagement and employee experience.
 
