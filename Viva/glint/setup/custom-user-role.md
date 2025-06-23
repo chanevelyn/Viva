@@ -14,17 +14,38 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/14/2025
+ms.date: 06/23/2025
 ---
 
 # User Roles with custom data access in Viva Glint
 
-Microsoft Viva Glint custom access can override default access and meet access needs that specific enough to be tied to a user rather the User Role. For example, use custom access for HR Business Partners who serve unique combinations of employee groups in your organization.
+Viva Glint Administrators can setup custom access at the role level or the user level in Microsoft Viva Glint. When setting at the user level, choose to grant access individually or with a bulk upload.
+
+## Grant custom survey access for a role
+
+1. Select **Configuration** and then choose **User roles**.
+2. Select the role that should have custom access.
+3. Select **Permissions** and go to **Team access**.
+
+   :::image type="content" source="../../media/glint/setup/user-role-access-permissions.png" alt-text="Screenshot of a role's Team access, including programs and the option to define custom populations.":::
+   
+6. Select **Custom** and in the Populations access section, select **Define populations**.
+7. In the **Access permissions scope** pane that appears, select **+ New Population** on the **Populations** tab.
+8. Select **+ Add filters** and choose attribute values for the data the role should have access to.
+
+   :::image type="content" source="../../media/glint/setup/access-permissions-scope-pop.png" alt-text="Screenshot of a population selected for a role's custom access.":::
+   
+9. Still in the **Access permissions scope** pane, go to the **Programs** tab.
+10. Select survey programs that this role should have access to.
+
+    :::image type="content" source="../../media/glint/setup/access-permissions-scope-program.png" alt-text="Screenshot of survey programs selected for a role.":::
+    
+13. Select **Save** in the top right of the **Access permissions scope** pane.
 
 ## Grant custom survey access for a user
 
-1. Select **Configuration** and then **People**.
-2. Go to the User Role that needs custom access granted.
+1. Select **Configuration** and then choose **People**.
+2. Go to the User Role that has members that need custom access.
 3. Search for or select a user.
 4. On the user's profile, next to the survey name who needs access, select the **pencil** symbol to edit.
 
@@ -61,8 +82,6 @@ Users can have Focus Areas and admin access customized.
 
 6. Select **Save**.
 
-To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md#perform-a-managers_upload).
-
 ### Access to one or multiple populations
 
 For survey, Focus Area, and Admin access, you can grant access to one or multiple populations, depending on how a user should see data in their reports. 
@@ -86,5 +105,7 @@ This access appears on their user profile as two populations, with values from e
 
 :::image type="content" source="../../media/glint/setup/user-access-two-populations.png" alt-text="Screenshot of user access with cost center and department values selected in separate populations.":::
 
+## Grant custom access in bulk
 
+To grant custom access to multiple users for survey, Focus Area, and Admin access, export [existing custom access](custom-access.md) and import new access files in [Advanced Configuration uploads](advanced-config-uploads.md#perform-a-managers_upload).
 
