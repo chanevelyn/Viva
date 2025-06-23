@@ -1,5 +1,5 @@
 ---
-ms.date: 02/13/2025
+ms.date: 06/30/2025
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
@@ -16,7 +16,7 @@ audience: Admin
 
 # Upload organizational data (subsequent upload)
 
-If organizational data has already been uploaded into the advanced insights app, you as an admin can use the information in this article to:
+If organizational data has already been uploaded into the Viva Insights web app, you as an admin can use the information in this article to:
 
 * Edit existing data
 * Replace existing data
@@ -26,10 +26,6 @@ Complete these steps after preparing the data as described in [Prepare organizat
 
 > [!Important]
 > Only follow these steps if this is not the first time you’ve uploaded organizational data. If this is your first upload, follow the steps in [Upload organizational data (first upload)](upload-org-data-first.md).
->
->For customers coming over from our legacy app:
->
-> If you're migrating from the legacy advanced insights app, the data you've uploaded to the legacy app will be automatically available in the new app. After you've started using the new app to upload your data, make all subsequent uploads here. Continuing to use the new app prevents data inconsistency.
 
 ## Workflow
 
