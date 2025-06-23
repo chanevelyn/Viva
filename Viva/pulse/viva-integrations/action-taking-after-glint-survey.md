@@ -32,7 +32,7 @@ To use Pulse to follow up with your teams after receiving your Glint engagement 
 
 As a Glint admin, you must first enable the Pulse integration for your Glint survey programs for users in your tenant to use Viva Pulse to follow up with their teams about action item progress. You can configure the Glint survey programs that have the Pulse integration enabled, the user roles who will receive the Glint email to use Pulse to follow up with their team, the timing of the Glint email to those selected user roles, the content of the Glint email, and the localizations for the Glint email.
 
-![image](../glint-admin.png)
+![Glint admin setup for Pulse follow-ups](../glint-admin.png)
 
 1. Click on the **gear icon** in Viva Glint to enter the Glint general admin page and under **Microsoft Viva Integrations**, click on **Viva Pulse**.
 2. To set up the Pulse integration for a Glint survey program, click on **Survey programs** in the card to send Glint data to Pulse and select the Glint survey program you want to enable the Pulse follow-ups for.
@@ -48,7 +48,7 @@ As a Glint admin, you must first enable the Pulse integration for your Glint sur
 
 As a Pulse content admin, you can configure the content in the follow-up template available in Viva Pulse, including the questions available in the template and the questions themselves. The content can be configured under **Customize templates and questions**.
 
-![image](../pulse-integration-content-admin.png)
+![Pulse content admin to configure Pulse follow-up template](../pulse-integration-content-admin.png)
 
 To configure the follow-up template, click on the **Template management** tab:
 
@@ -74,11 +74,11 @@ To configure the questions in the follow-up template, click on the **Question ma
 
 As a manager or leader, you can use Viva Pulse to follow up with your teams to capture feedback on the action items you had defined after reviewing the latest Glint survey results together. Pulse helps you gather a timely understanding of the team’s progress to date in addressing key focus areas, make mid-point adjustments if needed, and maintain momentum in your efforts to improve engagement and employee experience.
 
-![image](../glint-email.png)
+![Glint email notification to follow up with your team](../glint-email.png)
 
 1. From the Glint email notification to drive improvements with your team by checking in on their action progress, click on **Send a Pulse survey**.
     1. Alternatively, you can use Pulse to follow up with your team via the Pulse banner on the executive summary and team summary pages. Click on **Go to Viva Pulse**.
-    ![image](../glint-banner.png)
+    ![Glint banner to start a Pulse follow-up](../glint-banner.png)
 
 1. Read the value proposition for the Pulse follow-ups integration and click **Next**.
 1. View the list of top opportunities and strengths pulled in from the Glint survey results and the research-backed questions, select those that are relevant to your team, and click **Next**. You can view the Glint item from the latest Glint survey by hovering on the tooltips next to the questions pulled from the Glint survey results.
