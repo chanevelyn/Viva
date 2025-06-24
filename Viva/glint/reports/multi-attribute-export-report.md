@@ -28,7 +28,9 @@ Only Viva Glint Admins can access this export.
 1. Select **Reports** from the Viva Glint Dashboard.
 2. In the **Survey programs** list on the left, select a survey.
 3. Select the **Multi-attribute export** tile.
-4. Depending on the survey type, use the following information to export results. 
+4. Depending on the survey type, use the following information to export results:
+   - [Recurring or Ad Hoc surveys](#export-results-for-recurring-and-ad-hoc-surveys)
+   - [Always-On and Employee Lifecycle surveys](#export-results-for-aLways-on-and-employee-lifecycle-surveys)
 
 ## Export results for Recurring and Ad Hoc surveys
 
@@ -94,5 +96,5 @@ The column headers for results data start on row six and include:
 
 ## Attribute selection order and data suppression
 
-The Multi-attribute export evaluates data to suppress each time the export is generated and takes into account the order that users select attributes.
+The Multi-attribute export adheres to your organizations's selected confidentiality and suppression thresholds. The export evaluates data to suppress each time the export is generated and takes into account the order that users select attributes.
 
