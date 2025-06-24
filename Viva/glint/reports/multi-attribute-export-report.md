@@ -52,7 +52,7 @@ In the Multi-attribute export dialog that appears:
 
 5. Select **Export** after making all selections.
 
-## Export results for ALways-On and Employee Lifecycle surveys
+## Export results for Always-On and Employee Lifecycle surveys
 
 In the Multi-attribute export dialog that appears:
 
