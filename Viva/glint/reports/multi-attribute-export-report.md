@@ -30,7 +30,7 @@ Only Viva Glint Admins can access this export.
 3. Select the **Multi-attribute export** tile.
 4. Depending on the survey type, use the following information to export results:
    - [Recurring or Ad Hoc surveys](#export-results-for-recurring-and-ad-hoc-surveys)
-   - [Always-On and Employee Lifecycle surveys](#export-results-for-aLways-on-and-employee-lifecycle-surveys)
+   - [Always-On and Employee Lifecycle surveys](#export-results-for-always-on-and-employee-lifecycle-surveys)
 
 ## Export results for Recurring and Ad Hoc surveys
 
