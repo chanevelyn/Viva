@@ -72,7 +72,7 @@ In the Multi-attribute export dialog that appears:
    
 ## Multi-attribute export content
 
-Rows one - five include information about exported data, including:
+Rows 1 - 5 include information about exported data, including:
 
 - The Multi-attribute export file name
 - The program type
@@ -80,7 +80,7 @@ Rows one - five include information about exported data, including:
 - The export date
 - The survey date range (for Always-On and Lifecycle surveys) or the program cycle date (for Recurring and Ad Hoc surveys)
 
-The column headers for results data start on row six and include:
+The column headers for results data start on row 6 and include:
 
 1. (First selected attribute)
 2. (Second selected attribute)
@@ -96,5 +96,5 @@ The column headers for results data start on row six and include:
 
 ## Attribute selection order and data suppression
 
-The Multi-attribute export adheres to your organizations's selected confidentiality and suppression thresholds. The export evaluates data to suppress each time the export is generated and takes into account the order that users select attributes.
+The Multi-attribute export adheres to your organization's selected confidentiality and suppression thresholds. The export evaluates data to suppress each time the export is generated and takes into account the order that users select attributes.
 
