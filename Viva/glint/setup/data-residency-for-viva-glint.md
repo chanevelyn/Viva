@@ -26,7 +26,7 @@ Microsoft Viva Glint helps organizations measure employee engagement and experie
 
 ## Customer Data residency for Viva Glint
 
-Viva Glint customer data residency is limited to three regions: West US, EU, and Australia. This applies to data stored at rest which constitutes metadata for the Glint surveys authored and responded to, and reports generated for those surveys. 
+Viva Glint customer data residency is limited to three regions: West US, EU, and Australia. This applies to data stored at rest, which constitutes metadata for the Glint surveys authored and responded to, and reports generated for those surveys. 
 
 **West US data residency**
 
@@ -50,7 +50,7 @@ Required conditions:
 > [!IMPORTANT]
 > - We may temporarily move the data outside Australia into US/EU for processing data using Microsoft 365 core services. Any data that moves outside Australia won't reside for more than 24 hours and will be deleted at the end of processing operations. <br>
 > - When integrating Glint with another service, refer to that services terms and documentation to understand whether your data may leave Australia. <br>
-> - For existing Viva Glint customers, your instance will not be automatically migrated to Australia. Your account managers will work with your tenant admins to gain approval if you want your data to reside in Australia. Post that, we will work with you to align on a migration timeline. <br>
+> - For existing Viva Glint customers, your instance won't be automatically migrated to Australia. Your account managers work with your tenant admins to gain approval if you want your data to reside in Australia. Post that, we'll work with you to align on a migration timeline. <br>
 
 ## User experience
 
