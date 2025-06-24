@@ -1,5 +1,5 @@
 ---
-ms.date: 04/11/2025
+ms.date: 06/30/2025
 title: Collaboration between internal and external individuals
 description: Learn how to run an external collaborator query, to understand how groups at your company collaborate with others outside your company.
 author: zachminers
