@@ -1,7 +1,7 @@
 ---
 ms.date: 6/30/2025
 title: Person query
-description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
+description: Learn how to run a custom person query in the Microsoft Viva Insights web app
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
