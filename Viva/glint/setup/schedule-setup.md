@@ -1,5 +1,5 @@
 ---
-title: Microsoft Viva Glint survey Schedule setup
+title: Viva Glint survey Schedule setup
 description: Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch date, recurrence, and response window.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 05/06/2025
 ---
 
-# Microsoft Viva Glint survey Schedule setup
+# Viva Glint survey Schedule setup
 
 Set up the Schedule for your Microsoft Viva Glint survey by choosing a launch date, recurrence, and response window. 
 

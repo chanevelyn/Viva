@@ -1,6 +1,6 @@
 ---
-title: Overall Results report from a Microsoft Viva Glint survey
-description: Viva Glint's Overall Results Report mimics the Glint dashboard but allows data filtering and reviewing of more demographics.
+title: Viva Glint Overall Results report
+description: The Overall results report shows a high-level overview of results for your Microsoft Viva Glint survey.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,19 +14,20 @@ search.appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 5/02/2025
+ms.date: 06/20/2025
 ---
 
-# Overall Results report from a Microsoft Viva Glint survey
+# Viva Glint Overall Results report
 
-:::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
+The Overall results report shows a high-level overview of results for your Microsoft Viva Glint survey. Drilling down, you can focus on a specific question. You can also go back to the previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
 
-As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to the previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
+> [!NOTE]
+> Users in roles who [don't have access to all questions](/viva/glint/setup/reporting-setup#set-up-question-reporting-access) only see questions and comment counts for questions that they have access to.
 
 :::image type="content" source="../../media/glint/reports/overall-results-example.png" alt-text="Screenshot of an Overall Results report.":::
 
 > [!NOTE]
-> **For the Executive Summary Report in Employee Lifecycle programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
+> When questions in an aggregate index used as the key outcome include [question targeting](/viva/glint/setup/targeted-survey-items) to exclude some users, the key outcome response rate in the Survey overview section differs from the overall survey Response rate.
 
 ## Change report settings
 

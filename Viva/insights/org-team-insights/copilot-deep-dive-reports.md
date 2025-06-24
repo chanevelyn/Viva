@@ -1,5 +1,5 @@
 ---
-ms.date: 02/27/2025
+ms.date: 06/17/2025
 title: Use Microsoft 365 Copilot in Viva Insights deep-dive reports
 description: Explains how to use deep-dive reports with Microsoft 365 Copilot in Viva Insights, including how to access detailed insights about organizational composition and employee HR data.
 author: zachminers
@@ -33,7 +33,9 @@ Deep-dive reports in Microsoft 365 Copilot in Viva Insights help you answer prec
 
     * **Data Source Opportunity Indicator (if applicable)**. Highlights any data issues such as low coverage or freshness. [Learn more about data quality](.//..//advanced/analyst/data-quality-analyst-experience.md). 
 
-* **At a glance**. The "At a Glance" section provides a summary of the report, including the precise question response. This summary helps you quickly understand the key insights from your query. 
+* **At a glance**. The "At a Glance" section provides a summary of the report, including the precise question response. This summary helps you quickly understand the key insights from your query.
+
+* **Related skills**. You might see AI-generated related skills after you ask skills-based questions about employees. For example, "Communication" could include related skills like public speaking and executive-level communication.
 
 * **Visualization**. The visualization component displays a count of measured employees through charts and graphs. You can interact with these visual elements to filter and explore specific data points. 
 
