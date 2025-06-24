@@ -17,6 +17,8 @@ items:
             href: setup/privacy-protection-reporting.md
           - name: Privacy protection for 360 feedback programs
             href: setup/privacy-360-feedback.md
+          - name: Data residency for Viva Glint
+            href: setup/data-residency-for-viva-glint.md
       - name: Export raw response data
         items:
           - name: Access raw survey responses
