@@ -3,8 +3,8 @@ title: Integrate Viva Engage with other applications
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
-manager: elizapo
+author: v-rgrace
+manager: kateol
 ms.date: 01/04/2024
 audience: Admin
 ms.topic: reference
@@ -21,10 +21,10 @@ description: "Learn about putting Viva Engage feeds in other applications, and u
 
 # Integrate Viva Engage with other Microsoft applications
 
-Viva Engage offers various integrations to help make other applications more mobile and social. 
+Viva Engage offers various integrations to help make other applications more mobile and social.
   
 > [!TIP]
-> For many integrations, you need [the Viva Engage community or group's feedID](https://support.microsoft.com/en-us/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f). 
+> For many integrations, you need [the Viva Engage community or group's feedID](https://support.microsoft.com/en-us/office/how-do-i-find-a-community-s-group-feed-id-in-viva-engage-9372ab6f-bcc2-4283-bb6a-abf42dec970f).
   
 ## Viva Engage for SharePoint
 
@@ -40,11 +40,17 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
 
 ## Viva Engage Connect
 
-The [Viva Engage connector](/connectors/yammer/) hosts social plug-ins to extend Viva Engage's social functionality across enterprise applications. 
+The [Viva Engage connector](/connectors/yammer/) hosts social plug-ins to extend Viva Engage's social functionality across enterprise applications.
   
 ## Viva Engage and Power Automate
 
-[Microsoft Power Automate](/power-automate/getting-started) can be used with Viva Engage to enable various scenarios. Some examples include: sending news through RSS feed to a Viva Engage group, posting tweets that match hashtags, sending email when a new message is posted, and posting to Viva Engage from Facebook and X (Twitter).
+[Microsoft Power Automate](/power-automate/getting-started) can be used with Viva Engage to enable various scenarios. Some examples include:
+
+- Sending news through RSS feed to a Viva Engage group
+- Posting tweets that match hashtags
+- Sending email when a new message is posted
+- Posting to Viva Engage from Facebook and X (Twitter).
+
 [Learn more here](/connectors/yammer/).
 
 ## Viva Engage for Dynamics CRM
@@ -57,7 +63,7 @@ The Viva Engage for Salesforce.com Integration automatically delivers your Sales
   
 ## Custom apps using the Yammer APIs
 
-Create your own applications, such as automation tools that back up data and deactivate users when they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
+Create your own applications, such as automation tools that back up data and deactivate users when they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer).
   
 ### Viva Engage App directory
 
