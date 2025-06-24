@@ -45,15 +45,16 @@ Required conditions:
 Required conditions:
 1. _Tenant_ has a tenant hosting location country that is Australia or New Zealand.
 2. _Tenant_ has a valid Viva Glint license.
-3. _Tenant_ opts into migration to Australian data center.
+3. For existing customers, _Tenant_ needs to opt into migration to Australian data center. For new Viva Glint customers after July 1, 2025, your data will be residing in an Australian data center.
 
 > [!IMPORTANT]
-> We may temporarily move the data outside Australia into US/EU for processing data using Microsoft 365 core services. Any data that moves outside Australia won't reside for more than 24 hours and will be deleted at the end of processing operations.
-> When using integrations with other products, such as Viva Pulse, Insights, etc., you're agreeing to the data residency locations for those products. Please refer to their Learn documentation for further information.
+> - We may temporarily move the data outside Australia into US/EU for processing data using Microsoft 365 core services. Any data that moves outside Australia won't reside for more than 24 hours and will be deleted at the end of processing operations. <br>
+> - When integrating Glint with another service, refer to that services terms and documentation to understand whether your data may leave Australia. <br>
+> - For existing Viva Glint customers, your instance will not be automatically migrated to Australia. Your account managers will work with your tenant admins to gain approval if you want your data to reside in Australia. Post that, we will work with you to align on a migration timeline. <br>
 
 ## User experience
 
-Viva Glint data residency is seamless to the end user. The application will appropriately redirect the user to the correct region where their organizational data is hosted.
+Viva Glint data residency is seamless to the end user. The application will appropriately redirect the user to the correct region where their data is hosted.
 
 
 ## How long is my Viva Glint data stored for?
