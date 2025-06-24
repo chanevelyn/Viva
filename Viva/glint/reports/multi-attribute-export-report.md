@@ -100,7 +100,7 @@ The Multi-attribute export adheres to your organization's selected confidentiali
 
 ### Example
 
-When a Viva Glint Admin selects Location and then Gender as attributes for their export, they see that data for the Female + Mexico combination is suppressed due to the low respondnet count for the "Other" value for Gender:
+When a Viva Glint Admin selects Location and then Gender as attributes for their export, they see that data for the Female + Mexico combination is suppressed due to the low respondent count for the "Other" value for Gender:
 
 :::image type="content" source="../../media/glint/reports/multi-attribute-loc-gender.png" alt-text="Screenshot of attribute value combinations when location is selected before gender.":::
 
@@ -108,5 +108,5 @@ But when the admin selects Gender first and then Location for the same survey, t
 
 :::image type="content" source="../../media/glint/reports/multi-attribute-gender-loc.png" alt-text="Screenshot of attribute value combinations when gender is selected before location.":::
 
-The first combination of attribute values evaluates based on suppressed Gender + Location values, while the second conbination evaluates on suppressed Location + Gender values.
+The first combination of attribute values evaluates based on suppressed Gender + Location values, while the second combination evaluates on suppressed Location + Gender values.
 
