@@ -7,7 +7,7 @@ author: hasrivas
 manager: josemm
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 04/28/2025
+ms.date: 06/24/2025
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: medium
