@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/22/2025
+ms.date: 06/13/2025
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -46,7 +46,7 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    |:----------|:-----------|:-----------|
    |**SSH Public Key***     |Required       |<ul><li>Enter the full text of your public SSH key: `ssh-rsa ...` .</li><li>**DO NOT** share your private key with Viva Glint.</li><li>To generate a key pair, see:  [Generate an SSH key pair](sftp-ssh-key-gen.md).</li><li>To convert a key to the required format, see: [Convert a key to OpenSSH format](convert-ssh-key.md).</li><li>Add up to three public SSH keys.</li></ul>|
    |**SFTP IP Addresses****     |Optional       |<ul><li>**Leave this field blank to allow any account to connect.**</li><li>Specify public IP addresses to limit accounts that can connect.</li><li>Contact your IT team, HR information system (HRIS) vendor, or use [online tools](https://ifconfig.io/) to determine your public IP addresses.</li><li>This field supports subnets, or ranges of IP addresses. Enter ranges (for example: 1.1.1.0/24) rather than individual IP addresses in each field, if needed.</li></ul>     |
-   |**Notify People**     |Required       |<ul><li>Search for and add users that should receive file upload notification emails.</li><li>Users must be active and exist in Viva Glint.</li></ul>       |
+   |**Notify People**     |Required       |<ul><li>Search for and add users that should receive file upload notification emails.</li><li>Users must be active and exist in Viva Glint.</li></ul>  <br> If you experience errors when updating this list of users: <ol><li>Remove all users </li> <li>Search for and add them to the list again</li>  <li>Save changes</li></ol>    |
    |**PGP Encryption**     |Optional       |<ul><li>Switch toggle to **On** to enable file encryption and reveal Viva Glint's public PGP key to encrypt employee data files.</li><li>When this setting is enabled, SFTP accepts files with and without encryption.</li><li>This key expires every 12 months. Viva Glint sends a [notification 30 days before expiration](#pgp-key-expiration).</li></ul>      |
    |**SFTP Credentials**     |Required       |Select a port number (22 or 1122) and copy credentials shown in the platform to connect to SFTP. Your host name changes based on your region (US or EU) and selected port. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.<br><br><ul><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port. Copy from the platform for the correct host name._</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
@@ -66,9 +66,4 @@ The public PGP key provided by Viva Glint that your organization can optionally 
 
 :::image type="content" source="../../media/glint/setup/pgp-expire-email.png" alt-text="Screenshot of the PGP key expiration email which Viva Glint sends 30 days before the expiration date.":::
 
-To create a new public PGP key:
-
-1. Go to **Configuration** and select **General settings** in the **Service configuration** section.
-2. Select **Technical configuration** in the menu and then in **SFTP setup** choose **Manage**.
-3. To generate a new key, go to **PGP Encryption** and switch the toggle from **On** to **Off**, and then back to **On**.
-4. Select the copy icon next to the **Public Key** field or select the **Download .asc file** option to get the newly generated key.
+To get a new PGP key, [contact Support](/viva/troubleshoot/glint/contact-support/get-support-viva-glint?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json#submit-a-support-request) and enter "**Viva Glint PGP key**" as the Title for your request.

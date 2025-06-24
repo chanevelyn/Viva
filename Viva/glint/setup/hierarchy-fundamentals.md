@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2025
+ms.date: 06/20/2025
 ---
 
 # Viva Glint organizational hierarchy fundamentals
@@ -28,7 +28,7 @@ Viva Glint allows for up to 10 reporting hierarchies, including a manager hierar
 Manager hierarchy is typically used as the primary reporting hierarchy. Viva Glint generates this hierarchy automatically with file uploads. Every employee in your organization should have a Manager ID except your organization's CEO or top-level leader. No other hierarchies are automatically generated.
 
 > [!IMPORTANT]
-> The Viva Glint column label for your managerial hierarchy is **Manager.** Ensure that no other attribute columns in your employee data file are labeled *Manager.* 
+> The Viva Glint column label for your manager hierarchy is **Manager.** Ensure that no other attribute columns in your employee data file are labeled *Manager* or [rename the manager hierarchy](update-attributes.md#rename-hierarchy-attributes).
 
 ### Example
 
@@ -59,7 +59,8 @@ To update a CEO in Viva Glint:
    2. Search for the new CEO and on their user profile, update their email address (to their Employee ID, for example).
    1. Return to **General Settings** and search for and select the new CEO.
    1. On the new CEO user's profile, revert their email address to the correct value.
-7. To update this change for a current or past survey, implement a [**retroactive update**](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
+4. Reload employee data, including the CEO with a blank Manager ID, to recalculate your manager hierarchy.
+5. To update this change for a current or past survey, implement a [**retroactive update**](/../../viva/glint/setup/glint-data-apps#retroactive_pulse_update). 
 
 ### Multiple CEOs
 

@@ -14,19 +14,19 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2025
+ms.date: 06/20/2025
 ---
 
 # Set up attributes in Viva Glint
 
-Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee Attribute Template](create-employee-attribute-template.md) as a guide.
+Set up attributes in Microsoft Viva Glint to create a mapping of fields to expect in your employee data files transmitted to Viva Glint. To set up required, custom, hierarchy, and derived attributes, use the decisions made in the [Employee attribute template](create-employee-attribute-template.md) as a guide.
 
 > [!NOTE]
-> Before starting, confirm that the attribute selections in your Employee Attribute Template are **final**. Viva Glint Admins can't edit reporting hierarchies, file format, or date attribute formats after initial setup is complete. 
+> Before starting, confirm that the attribute selections in your Employee attribute template are **final**. Viva Glint Admins can't edit file or date attribute formats. 
 
 ## Attribute setup in Viva Glint
 
-To set up attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to create a mapping to import employee data.
+To set up attributes Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, attribute setup process to create a mapping to import employee data.
 
 > [!CAUTION]
 > The Viva Glint Admin who sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the **Language** dropdown menu in Viva Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
@@ -64,11 +64,11 @@ Check that the attribute names and values appear as expected.
      > - Viva Glint transforms incoming dates to Viva Glint's preferred format, yyyy/mm/dd, upon upload.
      > - Complete date selection in this step and Derived attribute setup in the next step to import dates in a format that's usable for Distribution lists and survey triggers. 
 
-3. After finished previewing, select **Continue**.
+3. After previewing, select **Continue**.
 
 ## 3. Set up attributes
 
-Map your uploaded and confirmed attributes to Viva Glint fields. This setup is divided into three sections:
+Map your uploaded and confirmed attributes to Viva Glint fields. This setup is divided into four sections:
 
 ### Required attributes
 
@@ -84,11 +84,10 @@ Select your attribute from the dropdown for each required attribute:
 
 ### Derived attributes
 
-Viva Glint calculates attributes based on data sent in your employee attribute file. Most organizations choose to include a managerial hierarchy. Select your option and the attribute that should be used to create it. Decide whether to include tenure groups based on hire date or age groups based on birth year.
+Viva Glint calculates attributes based on data sent in your employee attribute file. Decide whether to include tenure groups based on hire date or age groups based on birth year.
 
 |Derived Field   |Based On   |Derived Values|
 |----------|-----------|------------|
-|Manager Hierarchy|Employee ID and Manager ID data relationship  |Up to 25 manager levels, starting with the CEO/top-level leader|
 |Tenure* |Hire Date   |<1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years|
 |Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
 
@@ -102,7 +101,7 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 2. Select the desired attribute from the dropdown menu.
 3. Select **Continue**.
 
-:::image type="content" source="../../media/glint/setup/setup-step3-derived.png" alt-text="Screenshot of step 3 to map derived attributes.":::
+:::image type="content" source="../../media/glint/setup/new-derived-attribute2.png" alt-text="Screenshot of step 3 to map derived attributes.":::
 
 ### Optional System Attributes
 
@@ -118,13 +117,19 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 :::image type="content" source="../../media/glint/setup/setup-step3-optional.png" alt-text="Screenshot of step 3 to map optional system attributes.":::
 
 > [!IMPORTANT]
-> - Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
-> - See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
+> Send language and time zone values exactly as they appear in related tabs in the following articles:
+> - [Viva Glint supported languages](supported-languages.md)
+> - [Viva Glint supported time zones](supported-time-zones.md)
+> 
+> Users with blank or invalid values receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+>
+> See [Recent language changes](attribute-fundamentals.md#recent-language-changes) for changes to supported languages and codes effective April 10, 2025.
 
 ### Hierarchy groups
 
-Select your attributes from the dropdown menu for each hierarchy group.
+Select your attributes from the dropdown menu for each hierarchy group. If needed, you can return to this section later to [add new hierarchy groups, rename groups or levels, or add new lowest levels](update-attributes.md#manage-hierarchy-groups).
 
+- To have Viva Glint create a Manager Hierarchy, map your manager ID field from your employee data to Manager ID.
 - To add more levels to a hierarchy, select **+ Add Level**.
 - To add a new hierarchy group, select **+ Add Hierarchy Group**.
 - To rename the hierarchy label, select the **pencil** symbol.

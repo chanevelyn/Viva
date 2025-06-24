@@ -1,5 +1,5 @@
 ---
-ms.date: 03/04/2025
+ms.date: 06/17/2025
 title: Discover organizational insights quickly with Microsoft 365 Copilot in Viva Insights
 description: Explains how to use Microsoft 365 Copilot in Viva Insights to access organizational insights about your company, and use Copilot to answer questions about your organization.
 author: zachminers
@@ -31,7 +31,7 @@ To use Copilot, no additional license is needed; however, you must meet at least
 
 ## How it works
 
-Copilot in Viva Insights enables leaders to ask targeted or broad questions about their organization and receive instant, data-driven answers. Along with direct responses, Copilot provides access to detailed reports with visualizations, making it easy for leaders to dive deeper into the insights.
+Copilot in Viva Insights enables leaders to ask targeted questions about their organization and receive instant, data-driven answers. Along with direct responses, Copilot provides access to detailed reports with visualizations, making it easy for leaders to dive deeper into the insights.
 
 ### Example questions
 
@@ -41,15 +41,19 @@ Copilot in Viva Insights enables leaders to ask targeted or broad questions abou
 
 Copilot generates a response based on the latest data, such as a count of new hires and detailed reports showing employee attributes like location, manager, or function.
 
-#### Broader questions to get the general pulse of the team
+#### Questions about employee skills
 
-*"How is my team doing?"*
+*"Who has AI skills on my team?"*
 
-Copilot summarizes data insights using people science research and behavioral observations, enabling leaders and delegates to make data-informed decisions.
+*"How many people under Jenny have project management skills?"*
+
+*"Who is familiar with web development in the marketing department?"*
+
+You can get answers to questions about skills held by employees. Copilot can identify employees, and provide counts of employees, who have certain skills. These responses are based on data imported from People Skills as well as HR data in Viva Insights. Only shared skills are used to generate Copilot's responses. [Learn more about People Skills](/copilot/microsoft-365/people-skills-overview).
 
 #### Employee engagement topics
 
-*"How much time does my team spend in after-hours collaboration across countries?"*
+*"How much time does my team spend in after-hours collaboration across countries/regions?"*
 
 Copilot summarizes data insights using behavioral data capturing signals from collaboration tools like Outlook, Teams calls, and Teams chats, enabling leaders and delegates to make data-informed decisions.
 
@@ -109,6 +113,16 @@ Admins can:
 
 * Remove GM roles for users who shouldn't access Copilot. 
 * Exclude specific HR attributes or users from data uploads.
+
+### Q3. How can I ensure I get useful answers to my questions about employee skills?
+
+1. Ensure People Skills is enabled for all employees on your team. [Learn how](/copilot/microsoft-365/people-skills-setup). 
+
+2. Ensure People Skills data is enabled for Viva Insights. [Learn how](/copilot/microsoft-365/people-skills-setup). 
+
+3. Ensure all employees on your team have access to Viva Insights **or** they have Microsoft 365 Copilot licenses. 
+
+4. Ensure you've been assigned the **Group Manager** role. 
 
 ### Related topics
 

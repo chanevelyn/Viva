@@ -134,6 +134,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Use Entra plus .csv files for parallel data uploads
+            href: advanced/admin/entra-plus-csv-upload.md
           - name: Tips for uploading organizational data for Copilot 
             href: advanced/admin/upload-org-data-copilot.md
           - name: Import organizational data using API (first import)
@@ -146,6 +148,8 @@ items:
             href: advanced/admin/import-business-data-azure.md
           - name: Import business data with a .csv file
             href: advanced/admin/import-business-data-csv.md
+          - name: Delete Copilot Studio agents data
+            href: advanced/admin/delete-copilot-studio-agents-data.md
           - name: File rules and validation errors  
             href: advanced/admin/rules-validation-errors.md
           - name: Export Viva Insights data using MGDC
@@ -229,7 +233,9 @@ items:
             - name: Copilot for Sales adoption report
               href: advanced/analyst/templates/copilot-for-sales-adoption.md   
             - name: Copilot business impact report
-              href: advanced/analyst/templates/copilot-business-impact.md   
+              href: advanced/analyst/templates/copilot-business-impact.md
+            - name: Copilot Studio agents report
+              href: advanced/analyst/templates/copilot-studio-agents.md      
             - name: Onboarding and development
               href: advanced/analyst/templates/onboarding.md    
             - name: Recurring meeting audit

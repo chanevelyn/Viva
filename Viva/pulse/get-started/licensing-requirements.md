@@ -1,13 +1,13 @@
 ---
-title: Licensing requirements
-description: "Licensing requirements"
+title: Viva Pulse licensing requirements
+description: "Licensing requirements for Viva Pulse"
 ms.reviewer: 
-ms.author: hasrivas
-author: hasrivas
+ms.author: michellehu
+author: michellehu
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 11/21/2024
+ms.date: 05/29/2025
 ms.topic: get-started
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -15,30 +15,25 @@ ms.collection: m365initiative-viva-pulse
 search.appverid: MET150
 ---
 
-# Licensing requirements
+# Viva Pulse licensing requirements
 
-Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subscription. The following list of capabilities is available to Viva Pulse authors and administrators as part of these experiences. 
+The following list of capabilities is available to Viva Pulse authors and administrators.
 
-| Capability | Premium experience | Viva Pulse with Microsoft 365 Copilot subscription | 
-| ----------- | ------------------ | ------------------| 
-| Pulse content|Full access to all research backed templates. Content administration experience to create your own organizational content.|Use Copilot templates to measure employee sentiment for Copilot adoption.|
-| Survey authoring |All customization capabilities, including create your own questions, requests, and series. | Authors can rename and schedule Pulse requests. |
-| Cross-Viva experiences|Integration with Insights Analyst Workbench & Glint follow up surveys.| Integration with Copilot Impact dashboard for Copilot impact Pulse results.|
+| Capability | Premium experience |
+| ----------- | ------------------ |
+| Pulse content|Full access to all research backed templates. Content administration experience to create your own organizational content.|
+| Survey authoring |All customization capabilities, including create your own questions, requests, and series. |
+| Cross-Viva experiences|Integration with Microsoft Copilot Dashboard & Viva Glint Dashboard.|
 
 To send a Pulse request with full premium experience, you must have a license to one of the following:
 
 1. **Viva Suite**: Users with a Viva Suite subscription license have access to all applications that are part of the Viva Suite, including Viva Pulse. To learn more about the Viva apps within the Viva Suite, visit [Employee experience and engagement in Microsoft Viva](https://www.microsoft.com/microsoft-viva).
 2. **Viva Workplace Analytics and Employee Feedback**: Users with a Viva Workplace Analytics and Employee Feedback subscription license have access to Viva Pulse, Viva Insights, and Viva Glint. To learn more about Workplace Analytics and Employee Feedback, visit [Workplace Analytics and Employee Feedback](https://www.microsoft.com/en-us/microsoft-viva/workplace-analytics-and-feedback).
 3. **Viva Pulse Admin-led Trial**: The Viva Pulse Admin-led Trial allows Billing Admins to assign 25 users within their tenant to try Viva Pulse for 30 days. During the 30 days, users can use the full functionality of Viva Pulse. Please contact your field seller or account executive to set up your own trial.
+4. **Microsoft 365 Copilot**: Users with a Microsoft 365 Copilot subscription license have access to the full functionality of Viva Pulse. If you visit the [Viva Pulse homepage](https://pulse.cloud.microsoft) and have any trouble or see the No Access error, retry in a few minutes. If you continue to face problems with loading the Viva Pulse homepage, reach out to your account team or Microsoft support team.
 
 > [!IMPORTANT]
 > A user must have an active license to Microsoft Forms to create and send a Pulse request. A user does not need a license to respond to a Pulse request.
-
-To send a Pulse request using the experience that's available with Microsoft 365 Copilot subscriptions, you must have a license to a Microsoft 365 Copilot subscription. If the user has both a Microsoft 365 Copilot and Viva Pulse license assigned to them, they have access to all the premium capabilities to Pulse based on their Azure Active Directory (AAD) role. 
-
-> [!IMPORTANT]
-> If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, visit the [Viva Pulse home page](https://pulse.cloud.microsoft). If you have any trouble or see the No Access error, retry in a few minutes. If you continue to face issues loading the Viva Pulse home page, reach out to your account team or Microsoft support team.
-
 
 ## Assign licenses
 
