@@ -98,3 +98,15 @@ The column headers for results data start on row 6 and include:
 
 The Multi-attribute export adheres to your organization's selected confidentiality and suppression thresholds. The export evaluates data to suppress each time the export is generated and takes into account the order that users select attributes.
 
+### Example
+
+When a Viva Glint Admin selected Location and then Gender as attributes for their export, they see that data for the Female + Mexico conbination is suppressed due to the low respondnet count for the "Other" value for Gender:
+
+:::image type="content" source="../../media/glint/reports/multi-attribute-loc-gender.png" alt-text="Screenshot of attribute value combinations when location is selected before gender.":::
+
+But when the admin selects Gender first and then Location for the same survey, they see results for Mexico + Female:
+
+:::image type="content" source="../../media/glint/reports/multi-attribute-gender-loc.png" alt-text="Screenshot of attribute value combinations when gender is selected before location.":::
+
+The first combination of attribute values evaluates based on suppressed Gender + Location values, while the second conbination evaluates on suppressed Location + Gender values.
+
