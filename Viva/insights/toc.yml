@@ -37,7 +37,9 @@ items:
           - name: Delegate access to the Copilot Dashboard
             href: org-team-insights/delegate-access.md
           - name: Access insights with Copilot Analytics reports
-            href: org-team-insights/copilot-analytics-reports.md     
+            href: org-team-insights/copilot-analytics-reports.md   
+          - name: View and customize your general settings
+            href: advanced/admin/general-settings.md  
           - name: Advanced analysis
             items: 
               - name: Introduction to advanced analysis
@@ -88,8 +90,8 @@ items:
               href: advanced/setup-maint/assign-licenses.md
             - name: 2 - Assign roles
               href: advanced/setup-maint/assign-user-roles.md
-            - name: 3 - Enable or disable advanced insights with PowerShell
-              href: advanced/setup-maint/control-advanced-insights-powershell.md
+            - name: 3 - Enable or disable advanced analysis with PowerShell
+              href: advanced/setup-maint/control-analysis-powershell.md
             - name: 4 - Configure manager settings
               href: advanced/setup-maint/manager-settings.md
             - name: 5 - Configure personal insights defaults
