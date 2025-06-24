@@ -30,6 +30,20 @@ items:
               href: advanced/analyst/copilot-query.md
             - name: Copilot metrics
               href: advanced/reference/metrics.md#microsoft-365-copilot-metrics
+      - name: Viva Insights web app
+        items:    
+          - name: How to use the Copilot Dashboard
+            href: org-team-insights/copilot-dashboard.md 
+          - name: Delegate access to the Copilot Dashboard
+            href: org-team-insights/delegate-access.md
+          - name: Access insights with Copilot Analytics reports
+            href: org-team-insights/copilot-analytics-reports.md     
+          - name: Advanced analysis
+            items: 
+              - name: Introduction to advanced analysis
+                href: advanced/analysis-intro.md
+              - name: Video learning courses 
+                href: advanced/video-learning-courses.md
       - name: Using Copilot for Viva Insights analysis
         items:
           - name: Discover organizational insights with Copilot
