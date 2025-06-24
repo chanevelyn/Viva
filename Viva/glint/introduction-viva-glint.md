@@ -51,6 +51,7 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/notebook-blue.png" ::: | **Learning paths and modules** | <ul><li>[Courses for admins](https://go.microsoft.com/fwlink/?linkid=2275357)</li> <li>[Courses for Managers](https://go.microsoft.com/fwlink/?linkid=2275358)</li></ul>|
 |:::image type="icon" source="/office/media/icons/certificate-blue.png" ::: | **Badge certifications** | <ul><li>[Viva Glint Foundations badge](https://go.microsoft.com/fwlink/?linkid=2275359)</li> <li>[Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2275437)</li></ul>|
+|:::image type="icon" source="/office/media/icons/video-play.png" ::: | **Webinar recordings** | <ul><li>[Viva Glint Ask the Experts sessions](https://learn.microsoft.com/viva/glint/introduction-viva-glint)</li><li>[Psychological safety sessions](https://adoption.microsoft.com/viva/building-psychological-safety/)</li></ul>|
 
 ## Connect
 
