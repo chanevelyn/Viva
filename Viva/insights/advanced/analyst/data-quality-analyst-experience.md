@@ -1,7 +1,7 @@
 ---
-ms.date: 04/1/2025
+ms.date: 06/30/2025
 title: Data quality in the analyst experience
-description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights advanced insights app.
+description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights web app.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: how-to
@@ -31,7 +31,7 @@ Viva Insights uses *coverage* to determine low-quality attributes. Coverage is t
 
 In organizational data files, each column header contains attribute names, and each row within those columns contains attribute values. If a column has no blank rows, that attribute has *high coverage*. If a column has too many blank rows, that attribute has *low coverage*. Attributes with less than 30% coverage are considered *low-quality*. Similar to missing insights, when data is of low quality, related insights are of low quality, too.
 
-In the image below, the attribute on the left, **Organization**, has high coverage. The attribute on the right, **TimeZone**, has low coverage. If an admin uploaded this data to the advanced insights app, Viva Insights would consider **TimeZone** to be a low-quality attribute.
+In the image below, the attribute on the left, **Organization**, has high coverage. The attribute on the right, **TimeZone**, has low coverage. If an admin uploaded this data to the Viva Insights web app, Viva Insights would consider **TimeZone** to be a low-quality attribute.
 
 :::image type="complex" source="../images/analyst-quality-attributes-smaller.png" alt-text="Screenshot that shows a full-coverage attribute and a low-coverage attribute."lightbox="../images/analyst-quality-attributes2.png":::
    Screenshot of an upload file that shows two attributes: Organization and TimeZone. Organization has values for all 19 displayed rows. TimeZone only has values for 6 displayed rows.
@@ -39,7 +39,7 @@ In the image below, the attribute on the left, **Organization**, has high covera
 
 ### To view data quality
 
-Two pages in the advanced insights app inform you about your data quality: **Data hub** and **Organizational data**. You can get to these pages by selecting them from the app's left pane.
+Two pages in the Viva Insights web app inform you about your data quality: **Data hub** and **Organizational data**. You can get to these pages by selecting them from the app's left pane.
 
 #### On the Data hub
 
@@ -52,7 +52,7 @@ Use the **Data hub** page to view the number of:
 
 You can also view the percentage of insights displayed in Viva Insights based on the total number of possible insights. When your admin adds more organizational data, more insights become available and this percentage increases.
 
-If fields are missing from your uploaded data, you'll find them in a list beneath the **Missing or low-quality insights and data fields** header. Select a missing insight to see its related data fields, and vice versa. To remove an insight from this list, your admin will need to upload the related data field(s) to the advanced insights app.
+If fields are missing from your uploaded data, you'll find them in a list beneath the **Missing or low-quality insights and data fields** header. Select a missing insight to see its related data fields, and vice versa. To remove an insight from this list, your admin will need to upload the related data field(s) to the Viva Insights web app.
 
 #### On the Organizational data page
 
@@ -136,7 +136,7 @@ If your query has low-quality supplemental attributes, or if supplemental employ
 
 ### Data-quality notifications in query results
 
-On the **Query results** page, you might notice warnings next to your query's name. These warnings might crop up for a few reasons. Maybe you ran a query knowing that it used low-quality attributes. Or, your query might not have had any low-quality attributes at the time you ran it, but after a recent data upload, the quality of some attributes decreased.
+On the **Analysis results** page, you might notice warnings next to your query's name. These warnings might crop up for a few reasons. Maybe you ran a query knowing that it used low-quality attributes. Or, your query might not have had any low-quality attributes at the time you ran it, but after a recent data upload, the quality of some attributes decreased.
 
 If you find a data-quality warning, select the query's name or **View query**. The app will show which attributes are of low quality. 
 
