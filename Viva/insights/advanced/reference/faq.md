@@ -36,7 +36,7 @@ Refer [here](../analyst/query-results.md#faqs) for frequently asked questions an
 
 A1. No. Viva Insights is a collaboration analysis tool for analyzing behavior and network patterns.
 
-#### Q2. How do personal, manager, leader, and advanced analysis differ?
+#### Q2. How do personal, manager, leader, and advanced analysis tools differ?
 
 A2.
 
