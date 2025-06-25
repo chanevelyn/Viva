@@ -232,10 +232,6 @@ items:
             href: org-team-insights/copilot-deep-dive-reports.md
           - name: Leader reports
             href: org-team-insights/leader-reports.md
-          - name: Connect to the Copilot Dashboard
-            href: org-team-insights/copilot-dashboard.md
-          - name: Delegate access to organizational insights and Copilot Dashboard
-            href: org-team-insights/delegate-access.md   
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
