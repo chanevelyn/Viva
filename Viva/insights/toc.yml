@@ -132,6 +132,24 @@ items:
                     href: advanced/analyst/metric-rules.md
                   - name: View and customize your general settings
                     href: advanced/admin/general-settings.md
+              - name: Open source analysis tools
+                items:
+                  - name: vivainsights Python package
+                    href: advanced/analyst/vivainsights-python-package.md
+                  - name: vivainsights R package
+                    href: advanced/analyst/vivainsights-r-package.md   
+              - name: Reference
+                items:
+                  - name: FAQ
+                    href: advanced/reference/faq.md
+                  - name: Glossary
+                    href: advanced/reference/glossary.md
+                  - name: Metric definitions
+                    href: advanced/reference/metrics.md
+                  - name: Supported languages
+                    href: advanced/reference/supported-languages.md 
+                  - name: Allowlist URLs
+                    href: advanced/reference/allowlist-urls.md 
       - name: Using Copilot for Viva Insights analysis
         items:
           - name: Discover organizational insights with Copilot
