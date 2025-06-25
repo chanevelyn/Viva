@@ -449,7 +449,7 @@ With a Viva Insights subscription, this section of the dashboard also lets you e
 
 :::image type="content" source="images/copilot-dashboard-sentiment-heatmap.png" alt-text="Screenshot that shows the Sentiment heat map.":::
 
-#### Upload group-level survey results with the Viva Insights web app
+#### Upload group-level survey results with the advanced insights app
 
 *Applies to: Viva Insights admin* 
 
