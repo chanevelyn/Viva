@@ -502,16 +502,16 @@ items:
                  href: ../insights/advanced/admin/partitions.md
                - name: Glint and Insights analyst report
                  href: ../insights/advanced/analyst/templates/glint.md
+      - name: Viva Glint and Viva Pulse
+        items:    
+          - name: Take action after Viva Glint surveys with Viva Pulse
+            href: ../pulse/viva-integrations/take-actions-after-glint-survey.md      
       - name: Viva Glint and Microsoft Teams
         items:
           - name: Use Teams for Viva Glint notifications
             href: setup/glint-teams.md
           - name: Preview Viva Glint Teams notifications
             href: setup/glint-teams-previews.md
-      - name: Viva Glint and Viva Pulse
-        items:    
-          - name: Take action after Viva Glint surveys with Viva Pulse
-            href: ../pulse/viva-integrations/take-actions-after-glint-survey.md
   - name: Connect and learn
     items:   
       - name: Learning paths and modules
