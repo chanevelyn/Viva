@@ -56,4 +56,4 @@ If your organization has already designated analysts to carry out advanced analy
 
 If no one in your organization is assigned an **Insights Analyst** role, contact your administrator to assign the role in the Microsoft admin center. [Learn more about how to assign roles](../advanced/setup-maint/assign-user-roles.md).
 
-If you don't see any admins listed in the **Contact admin** page, contact your Global admin to assign someone the **Insights Aadministrator** role. [Learn more about how to assign roles](../advanced/setup-maint/assign-user-roles.md).
+If you don't see any admins listed in the **Contact admin** page, contact your Global admin to assign someone the **Insights Administrator** role. [Learn more about how to assign roles](../advanced/setup-maint/assign-user-roles.md).
