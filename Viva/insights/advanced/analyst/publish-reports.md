@@ -19,6 +19,9 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
+>[!IMPORTANT]
+> Some report publishes are currently failing. We're aware of the issue and are actively working on a fix. Thank you for your patience as we work to restore full functionality.
+
 The Publish reports feature lets you share insights and reports directly with leaders, decision-makers, or even an entire organization in the recipient’s Viva Insights app. This helps to streamline the communication process between analysts and leadership, ensuring that organizational insights and data are delivered effectively alongside other Viva Insights content.
 
 A "report" can refer to:
