@@ -28,7 +28,7 @@ There are many types of users in Viva Engage and managing each of them is differ
 - Users without a Microsoft Entra ID
 - Guests
 
-As a Microsoft 365 Global Administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
+As a Microsoft 365 User Administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
 
 All communities and groups from Viva Engage networks in Native Mode are managed through these admin centers. Some of the management capabilities regarding community or group members or users that can be done through the Microsoft 365 admin center includes:
 
@@ -75,7 +75,7 @@ Beginning in March 2019, we changed how Viva Engage users are created. The proce
 
     The process of creating a user requires these steps:
   
-    1. The Microsoft 365 Global administrator creates a user in Microsoft 365.
+    1. The Microsoft 365 User administrator creates a user in Microsoft 365.
 
     2. The user signs in to Microsoft 365 using the identity provider configured for the tenant.
 
@@ -89,7 +89,7 @@ When **Enforce Office 365 identity** is selected in Viva Engage (including when 
 
 The process follows these steps:
   
-1. The Microsoft 365 Global administrator creates a user in Microsoft 365.
+1. The Microsoft 365 User administrator creates a user in Microsoft 365.
 
 2. A pending user is created in Microsoft 365. The first time the user uses Viva Engage, the pending user becomes an active user.
 
@@ -102,7 +102,7 @@ The process follows these steps:
 
 ## Block a user
 
-When a Microsoft 365 Global administrator blocks a user in Microsoft 365, the user is signed out of Viva Engage and all other Microsoft 365 services.
+When a Microsoft 365 User administrator blocks a user in Microsoft 365, the user is signed out of Viva Engage and all other Microsoft 365 services.
 
 The process takes the following steps:
 
@@ -184,7 +184,7 @@ If your Viva Engage users aren't in Microsoft Entra ID, then they can update the
   
 :::image type="content" source="../../media/e9378a05-bb94-4775-9336-818333e65edf.png" alt-text="Screenshot showing a sample user profile.":::
   
-The Microsoft 365 Global administrator can edit user properties from the Microsoft 365 admin center.
+The Microsoft 365 User administrator can edit user properties from the Microsoft 365 admin center.
   
 ### Edit user properties in Microsoft 365
   
