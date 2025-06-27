@@ -18,8 +18,7 @@ The following are terms and concepts used for advanced analysis in the Viva Insi
 
 | Term | Definition |
 |------|-------|
-| <a name="active-employee-define"></a>
-Active employee | An employee who has sent at least one email or instant message during the time period in question (such as a time period that was defined for a query) |
+| <a name="active-employee-define"></a> Active employee | An employee who has sent at least one email or instant message during the time period in question (such as a time period that was defined for a query) |
 |  <a name="adjusted-meeting-hours-define"></a> Adjusted meeting hours | An adjustment is applied so that overlapping time is not double-counted when a person has overlapping meeting hours. For example, a person with non-declined meeting requests from 2:00 to 3:00 PM and 2:30 to 3:30 PM would yield 1.5 adjusted meeting hours. |
 |  <a name="aggregation-define"></a> Aggregation | Aggregation means compiling data from multiple individuals or sources. The more individuals or sources whose data is used, the more difficult it is to identify personal data. Aggregation is one means of achieving de-identification. |
 |  <a name="attended-define"></a> Attended | A person attended a meeting if they either accepted the meeting and their meeting shows as “Busy” in Outlook, joined on Teams, or were the organizer.   |
