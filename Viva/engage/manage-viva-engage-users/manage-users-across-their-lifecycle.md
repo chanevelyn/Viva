@@ -100,7 +100,7 @@ The process follows these steps:
 
 ## Delete a user
 
-To delete a user from Viva Engage, follow the instructions in [Manage GDPR data subject requests for Viva Engage users](add-block-or-remove-users.md).
+To delete a user from Viva Engage, follow the instructions in [Manage GDPR data subject requests for Viva Engage users](add-block-or-remove-users).
   
 ## Restore a user
 
