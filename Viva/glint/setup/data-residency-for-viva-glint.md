@@ -22,7 +22,7 @@ search.appverid: MET150
 
 ## Summary
 
-Microsoft Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Grounded in our approach to employee [engagement](https://aka.ms/VivaGlintAModernApproach), Glint offers a flexible surveying approach so organizations can gain a greater understanding of key experiences that shape an employee's journey and the resulting impact on individual and business outcomes.
+Microsoft Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Grounded in our [approach to employee engagement](https://aka.ms/VivaGlintAModernApproach), Glint offers a flexible surveying approach so organizations can gain a greater understanding of key experiences that shape an employee's journey and the resulting impact on individual and business outcomes.
 
 ## Customer Data residency for Viva Glint
 
