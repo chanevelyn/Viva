@@ -154,7 +154,7 @@ Here's how that would look in a query. Notice how large the number of **Measured
 |2| or|*TimeZone = Europe/Berlin*|13673
 |3    |or|*Organization = Engineering*| 26925
 
-:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows three individual or statments.":::
+:::image type="content" source="../images/analyst-filter-orstatements.png" alt-text="Screenshot that shows three individual or statements.":::
 
 When you use "or" in an *individual* condition statement (that is, not a condition group) any other individual condition statements you add also need to be "or" statements. In other words, you can't add an "or" statement and then add an "and" statement as another separate condition statement. 
 
