@@ -3,7 +3,7 @@ title: "Microsoft 365 sign-in for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: donnabouldin
-author: Starshine89
+author: v-rgrace
 manager: elizapo
 ms.date: 09/24/2024
 audience: Admin
@@ -50,23 +50,7 @@ You can choose to enforce Microsoft 365 sign-in for Viva Engage for all users in
   
 ## Use Viva Engage with other Microsoft 365 services
 
-Viva Engage integrates seamlessly with other services in Microsoft 365. For example, you can share [Stream or Microsoft 365 Video](https://techcommunity.microsoft.com/t5/microsoft-stream-blog/microsoft-stream-the-future-of-video-in-microsoft-365/ba-p/3969156) and [Group and share documents in Delve](https://support.microsoft.com/en-us/office/group-and-share-documents-in-delve-da0c5804-01ef-4edd-8b87-e576b19bef3e) with other users using Viva Engage. 
-  
-> [!NOTE]
-> You must be a Microsoft 365 Global Administrator to make this change. For more information about permissions levels, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles). 
-  
-1. In Microsoft 365, go to **Admin** \> **SharePoint**.
-
-2. Select **Settings**.
-
-3. Choose **Classic settings page**.
-
-4. Under **Enterprise Social Collaboration**, choose **Use Yammer.com service**.
-  
-5. Select **Save**.
-
-  > [!NOTE]
-  > This change can take up to 30 minutes to complete. 
+Viva Engage integrates seamlessly with other services in Microsoft 365. For example, you can share [Stream or Microsoft 365 Video](https://techcommunity.microsoft.com/t5/microsoft-stream-blog/microsoft-stream-the-future-of-video-in-microsoft-365/ba-p/3969156) and [Group and share documents in Delve](https://support.microsoft.com/en-us/office/group-and-share-documents-in-delve-da0c5804-01ef-4edd-8b87-e576b19bef3e) with other users using Viva Engage.
   
 ## Frequently asked questions
 
