@@ -100,7 +100,7 @@ The process follows these steps:
 
 ## Delete a user
 
-To delete a user from Viva Engage, follow the instructions in [Manage GDPR data subject requests for Viva Engage users](add-block-or-remove-users).
+To delete a user from Viva Engage, follow the instructions to remove a user in [Manage GDPR data subject requests for Viva Engage users](add-block-or-remove-users.md).
   
 ## Restore a user
 
@@ -122,7 +122,7 @@ The user profile experience differs depending on whether or not the account is c
 
 ### For Microsoft Entra connected accounts
 
-Microsoft 365 uses the cloud-based service Microsoft Entra ID to manage users. In an on-premises environment, you can manage users in the cloud, or create and synchronize users, communities, or groups in [Microsoft 365  and Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9). 
+Microsoft 365 uses the cloud-based service Microsoft Entra ID to manage users. In an on-premises environment, you can manage users in the cloud, or create and synchronize users, communities, or groups in [Microsoft 365 and Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
 
 When Microsoft 365 users who are new to Viva Engage access Viva Engage for the first time using their Microsoft Entra credentials, a Viva Engage user is created. The Viva Engage user profile is then populated with the Microsoft Entra user properties. When the user's profile properties are edited in Microsoft Entra ID, they're updated in the existing user's Viva Engage profile. For example, if the user's department changes in Microsoft Entra ID, it also changes in Viva Engage.
   
@@ -199,5 +199,3 @@ The users who sign in Viva Engage with Microsoft 365 credentials can be managed 
 [Manage a Viva Engage community or group](https://support.office.com/article/12ce0216-0618-4576-b87a-a8c189cee0f8)
 
 [Change my profile settings](https://support.office.com/article/cb9b9f8b-391d-424b-b752-5e23619fadec)
-
-[Add, block, or remove Viva Engage users](../manage-viva-engage-users/add-block-or-remove-users.md)
