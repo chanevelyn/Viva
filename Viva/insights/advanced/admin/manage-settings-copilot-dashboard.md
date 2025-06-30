@@ -1,5 +1,5 @@
 ---
-ms.date: 06/9/2025
+ms.date: 06/30/2025
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -74,7 +74,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../../org-team-insights/delegate-access.md).
 
 >[!Note]
->Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../advanced/setup-maint/setup-overview.md) (it is on by default).
+>Employees can view the dashboard in the Viva Insights web app.
 
 ## Remove access to the dashboard in the tenant with Powershell
 
@@ -132,13 +132,13 @@ This feature access control allows AI Administrators to enable or disable the au
 >[!Note]
 >This data upload process will go into effect within seven days.
 
-If your company has Viva Insights licenses, your Viva Insights Administrator can continue to upload organizational data through the advanced Insights app as explained [here](../admin/org-data-overview.md). Your Microsoft 365 Global Administrator may choose to upload more organizational attributes through the Microsoft 365 admin center using [these steps](/viva/organizational-data).
+If your company has Viva Insights licenses, your Viva Insights Administrator can continue to upload organizational data through the Viva Insights web app as explained [here](../admin/org-data-overview.md). Your Microsoft 365 Global Administrator may choose to upload more organizational attributes through the Microsoft 365 admin center using [these steps](/viva/organizational-data).
 
 There are two ways you can upload Organizational data:
 
-1. Your Viva Insights Administrator can upload data through the advanced insights app using [these steps](../admin/org-data-overview.md). This is the recommended way to upload data if you have Viva Insights.  
+1. Your Viva Insights Administrator can upload data through the Viva Insights web app using [these steps](../admin/org-data-overview.md). This is the recommended way to upload data if you have Viva Insights.  
 
-    * [Learn more about data quality in the advanced insights app](../admin/org-data-overview.md#organizational-data-in-the-advanced-insights-app).
+    * [Learn more about data quality in the Viva Insights web app](../admin/org-data-overview.md#organizational-data-in-the-advanced-insights-app).
     * To avoid more delays on data showing in the dashboard, the Viva Insights Administrator should include **EffectiveDate** fields and set the date earlier than the upload date. [Learn more](../admin/prepare-org-data.md).
 
 2. Your Microsoft 365 Global Administrator can upload data through the admin center using [these steps](/viva/organizational-data).
