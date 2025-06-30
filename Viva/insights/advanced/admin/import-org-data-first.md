@@ -1,5 +1,5 @@
 ---
-ms.date: 05/14/2025
+ms.date: 06/30/2025
 title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -17,7 +17,7 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin setup.
+Your organizational data can appear in the Viva Insights web app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin setup.
 
 This article talks about the third option, importing data. 
 
@@ -158,7 +158,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 #### Tips for preparing your data
 
 * For new data, include full historical data for all employees. 
-* Import organizational data for all employees in the company, including licensed and non-licensed employees. 
+* Import organizational data for all employees in the company, including licensed and nonlicensed employees. 
 * See the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2224590) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more.
 
 #### Export your data on a set frequency
@@ -184,7 +184,7 @@ Indicate the type of refresh you’re performing and how Viva Insights should ma
 
 **Mapping example**
 
-The following example represents one field you’ll find in the metadata.json file:
+The following example represents one field in the metadata.json file:
 
 ```json
 "PersonId": {
@@ -270,7 +270,7 @@ If connector is set and caller application (id) is granted authorization:
 ```
                        
 
-If Insights Administrator has removed the connector or, connector has not been set by Insights Administrator yet: 
+If the Insights Administrator has removed the connector or, the connector hasn't been set yet by the Insights Administrator: 
 
  
 `403: Forbidden.`
@@ -573,11 +573,11 @@ Select your **Copy data** activity, then select **General** to complete each fie
 
 ###### 7. Copy data activity settings: Settings and User Properties
 
-No additional customizations are required for **Settings** or **User Properties**. You can edit these settings on a case-by-case basis if you need to.
+No other customizations are required for **Settings** or **User Properties**. You can edit these settings on a case-by-case basis if you need to.
 
 ###### 8. Copy data activity: Trigger Setup (Automation)
 
-To add a trigger to the automation setup, select **Add trigger**. The recommended automation is weekly, you can also customize the frequency.
+To add a trigger to the automation setup, select **Add trigger**. The recommended automation is weekly. You can also customize the frequency.
 
 :::image type="content" source="../images/import-org-data-adf-16.png" alt-text="Screenshot that shows how to set up the Trigger.":::
 
@@ -595,15 +595,15 @@ For information about what happens next, go to the appropriate section:
 
 ### Validation succeeds
 
-After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, a “Processing” status appears on the **Import history** table.
+After successful validation, Viva Insights starts processing your new data. Processing can take between a few hours and a day or so. During processing, a "Processing" status appears on the **Import history** table.
 
-After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a “Success” or “Failed” status in the **Import history** table.
+After processing completes, it's either succeeded or failed. Depending on the outcome, you’ll either find a "Success" or "Failed" status in the **Import history** table.
 
 #### Processing succeeds
 
-When you find the “Success” status in the **Import history** table, the upload process is complete.
+When you find the "Success" status in the **Import history** table, the upload process is complete.
 
-After you receive the “Success” status, you can:
+After you receive the "Success" status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
 * Select the mapping icon to see the mapping settings for the workflow.
@@ -613,7 +613,7 @@ After you receive the “Success” status, you can:
 
 #### Processing fails
 
-If processing fails, a “Processing failed” status appears in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
+If processing fails, a "Processing failed" status appears in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. 
 
 >[!Note]
 >Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your imported file, [log a support ticket with us](/microsoft-365/admin/get-help-support).
