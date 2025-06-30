@@ -55,7 +55,7 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 
 ## Connect
 
-Stay connected with Viva Glint and your peers with blogs, the Viva Glint Community, and programs like Learning Circles and Cohorts.
+Stay connected with Viva Glint and your peers with blogs, the Viva Glint Community, and Learning Circles.
 
 | :::image type="icon" source="/office/media/icons/meeting.png" ::: | Item | Resources|
 |:---|:---|:---|

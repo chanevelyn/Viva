@@ -28,7 +28,7 @@ To improve the Microsoft 365 sign-in experience for Viva Engage, use the Auto-ac
   
 ## Prerequisites
 
-- You must be a Microsoft 365 Global Administrator to run the PowerShell commands.
+- You must be a Microsoft 365 Apllication Administrator to run the PowerShell commands.
     
 - Download and install the [Azure Active Directory v2 PowerShell Module](https://www.powershellgallery.com/packages/AzureAD/2.0.2.16).
     
