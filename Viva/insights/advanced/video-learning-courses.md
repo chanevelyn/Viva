@@ -50,7 +50,7 @@ Use the video resources below to help you get started. Each link points to a ded
 
 [Customize your metrics](../advanced/analyst/custom-metrics.md#how-to-customize-a-metric)
 
-[Access your query results](../advanced/analyst/query-results.md#to-use-the-query-results-page)
+[Access your query results](../advanced/analyst/query-results.md#to-use-the-analysis-results-page)
 
 ## Courses for analysts - Organizational network analysis
 
