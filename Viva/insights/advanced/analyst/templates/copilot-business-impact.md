@@ -1,5 +1,5 @@
 ---
-ms.date: 4/17/2025
+ms.date: 6/30/2025
 title: Copilot Business Impact report
 description: Learn how to use the Microsoft 365 Copilot Business Impact Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
@@ -54,7 +54,7 @@ Before you can run the query and populate the report in Power BI, you’ll need 
 
 ### Uploading business outcome data in Viva Insights  
 
-There are two ways to upload your business outcome data in the Microsoft Viva Insights’ advanced insights app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor setup. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
+There are two ways to upload your business outcome data in the Viva Insights web app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor setup. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
 
 ### What are sample business outcome metrics to consider?  
 
@@ -115,11 +115,11 @@ You can access the report in two different ways: 
 
 ### View report in the browser  
 
-To view the report in the browser, go to the **Query results page** and select the eye icon in the View column. Select **Open in new tab** if you want to keep the report in the background while doing other tasks in Advanced insights.
+To view the report in the browser, go to the **Analysis results** page and select the eye icon in the View column. Select **Open in new tab** if you want to keep the report in the background while doing other tasks.
 
 ### Open the Power BI template in Power BI Desktop
 
-1. Go to the Query results page and select the Power BI icon in the Actions column to download the Power BI template and get the query and partition identifiers. You’ll need these identifiers later.  
+1. Go to the **Analysis results** page and select the Power BI icon in the Actions column to download the Power BI template and get the query and partition identifiers. You’ll need these identifiers later.  
 
 2. Open the downloaded template.  
 
