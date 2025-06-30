@@ -1,6 +1,6 @@
 ---
-ms.date: 05/7/2025
-title: Advanced insights metric descriptions
+ms.date: 06/30/2025
+title: Advanced analysis metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
 ms.author: v-zachminers
@@ -20,9 +20,9 @@ search.appverid:
 
 ---
 
-# Advanced insights metrics
+# Advanced analysis metrics
 
-When you create queries in the Microsoft Viva Insights advanced insights app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
+When you create queries in the Viva Insights web app, you can add these metrics from the **Metrics** pane. We've listed the descriptions alphabetically within each category.
 
 > [!NOTE]
 > You can customize certain parameters by adjusting metric rules, so definitions might vary by organization. [Learn more about metric rules](../analyst/metric-rules.md). Learn about [default exclusion scenarios for meetings, emails, and calls](../analyst/metric-rules.md#about-default-rules).
@@ -187,7 +187,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="working-hours-unscheduled-call-hours-define"></a> Working-hours unscheduled call hours | Number of hours a person spent in unscheduled Teams calls, during working hours. | Hour |
 
 > [!NOTE]
-> In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Advanced insights app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
+> In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Viva Insights web app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
 
 ## Microsoft 365 Copilot metrics
 
@@ -200,6 +200,10 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 |---|---|---|
 | Summarize meeting actions taken using Copilot in Teams | The number of times users summarized meetings using Copilot. Each action represents a user sending a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 10/15/2023 |
 | Total meetings summarized by Copilot in Teams | The number of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 10/15/2023 |
+| Meetings recapped by Copilot | The number of meetings recapped by Copilot in Teams. Each meeting recapped represents a meeting in which the user accessed summaries through Intelligent Recap. | 04/01/2024 |
+| Total meetings summarized or recapped by Copilot | The number of meetings summarized or recapped by Copilot in Teams. Each meeting summarized represents a meeting in which the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). Recapped meetings represent summaries accessed through Intelligent Recap. | 04/01/2024 |
+| Meeting hours recapped by Copilot | The number of meeting hours recapped by Copilot in Teams. Each meeting recapped represents a meeting in which the user accessed summaries through Intelligent Recap. This value is calculated on the full duration of the meeting. | 04/01/2024 |
+| Total meeting hours summarized or recapped by Copilot | The number of meeting hours summarized or recapped by Copilot in Teams. Each meeting summarized represents a meeting in which the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). Recapped meetings represent summaries accessed through Intelligent Recap. | 04/01/2024 |
 | Intelligent recap actions taken using Copilot | The number of times users accessed a meeting recap in Teams using Copilot. An action is only counted if the user selected **Recap** and viewed the meeting notes under the AI summary tab. | 02/01/2024 |
 | Summarize chat actions taken using Copilot in Teams | The number of times users summarized chats and channel conversations in Teams using Copilot. | 10/15/2023 |
 | Total chat conversations summarized by Copilot in Teams | The number of chats and channel conversations summarized by Copilot. | 12/18/2023 |
